@@ -13,5 +13,12 @@
     "party.offline_kicked": "^Kicked (?:\\[[A-Z+]+] )?(?<name>[A-z0-9_]+) because they were offline\\.",
     "party.offline_removed": "^(?:\\[[A-Z+]+] )?(?<name>[A-z0-9_]+) was removed from your party because they disconnected\\.",
     "party.transfer_leave": "^The party was transferred to (?:\\[[A-Z+]+] )?(?<newLeader>[A-z0-9_]+) because (?:\\[[A-Z+]+] )?(?<formerLeader>[A-z0-9_]+) left",
-    "party.transfer": "^The party was transferred to (?:\\[[A-Z+]+] )?(?<newLeader>[A-z0-9_]+) by (?:\\[[A-Z+]+] )?(?<formerLeader>[A-z0-9_]+)"
+    "party.transfer": "^The party was transferred to (?:\\[[A-Z+]+] )?(?<newLeader>[A-z0-9_]+) by (?:\\[[A-Z+]+] )?(?<formerLeader>[A-z0-9_]+)",
+
+    "pets.menu_title": "^Pets(?: \\(\\d+/\\d+\\) )?",
+    "pets.name": "^(?<favorite>⭐ )?\\[Lvl (?<level>\\d+)] (?:\\[\\d+✦] )?(?<name>[A-z- ]+)(?: ✦|$)",
+    "pets.autopet": "^§cAutopet §eequipped your §7\\[Lvl (?<level>\\d+)] (?:§.\\[.*] )?§(?<rarity>.)(?<name>[A-z ]+)(?:§. ✦)?§e! §a§lVIEW RULE",
+
+    "mayor.skull_item": "Mayor (?<name>[A-z]+)",
+    "mayor.foxy_event": "Schedules an extra §.(?<event>[A-z ]+) §.event during the year\\."
 }

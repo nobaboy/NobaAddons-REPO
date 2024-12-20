@@ -1,24 +1,24 @@
 {
-    "trophy_fish.odger": "(?<rarity>Bronze|Silver|Gold|Diamond) [✔✖](?: \\((?<amount>[\\d,]+)\\))?",
-    "trophy_fish.catch": "^TROPHY FISH! You caught a (?<fish>[A-z 0-9]+) (?<rarity>BRONZE|SILVER|GOLD|DIAMOND)\\..*",
+	"trophy_fish.odger": "(?<rarity>Bronze|Silver|Gold|Diamond) [✔✖](?: \\((?<amount>[\\d,]+)\\))?",
+	"trophy_fish.catch": "^TROPHY FISH! You caught a (?<fish>[A-z 0-9]+) (?<rarity>BRONZE|SILVER|GOLD|DIAMOND)\\..*",
 
-    "party.join": "^You have joined (?:\\[[A-Z+]+] )?(?<leader>[A-z0-9_]+)'s party!",
-    "party.other_join": "^(?:\\[[A-Z+]+] )?(?<name>[A-z0-9_]+) joined the party\\.",
-    "party.party_finder_join": "^Party Finder > (?<name>[A-z0-9_]+) joined the (?:dungeon )?group! \\([A-z0-9 ]+\\)",
-    "party.leave": "^(?:You left the party\\.|The party was disbanded because all invites expired and the party was empty\\.|You are not currently in a party\\.)",
-    "party.other_leave": "^(?:\\[[A-Z+]+] )?(?<name>[A-z0-9_]+) has left the party\\.",
-    "party.kicked": "^You have been kicked from the party by (?:\\[[A-Z+]+] )?[A-z0-9_]+",
-    "party.disbanded": "^(?:\\[[A-Z+]+] )?(?<former>[A-z0-9_]+) has disbanded the party!",
-    "party.other_kicked": "^(?:\\[[A-Z+]+] )?(?<name>[A-z0-9_]+) has been removed from the party\\.",
-    "party.offline_kicked": "^Kicked (?:\\[[A-Z+]+] )?(?<name>[A-z0-9_]+) because they were offline\\.",
-    "party.offline_removed": "^(?:\\[[A-Z+]+] )?(?<name>[A-z0-9_]+) was removed from your party because they disconnected\\.",
-    "party.transfer_leave": "^The party was transferred to (?:\\[[A-Z+]+] )?(?<newLeader>[A-z0-9_]+) because (?:\\[[A-Z+]+] )?(?<formerLeader>[A-z0-9_]+) left",
-    "party.transfer": "^The party was transferred to (?:\\[[A-Z+]+] )?(?<newLeader>[A-z0-9_]+) by (?:\\[[A-Z+]+] )?(?<formerLeader>[A-z0-9_]+)",
+	"party.join": "^You have joined (?:\\[[A-Z+]+] )?(?<leader>[A-z0-9_]+)'s party!",
+	"party.other_join": "^(?:\\[[A-Z+]+] )?(?<name>[A-z0-9_]+) joined the party\\.",
+	"party.party_finder_join": "^Party Finder > (?<name>[A-z0-9_]+) joined the (?:dungeon )?group! \\([A-z0-9 ]+\\)",
+	"party.leave": "^(?:You left the party\\.|The party was disbanded because all invites expired and the party was empty\\.|You are not currently in a party\\.)",
+	"party.other_leave": "^(?:\\[[A-Z+]+] )?(?<name>[A-z0-9_]+) has left the party\\.",
+	"party.kicked": "^You have been kicked from the party by (?:\\[[A-Z+]+] )?[A-z0-9_]+",
+	"party.disbanded": "^(?:\\[[A-Z+]+] )?(?<former>[A-z0-9_]+) has disbanded the party!",
+	"party.other_kicked": "^(?:\\[[A-Z+]+] )?(?<name>[A-z0-9_]+) has been removed from the party\\.",
+	"party.offline_kicked": "^Kicked (?:\\[[A-Z+]+] )?(?<name>[A-z0-9_]+) because they were offline\\.",
+	"party.offline_removed": "^(?:\\[[A-Z+]+] )?(?<name>[A-z0-9_]+) was removed from your party because they disconnected\\.",
+	"party.transfer_leave": "^The party was transferred to (?:\\[[A-Z+]+] )?(?<newLeader>[A-z0-9_]+) because (?:\\[[A-Z+]+] )?(?<formerLeader>[A-z0-9_]+) left",
+	"party.transfer": "^The party was transferred to (?:\\[[A-Z+]+] )?(?<newLeader>[A-z0-9_]+) by (?:\\[[A-Z+]+] )?(?<formerLeader>[A-z0-9_]+)",
 
-    "pets.menu_title": "^Pets(?: \\(\\d+/\\d+\\) )?",
-    "pets.name": "^(?<favorite>⭐ )?\\[Lvl (?<level>\\d+)] (?:\\[\\d+✦] )?(?<name>[A-z- ]+)(?: ✦|$)",
-    "pets.autopet": "^§cAutopet §eequipped your §7\\[Lvl (?<level>\\d+)] (?:§.\\[.*] )?§(?<rarity>.)(?<name>[A-z ]+)(?:§. ✦)?§e! §a§lVIEW RULE",
+	"pets.menu_title": "^Pets(?: \\(\\d+/\\d+\\) )?",
+	"pets.name": "^(?<favorite>⭐ )?\\[Lvl (?<level>\\d+)] (?:\\[\\d+✦] )?(?<name>[A-z- ]+)(?: ✦|$)",
+	"pets.autopet": "^§cAutopet §eequipped your §7\\[Lvl (?<level>\\d+)] (?:§.\\[.*] )?§(?<rarity>.)(?<name>[A-z ]+)(?:§. ✦)?§e! §a§lVIEW RULE",
 
-    "mayor.skull_item": "Mayor (?<name>[A-z]+)",
-    "mayor.foxy_event": "Schedules an extra §.(?<event>[A-z ]+) §.event during the year\\."
+	"mayor.skull_item": "Mayor (?<name>[A-z]+)",
+	"mayor.foxy_event": "Schedules an extra §.(?<event>[A-z ]+) §.event during the year\\."
 }

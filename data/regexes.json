@@ -1,6 +1,7 @@
 {
 	"zone": "^ [⏣ф] (?<zone>[A-z-'\" ]+)(?: ൠ x\\d)?$",
 	"currency": "^(?<currency>[A-z]+): (?<amount>[\\d,]+).*",
+	"chat_coordinates": "(?<username>[A-z0-9_]+): [Xx]: (?<x>[0-9.-]+),? [Yy]: (?<y>[0-9.-]+),? [Zz]: (?<z>[0-9.-]+)(?<info>.*)",
 
 	"trophy_fish.odger": "(?<rarity>Bronze|Silver|Gold|Diamond) [✔✖](?: \\((?<amount>[\\d,]+)\\))?",
 	"trophy_fish.catch": "^TROPHY FISH! You caught a (?<fish>[A-z 0-9]+) (?<rarity>BRONZE|SILVER|GOLD|DIAMOND)\\..*",
@@ -29,10 +30,16 @@
 
 	"mythological.dig_burrow": "^(You dug out a Griffin Burrow!|You finished the Griffin burrow chain!) \\(\\d/4\\)",
 	"mythological.dig_mob": "^[A-z ]+! You dug out (?:a )?[A-z ]+!",
+	"mythological.inquisitor": "^[A-z ]+! You dug out a Minos Inquisitor!",
+	"mythological.inquisitor_dead": "(?:Party > )?(?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+): Inquisitor dead!",
+	"mythological.inquisitor_spawn.coords": "(?:Party > )?(?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+): [Xx]: (?<x>[0-9.-]+),? [Yy]: (?<y>[0-9.-]+),? [Zz]: (?<z>[0-9.-]+).*",
+	"mythological.inquisitor_spawn.inquisitorchecker": "(?:Party > )?(?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+): A MINOS INQUISITOR has spawned near \\[.*] at Coords (?<x>[0-9.-]+) (?<y>[0-9.-]+) (?<z>[0-9.-]+)",
 
 	"chat_commands.party": "^Party > (?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+): [!?.](?<command>[A-z0-9_]+) ?(?<argument>[A-z0-9_ ]+)?",
 	"chat_commands.guild": "^Guild > (?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+)(?<grank> \\[[A-z0-9 ]+])?: [!?.](?<command>[A-z0-9_]+) ?(?<argument>[A-z0-9_ ]+)?",
 	"chat_commands.dm": "^From (?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+): [!?.](?<command>[A-z0-9_]+) ?(?<argument>[A-z0-9_ ]+)?",
+
+	"temporary_waypoints.coordinates": "^\\[[0-9]+](?: .)? ?(?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+): [Xx]: (?<x>[0-9.-]+),? [Yy]: (?<y>[0-9.-]+),? [Zz]: (?<z>[0-9.-]+)(?<info>.*)",
 
 	"filter.profile.playing_on": "^You are playing on profile: [A-z-() ]+",
 	"filter.profile.id": "^Profile ID: [A-z0-9-]+",
@@ -44,5 +51,12 @@
 	"filter.healer_orb.other_pickup": "◕ [A-z0-9_]+ picked up your [A-z ]+!",
 	"filter.healer_orb.pickup": "^◕ You picked up a (?<orb>[A-z ]+) from (?<player>[A-z0-9_]+) healing you for (?<health>[0-9.]+)❤ and granting you (?<buff>[0-9+%]+) (?<stat>[A-z ]+) for (?<duration>[0-9]+) seconds\\.",
 	"filter.pickup.item": "A (?<item>[A-z ]+) was picked up!",
-	"filter.pickup.player_obtain": "(?:\\[[A-Z+]+] )?[A-z0-9_]+ has obtained (?<item>[A-z ]+)!"
+	"filter.pickup.player_obtain": "(?:\\[[A-Z+]+] )?[A-z0-9_]+ has obtained (?<item>[A-z ]+)!",
+
+	"dungeons.complete_device": "^(?<username>[A-z0-9_]+) completed a device! \\([1-7]/7\\)",
+
+	"slot_info.tuning_points": "^Stat has: (?<points>\\d+) points?",
+	"slot_info.desk_pest_count": "ൠ This plot has (?<count>\\d+) Pests?!",
+	"slot_info.skyblock_level": "^Your SkyBlock Level: \\[(?<level>\\d+)]",
+	"slot_info.vacuum_pests": "Vacuum Bag: (?<amount>\\d+) Pests"
 }

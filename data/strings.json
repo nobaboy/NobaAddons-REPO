@@ -6,5 +6,7 @@
 	"filter.tips.already_tipped_all": "You already tipped everyone that has boosters active, so there isn't anybody to be tipped right now!",
 	"filter.tips.cooldown": "Slow down! You can only use /tip every few seconds.",
 	"filter.tips.sent_prefix": "You tipped",
-	"filter.tips.received_prefix": "You were tipped"
+	"filter.tips.received_prefix": "You were tipped",
+
+	"slot_info.desk_sprayed_with_prefix": "Sprayed with"
 }

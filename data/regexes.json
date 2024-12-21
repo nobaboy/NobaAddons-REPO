@@ -1,5 +1,5 @@
 {
-	"zone": "^ [⏣ф] (?<zone>[A-z-'\" ]+)(?: ൠ x\\d)?$",
+	"zone": "^[⏣ф] (?<zone>[A-z-'\" ]+)(?: ൠ x\\d)?$",
 	"currency": "^(?<currency>[A-z]+): (?<amount>[\\d,]+).*",
 	"chat_coordinates": "(?<username>[A-z0-9_]+): [Xx]: (?<x>[0-9.-]+),? [Yy]: (?<y>[0-9.-]+),? [Zz]: (?<z>[0-9.-]+)(?<info>.*)",
 

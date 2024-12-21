@@ -1,3 +1,10 @@
 {
-	"mayor.election_end": "The election room is now closed. Clerk Seraphine is doing a final count of the votes..."
+	"mayor.election_end": "The election room is now closed. Clerk Seraphine is doing a final count of the votes...",
+
+	"filter.tips.not_online": "That player is not online, try another user!",
+	"filter.tips.no_boosters": "No one has a network booster active right now, Try again later.",
+	"filter.tips.already_tipped_all": "You already tipped everyone that has boosters active, so there isn't anybody to be tipped right now!",
+	"filter.tips.cooldown": "Slow down! You can only use /tip every few seconds.",
+	"filter.tips.sent_prefix": "You tipped",
+	"filter.tips.received_prefix": "You were tipped"
 }

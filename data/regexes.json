@@ -28,5 +28,21 @@
 	"mayor.foxy_event": "Schedules an extra §.(?<event>[A-z ]+) §.event during the year\\.",
 
 	"mythological.dig_burrow": "^(You dug out a Griffin Burrow!|You finished the Griffin burrow chain!) \\(\\d/4\\)",
-	"mythological.dig_mob": "^[A-z ]+! You dug out (?:a )?[A-z ]+!"
+	"mythological.dig_mob": "^[A-z ]+! You dug out (?:a )?[A-z ]+!",
+
+	"chat_commands.party": "^Party > (?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+): [!?.](?<command>[A-z0-9_]+) ?(?<argument>[A-z0-9_ ]+)?",
+	"chat_commands.guild": "^Guild > (?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+)(?<grank> \\[[A-z0-9 ]+])?: [!?.](?<command>[A-z0-9_]+) ?(?<argument>[A-z0-9_ ]+)?",
+	"chat_commands.dm": "^From (?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+): [!?.](?<command>[A-z0-9_]+) ?(?<argument>[A-z0-9_ ]+)?",
+
+	"filter.profile.playing_on": "^You are playing on profile: [A-z-() ]+",
+	"filter.profile.id": "^Profile ID: [A-z0-9-]+",
+	"filter.tips.already_tipped": "You've already tipped someone in the past hour in [A-z ]+! Wait a bit and try again!",
+	"filter.abilities.damage": "Your (?<ability>[A-z' ]+) hit [0-9]+ (enemies|enemy) for [0-9,.]+ damage\\.",
+	"filter.abilities.cooldown": "This ability is on cooldown for [0-9]+s\\.",
+	"filter.blessings.find": "^DUNGEON BUFF! ([A-z0-9_]+ found a|A) Blessing of (?<blessing>[A-z]+) [IV]+( was found)?!( \\([A-z0-9 ]+\\))?",
+	"filter.blessings.stats": "(?<value>\\+[\\d.]+x?(?: & \\+[\\d.]+x?)?) (?<stat>❁ Strength|☠ Crit Damage|❈ Defense|❁ Damage|HP|❣ Health Regen|✦ Speed|✎ Intelligence)",
+	"filter.healer_orb.other_pickup": "◕ [A-z0-9_]+ picked up your [A-z ]+!",
+	"filter.healer_orb.pickup": "^◕ You picked up a (?<orb>[A-z ]+) from (?<player>[A-z0-9_]+) healing you for (?<health>[0-9.]+)❤ and granting you (?<buff>[0-9+%]+) (?<stat>[A-z ]+) for (?<duration>[0-9]+) seconds\\.",
+	"filter.pickup.item": "A (?<item>[A-z ]+) was picked up!",
+	"filter.pickup.player_obtain": "(?:\\[[A-Z+]+] )?[A-z0-9_]+ has obtained (?<item>[A-z ]+)!"
 }

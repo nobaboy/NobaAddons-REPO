@@ -1,4 +1,7 @@
 {
+	"zone": "^ [⏣ф] (?<zone>[A-z-'\" ]+)(?: ൠ x\\d)?$",
+	"currency": "^(?<currency>[A-z]+): (?<amount>[\\d,]+).*",
+
 	"trophy_fish.odger": "(?<rarity>Bronze|Silver|Gold|Diamond) [✔✖](?: \\((?<amount>[\\d,]+)\\))?",
 	"trophy_fish.catch": "^TROPHY FISH! You caught a (?<fish>[A-z 0-9]+) (?<rarity>BRONZE|SILVER|GOLD|DIAMOND)\\..*",
 
@@ -14,11 +17,16 @@
 	"party.offline_removed": "^(?:\\[[A-Z+]+] )?(?<name>[A-z0-9_]+) was removed from your party because they disconnected\\.",
 	"party.transfer_leave": "^The party was transferred to (?:\\[[A-Z+]+] )?(?<newLeader>[A-z0-9_]+) because (?:\\[[A-Z+]+] )?(?<formerLeader>[A-z0-9_]+) left",
 	"party.transfer": "^The party was transferred to (?:\\[[A-Z+]+] )?(?<newLeader>[A-z0-9_]+) by (?:\\[[A-Z+]+] )?(?<formerLeader>[A-z0-9_]+)",
+	"party.promote_demote": "^(?:\\[[A-Z+]+] )?[A-z0-9_]+ has (?:promoted|demoted) (?:\\[[A-Z+]+] )?[A-z0-9_]+ to Party (?:Member|Moderator|Leader)",
 
 	"pets.menu_title": "^Pets(?: \\(\\d+/\\d+\\) )?",
 	"pets.name": "^(?<favorite>⭐ )?\\[Lvl (?<level>\\d+)] (?:\\[\\d+✦] )?(?<name>[A-z- ]+)(?: ✦|$)",
 	"pets.autopet": "^§cAutopet §eequipped your §7\\[Lvl (?<level>\\d+)] (?:§.\\[.*] )?§(?<rarity>.)(?<name>[A-z ]+)(?:§. ✦)?§e! §a§lVIEW RULE",
+	"pets.despawn": "^You despawned your (?<name>[A-z ]+)(?: ✦|$)",
 
 	"mayor.skull_item": "Mayor (?<name>[A-z]+)",
-	"mayor.foxy_event": "Schedules an extra §.(?<event>[A-z ]+) §.event during the year\\."
+	"mayor.foxy_event": "Schedules an extra §.(?<event>[A-z ]+) §.event during the year\\.",
+
+	"mythological.dig_burrow": "^(You dug out a Griffin Burrow!|You finished the Griffin burrow chain!) \\(\\d/4\\)",
+	"mythological.dig_mob": "^[A-z ]+! You dug out (?:a )?[A-z ]+!"
 }

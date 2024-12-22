@@ -8,5 +8,7 @@
 	"filter.tips.sent_prefix": "You tipped",
 	"filter.tips.received_prefix": "You were tipped",
 
-	"slot_info.desk_sprayed_with_prefix": "Sprayed with"
+	"slot_info.desk_sprayed_with_prefix": "Sprayed with",
+
+	"crimson_isle.vanquisher_spawn": "A Vanquisher is spawning nearby!"
 }

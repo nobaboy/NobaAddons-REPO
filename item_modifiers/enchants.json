@@ -1626,8 +1626,9 @@
 			"id": "ultimate_jerry",
 			"name": "Ultimate Jerry",
 			"max": 5,
-			"items": [
-				"SWORD"
+			"exclusiveToItems": [
+				"ASPECT_OF_THE_JERRY",
+				"ASPECT_OF_THE_JERRY_SIGNATURE"
 			]
 		},
 		{
@@ -1646,7 +1647,11 @@
 				"HOE",
 				"AXE",
 				"SHOVEL",
-				"SHEARS"
+				"SHEARS",
+				"WAND"
+			],
+			"exclusiveToItems": [
+				"PRECURSOR_EYE"
 			]
 		},
 		{

@@ -24,7 +24,7 @@
 	"pets.menu_title": "^Pets(?: \\(\\d+/\\d+\\) )?",
 	"pets.name": "^(?<favorite>⭐ )?\\[Lvl (?<level>\\d+)] (?:\\[\\d+✦] )?(?<name>[A-z- ]+)(?: ✦|$)",
 	"pets.autopet": "^§cAutopet §eequipped your §7\\[Lvl (?<level>\\d+)] (?:§.\\[.*] )?§(?<rarity>.)(?<name>[A-z ]+)(?:§. ✦)?§e! §a§lVIEW RULE",
-	"pets.despawn": "^You despawned your (?<name>[A-z ]+)(?: ✦|$)",
+	"pets.despawn": "^You despawned your (?<name>[A-z ]+)(?: ✦)?!",
 
 	"mayor.skull_item": "Mayor (?<name>[A-z]+)",
 	"mayor.foxy_event": "Schedules an extra §.(?<event>[A-z ]+) §.event during the year\\.",

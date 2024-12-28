@@ -598,7 +598,7 @@
 		},
 		{
 			"id": "luck_of_the_sea",
-			"name": "Luck Of The Sea",
+			"name": "Luck of the Sea",
 			"good": 5,
 			"max": 6,
 			"items": [
@@ -628,7 +628,7 @@
 		},
 		{
 			"id": "mana_steal",
-			"name": "mana_steal",
+			"name": "Mana Steal",
 			"good": 3,
 			"max": 3,
 			"items": [

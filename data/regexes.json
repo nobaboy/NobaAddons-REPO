@@ -1,8 +1,11 @@
 {
-	"zone": "^[⏣ф] (?<zone>[A-z-'\" ]+)(?: ൠ x\\d)?$",
-	"currency": "^(?<currency>[A-z]+): (?<amount>[\\d,]+).*",
 	"chat_coordinates": "(?<username>[A-z0-9_]+): [Xx]: (?<x>[0-9.-]+),? [Yy]: (?<y>[0-9.-]+),? [Zz]: (?<z>[0-9.-]+)(?<info>.*)",
 	"item_tag": "^(?:a )?(?<rarity>(?:UN)?COMMON|RARE|EPIC|LEGENDARY|MYTHIC|DIVINE|ULTIMATE|(?:VERY )?SPECIAL) ?(?<type>[A-Z ]+)?(?: a)?$",
+
+	"skyblock.level": "^Your SkyBlock Level: \\[(?<level>\\d+)]",
+	"skyblock.xp": "^\\s+(?<xp>\\d+)/100 XP",
+	"skyblock.currency": "^(?<currency>[A-z]+): (?<amount>[\\d,]+).*",
+	"skyblock.zone": "^[⏣ф] (?<zone>[A-z-'\" ]+)(?: ൠ x\\d)?$",
 
 	"trophy_fish.odger": "(?<rarity>Bronze|Silver|Gold|Diamond) [✔✖](?: \\((?<amount>[\\d,]+)\\))?",
 	"trophy_fish.catch": "^TROPHY FISH! You caught an? (?<fish>[A-z 0-9]+) (?<rarity>BRONZE|SILVER|GOLD|DIAMOND)\\..*",

@@ -62,5 +62,9 @@
 	"slot_info.tuning_points": "^Stat has: (?<points>\\d+) points?",
 	"slot_info.desk_pest_count": "ൠ This plot has (?<count>\\d+) Pests?!",
 	"slot_info.skyblock_level": "^Your SkyBlock Level: \\[(?<level>\\d+)]",
-	"slot_info.vacuum_pests": "Vacuum Bag: (?<amount>\\d+) Pests"
+	"slot_info.vacuum_pests": "Vacuum Bag: (?<amount>\\d+) Pests",
+
+	"rift.free_infusions": "Free infusions: (?<count>\\d)/\\d",
+	"rift.next_free_infusion": "Next infusion in: (?<time>(?:\\d+[hms] ?)+)",
+	"rift.split_steal_cooldown": "SPLIT! You need to wait (?<time>(?:\\d+[hms] ?)+) before you can play again\\."
 }

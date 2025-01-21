@@ -107,6 +107,15 @@
 	},
 
 	{
+		"id": "MITHRIL_GRUBBER",
+		"spawnMessage": "A leech of the mines surfaces... you've caught a (?:Medium|Large|Bloated)? ?Mithril Grubber.",
+		"spawnMessageRegex": true,
+		"rarity": "UNCOMMON",
+		"islands": ["DWARVEN_MINES"],
+		"zones": ["Abandoned Quarry"]
+	},
+
+	{
 		"id": "FLAMING_WORM",
 		"spawnMessage": "A Flaming Worm surfaces from the depths!",
 		"rarity": "RARE",

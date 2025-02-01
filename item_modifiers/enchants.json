@@ -42,6 +42,9 @@
 			"max": 5,
 			"items": [
 				"HELMET"
+			],
+			"conflicts": [
+				"small_brain"
 			]
 		},
 		{
@@ -931,6 +934,18 @@
 			"conflicts": [
 				"fortune",
 				"smelting_touch"
+			]
+		},
+		{
+			"id": "small_brain",
+			"name": "Small Brain",
+			"good": 3,
+			"max": 5,
+			"items": [
+				"HELMET"
+			],
+			"conflicts": [
+				"big_brain"
 			]
 		},
 		{

@@ -447,7 +447,7 @@
 			"id": "green_thumb",
 			"name": "Green Thumb",
 			"good": 5,
-			"max": 7,
+			"max": 5,
 			"items": [
 				"NECKLACE",
 				"CLOAK",
@@ -775,7 +775,7 @@
 			"id": "prosperity",
 			"name": "Prosperity",
 			"good": 5,
-			"max": 6,
+			"max": 5,
 			"items": [
 				"NECKLACE",
 				"CLOAK",

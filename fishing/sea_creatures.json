@@ -140,8 +140,8 @@
 		"islands": ["BACKWATER_BAYOU"]
 	},
 	{
-		"id": "ALIGATOR",
-		"spawnMessage": "", // TODO
+		"id": "ALLIGATOR",
+		"spawnMessage": "A long snout breaks the surface of the water. It's an Alligator!",
 		"rarity": "RARE",
 		"islands": ["BACKWATER_BAYOU"]
 	},

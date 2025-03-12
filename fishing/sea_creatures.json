@@ -116,6 +116,61 @@
 	},
 
 	{
+		"id": "FROG_MAN",
+		"spawnMessage": "Is it a frog? Is it a man? Well, yes, sorta, IT'S FROG MAN!!!!!",
+		"rarity": "COMMON",
+		"islands": ["BACKWATER_BAYOU"]
+	},
+	{
+		"id": "DUMPSTER_DIVER",
+		"spawnMessage": "A Dumpster Diver has emerged from the swamp!",
+		"rarity": "UNCOMMON",
+		"islands": ["BACKWATER_BAYOU"]
+	},
+	{
+		"id": "BANSHEE",
+		"spawnMessage": "The desolate wail of a Banshee breaks the silence.",
+		"rarity": "RARE",
+		"islands": ["BACKWATER_BAYOU"]
+	},
+	{
+		"id": "SNAPPING_TURTLE",
+		"spawnMessage": "A Snapping Turtle is coming your way, and it's ANGRY!",
+		"rarity": "RARE",
+		"islands": ["BACKWATER_BAYOU"]
+	},
+	{
+		"id": "ALIGATOR",
+		"spawnMessage": "", // TODO
+		"rarity": "RARE",
+		"islands": ["BACKWATER_BAYOU"]
+	},
+	{
+		"id": "BAYOU_SLUDGE",
+		"spawnMessage": "A swampy mass of slime emerges, the Bayou Sludge!",
+		"rarity": "EPIC",
+		"islands": ["BACKWATER_BAYOU"]
+	},
+	{
+		"id": "BLUE_RINGED_OCTOPUS",
+		"spawnMessage": "A garish set of tentacles arise. It's a Blue Ringed Octopus!",
+		"rarity": "LEGENDARY",
+		"islands": ["BACKWATER_BAYOU"]
+	},
+	{
+		"id": "TITANOBOA",
+		"spawnMessage": "", // TODO
+		"rarity": "MYTHIC",
+		"islands": ["BACKWATER_BAYOU"]
+	},
+	{
+		"id": "WIKI_TIKI",
+		"spawnMessage": "The water bubbles and froths. A massive form emerges- you have disturbed the Wiki Tiki! You shall pay the price.",
+		"rarity": "MYTHIC",
+		"islands": ["BACKWATER_BAYOU"]
+	},
+
+	{
 		"id": "FLAMING_WORM",
 		"spawnMessage": "A Flaming Worm surfaces from the depths!",
 		"rarity": "RARE",
@@ -137,6 +192,13 @@
 		"type": "LAVA"
 	},
 	{
+		"id": "FRIED_CHICKEN",
+		"spawnMessage": "", // TODO
+		"rarity": "COMMON",
+		"islands": ["CRIMSON_ISLE"],
+		"type": "LAVA"
+	},
+	{
 		"id": "MAGMA_SLUG",
 		"spawnMessage": "From beneath the lava appears a Magma Slug.",
 		"rarity": "UNCOMMON",
@@ -147,6 +209,13 @@
 		"id": "MOOGMA",
 		"spawnMessage": "You hear a faint Moo from the lava... A Moogma appears.",
 		"rarity": "UNCOMMON",
+		"islands": ["CRIMSON_ISLE"],
+		"type": "LAVA"
+	},
+	{
+		"id": "FIREPROOF_WITCH",
+		"spawnMessage": "", // TODO
+		"rarity": "RARE",
 		"islands": ["CRIMSON_ISLE"],
 		"type": "LAVA"
 	},
@@ -186,9 +255,23 @@
 		"type": "LAVA"
 	},
 	{
+		"id": "FIERY_SCUTTLER",
+		"spawnMessage": "", // TODO
+		"rarity": "LEGENDARY",
+		"islands": ["CRIMSON_ISLE"],
+		"type": "LAVA"
+	},
+	{
 		"id": "PLHLEGBLAST",
 		"spawnMessage": "WOAH! A Plhlegblast appeared.",
 		"rarity": "LEGENDARY",
+		"islands": ["CRIMSON_ISLE"],
+		"type": "LAVA"
+	},
+	{
+		"id": "RAGNAROK",
+		"spawnMessage": "", // TODO
+		"rarity": "MYTHIC",
 		"islands": ["CRIMSON_ISLE"],
 		"type": "LAVA"
 	},

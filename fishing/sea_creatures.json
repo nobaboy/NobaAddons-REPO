@@ -273,21 +273,24 @@
 		"spawnMessage": "The sky darkens and the air thickens. The end times are upon us: Ragnarok is here.",
 		"rarity": "MYTHIC",
 		"islands": ["CRIMSON_ISLE"],
-		"type": "LAVA"
+		"type": "LAVA",
+		"tags": ["crimson_isle_mythic"]
 	},
 	{
 		"id": "THUNDER",
 		"spawnMessage": "You hear a massive rumble as Thunder emerges.",
 		"rarity": "MYTHIC",
 		"islands": ["CRIMSON_ISLE"],
-		"type": "LAVA"
+		"type": "LAVA",
+		"tags": ["crimson_isle_mythic"]
 	},
 	{
 		"id": "LORD_JAWBUS",
 		"spawnMessage": "You have angered a legendary creature... Lord Jawbus has arrived.",
 		"rarity": "MYTHIC",
 		"islands": ["CRIMSON_ISLE"],
-		"type": "LAVA"
+		"type": "LAVA",
+		"tags": ["crimson_isle_mythic"]
 	},
 
 	{

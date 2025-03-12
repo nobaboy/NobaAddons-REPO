@@ -159,7 +159,7 @@
 	},
 	{
 		"id": "TITANOBOA",
-		"spawnMessage": "", // TODO
+		"spawnMessage": "A massive Titanoboa surfaces. It's body stretches as far as the eye can see.",
 		"rarity": "MYTHIC",
 		"islands": ["BACKWATER_BAYOU"]
 	},

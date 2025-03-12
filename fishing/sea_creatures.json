@@ -193,7 +193,7 @@
 	},
 	{
 		"id": "FRIED_CHICKEN",
-		"spawnMessage": "", // TODO
+		"spawnMessage": "Smells of burning. Must be a Fried Chicken.",
 		"rarity": "COMMON",
 		"islands": ["CRIMSON_ISLE"],
 		"type": "LAVA"
@@ -214,7 +214,7 @@
 	},
 	{
 		"id": "FIREPROOF_WITCH",
-		"spawnMessage": "", // TODO
+		"spawnMessage": "Trouble's brewing, it's a Fireproof Witch!",
 		"rarity": "RARE",
 		"islands": ["CRIMSON_ISLE"],
 		"type": "LAVA"
@@ -256,7 +256,7 @@
 	},
 	{
 		"id": "FIERY_SCUTTLER",
-		"spawnMessage": "", // TODO
+		"spawnMessage": "A Fiery Scuttler inconspicuously waddles up to you, friends in tow.",
 		"rarity": "LEGENDARY",
 		"islands": ["CRIMSON_ISLE"],
 		"type": "LAVA"
@@ -270,7 +270,7 @@
 	},
 	{
 		"id": "RAGNAROK",
-		"spawnMessage": "", // TODO
+		"spawnMessage": "The sky darkens and the air thickens. The end times are upon us: Ragnarok is here.",
 		"rarity": "MYTHIC",
 		"islands": ["CRIMSON_ISLE"],
 		"type": "LAVA"

@@ -23,10 +23,10 @@
 	"mayor.foxy_event": "Schedules an extra §.(?<event>[A-z ]+) §.event during the year\\.",
 	"mayor.skull_item": "Mayor (?<name>[A-z]+)",
 
-	"mythological.dig_burrow": "^(?:You dug out a Griffin Burrow|You finished the Griffin burrow chain)! \\(\\d/4\\)",
+	"mythological.dig_burrow": "^(?:You dug out a Griffin Burrow|You finished the Griffin burrow chain)! \\((?<chain>\\d)/4\\)",
 	"mythological.dig_mob": "^(?:Oi|Uh oh|Yikes|Woah|Oh|Danger|Good Grief)! You dug out (?:a )?(?<mob>[A-z ]+)!",
-	"mythological.dig_treasure": "^(?:RARE DROP|Wow)! You dug out (?:a )?(?<treasure>[A-z0-9- ]+)(?: coins)?!",
-	"mythological.inquisitor_dead": "(?:Party > )?(?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+): Inquisitor dead!",
+	"mythological.dig_treasure": "^(?:RARE DROP|Wow)! You dug out (?:a )?(?<treasure>[A-z0-9-, ]+)(?: coins)?!",
+	"mythological.inquisitor_dead": "(?<username>[A-z0-9_]+): Inquisitor dead!",
 	"mythological.inquisitor_spawn.coords": "(?<username>[A-z0-9_]+): [Xx]: (?<x>[0-9.-]+),? [Yy]: (?<y>[0-9.-]+),? [Zz]: (?<z>[0-9.-]+).*",
 	"mythological.inquisitor_spawn.inquisitorchecker": "(?<username>[A-z0-9_]+): A MINOS INQUISITOR has spawned near \\[.*] at Coords (?<x>[0-9.-]+) (?<y>[0-9.-]+) (?<z>[0-9.-]+)",
 

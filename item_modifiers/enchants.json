@@ -626,6 +626,15 @@
 			]
 		},
 		{
+			"id": "quick_bite",
+			"name": "Quick Bite",
+			"good": 1,
+			"max": 5,
+			"items": [
+				"FISHING_ROD"
+			]
+		},
+		{
 			"id": "magnet",
 			"name": "Magnet",
 			"good": 5,

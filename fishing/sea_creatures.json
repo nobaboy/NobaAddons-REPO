@@ -197,6 +197,7 @@
 		"islands": ["CRYSTAL_HOLLOWS"],
 		"type": "LAVA"
 	},
+
 	{
 		"id": "FRIED_CHICKEN",
 		"spawnMessage": "Smells of burning. Must be a Fried Chicken.",
@@ -270,17 +271,9 @@
 	{
 		"id": "PLHLEGBLAST",
 		"spawnMessage": "WOAH! A Plhlegblast appeared.",
-		"rarity": "LEGENDARY",
-		"islands": ["CRIMSON_ISLE"],
-		"type": "LAVA"
-	},
-	{
-		"id": "RAGNAROK",
-		"spawnMessage": "The sky darkens and the air thickens. The end times are upon us: Ragnarok is here.",
 		"rarity": "MYTHIC",
 		"islands": ["CRIMSON_ISLE"],
-		"type": "LAVA",
-		"tags": ["crimson_isle_mythic"]
+		"type": "LAVA"
 	},
 	{
 		"id": "THUNDER",
@@ -293,6 +286,14 @@
 	{
 		"id": "LORD_JAWBUS",
 		"spawnMessage": "You have angered a legendary creature... Lord Jawbus has arrived.",
+		"rarity": "MYTHIC",
+		"islands": ["CRIMSON_ISLE"],
+		"type": "LAVA",
+		"tags": ["crimson_isle_mythic"]
+	},
+	{
+		"id": "RAGNAROK",
+		"spawnMessage": "The sky darkens and the air thickens. The end times are upon us: Ragnarok is here.",
 		"rarity": "MYTHIC",
 		"islands": ["CRIMSON_ISLE"],
 		"type": "LAVA",
@@ -332,7 +333,7 @@
 	{
 		"id": "REINDRAKE",
 		"spawnMessage": "A Reindrake forms from the depths.",
-		"rarity": "LEGENDARY",
+		"rarity": "MYTHIC",
 		"islands": ["JERRYS_WORKSHOP"]
 	},
 

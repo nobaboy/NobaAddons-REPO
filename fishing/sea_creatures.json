@@ -116,6 +116,61 @@
 	},
 
 	{
+		"id": "FROG_MAN",
+		"spawnMessage": "Is it a frog? Is it a man? Well, yes, sorta, IT'S FROG MAN!!!!!",
+		"rarity": "COMMON",
+		"islands": ["BACKWATER_BAYOU"]
+	},
+	{
+		"id": "DUMPSTER_DIVER",
+		"spawnMessage": "A Dumpster Diver has emerged from the swamp!",
+		"rarity": "UNCOMMON",
+		"islands": ["BACKWATER_BAYOU"]
+	},
+	{
+		"id": "BANSHEE",
+		"spawnMessage": "The desolate wail of a Banshee breaks the silence.",
+		"rarity": "RARE",
+		"islands": ["BACKWATER_BAYOU"]
+	},
+	{
+		"id": "SNAPPING_TURTLE",
+		"spawnMessage": "A Snapping Turtle is coming your way, and it's ANGRY!",
+		"rarity": "RARE",
+		"islands": ["BACKWATER_BAYOU"]
+	},
+	{
+		"id": "ALLIGATOR",
+		"spawnMessage": "A long snout breaks the surface of the water. It's an Alligator!",
+		"rarity": "RARE",
+		"islands": ["BACKWATER_BAYOU"]
+	},
+	{
+		"id": "BAYOU_SLUDGE",
+		"spawnMessage": "A swampy mass of slime emerges, the Bayou Sludge!",
+		"rarity": "EPIC",
+		"islands": ["BACKWATER_BAYOU"]
+	},
+	{
+		"id": "BLUE_RINGED_OCTOPUS",
+		"spawnMessage": "A garish set of tentacles arise. It's a Blue Ringed Octopus!",
+		"rarity": "LEGENDARY",
+		"islands": ["BACKWATER_BAYOU"]
+	},
+	{
+		"id": "TITANOBOA",
+		"spawnMessage": "A massive Titanoboa surfaces. It's body stretches as far as the eye can see.",
+		"rarity": "MYTHIC",
+		"islands": ["BACKWATER_BAYOU"]
+	},
+	{
+		"id": "WIKI_TIKI",
+		"spawnMessage": "The water bubbles and froths. A massive form emerges- you have disturbed the Wiki Tiki! You shall pay the price.",
+		"rarity": "MYTHIC",
+		"islands": ["BACKWATER_BAYOU"]
+	},
+
+	{
 		"id": "FLAMING_WORM",
 		"spawnMessage": "A Flaming Worm surfaces from the depths!",
 		"rarity": "RARE",
@@ -137,6 +192,13 @@
 		"type": "LAVA"
 	},
 	{
+		"id": "FRIED_CHICKEN",
+		"spawnMessage": "Smells of burning. Must be a Fried Chicken.",
+		"rarity": "COMMON",
+		"islands": ["CRIMSON_ISLE"],
+		"type": "LAVA"
+	},
+	{
 		"id": "MAGMA_SLUG",
 		"spawnMessage": "From beneath the lava appears a Magma Slug.",
 		"rarity": "UNCOMMON",
@@ -147,6 +209,13 @@
 		"id": "MOOGMA",
 		"spawnMessage": "You hear a faint Moo from the lava... A Moogma appears.",
 		"rarity": "UNCOMMON",
+		"islands": ["CRIMSON_ISLE"],
+		"type": "LAVA"
+	},
+	{
+		"id": "FIREPROOF_WITCH",
+		"spawnMessage": "Trouble's brewing, it's a Fireproof Witch!",
+		"rarity": "RARE",
 		"islands": ["CRIMSON_ISLE"],
 		"type": "LAVA"
 	},
@@ -186,6 +255,13 @@
 		"type": "LAVA"
 	},
 	{
+		"id": "FIERY_SCUTTLER",
+		"spawnMessage": "A Fiery Scuttler inconspicuously waddles up to you, friends in tow.",
+		"rarity": "LEGENDARY",
+		"islands": ["CRIMSON_ISLE"],
+		"type": "LAVA"
+	},
+	{
 		"id": "PLHLEGBLAST",
 		"spawnMessage": "WOAH! A Plhlegblast appeared.",
 		"rarity": "LEGENDARY",
@@ -193,18 +269,28 @@
 		"type": "LAVA"
 	},
 	{
+		"id": "RAGNAROK",
+		"spawnMessage": "The sky darkens and the air thickens. The end times are upon us: Ragnarok is here.",
+		"rarity": "MYTHIC",
+		"islands": ["CRIMSON_ISLE"],
+		"type": "LAVA",
+		"tags": ["crimson_isle_mythic"]
+	},
+	{
 		"id": "THUNDER",
 		"spawnMessage": "You hear a massive rumble as Thunder emerges.",
 		"rarity": "MYTHIC",
 		"islands": ["CRIMSON_ISLE"],
-		"type": "LAVA"
+		"type": "LAVA",
+		"tags": ["crimson_isle_mythic"]
 	},
 	{
 		"id": "LORD_JAWBUS",
 		"spawnMessage": "You have angered a legendary creature... Lord Jawbus has arrived.",
 		"rarity": "MYTHIC",
 		"islands": ["CRIMSON_ISLE"],
-		"type": "LAVA"
+		"type": "LAVA",
+		"tags": ["crimson_isle_mythic"]
 	},
 
 	{

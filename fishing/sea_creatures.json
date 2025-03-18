@@ -117,7 +117,13 @@
 
 	{
 		"id": "FROG_MAN",
-		"spawnMessage": "Is it a frog? Is it a man? Well, yes, sorta, IT'S FROG MAN!!!!!",
+		"spawnMessage": "Is it a frog? Is it a man? Well, yes, sorta, IT'S FROG MAN!!!!!!",
+		"rarity": "COMMON",
+		"islands": ["BACKWATER_BAYOU"]
+	},
+	{
+		"id": "TRASH_GOBBLER",
+		"spawnMessage": "The Trash Gobbler is hungry for you!",
 		"rarity": "COMMON",
 		"islands": ["BACKWATER_BAYOU"]
 	},

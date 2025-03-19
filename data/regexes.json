@@ -74,6 +74,6 @@
 	"slot_info.tuning_points": "^Stat has: (?<points>\\d+) points?",
 	"slot_info.vacuum_pests": "Vacuum Bag: (?<amount>\\d+) Pests",
 
-	"trophy_fish.catch": "^TROPHY FISH! You caught an? (?<fish>[A-z 0-9-]+) (?<rarity>BRONZE|SILVER|GOLD|DIAMOND)\\..*",
+	"trophy_fish.catch": "^♔ TROPHY FISH! You caught an? (?<fish>[A-z 0-9-]+) (?<rarity>BRONZE|SILVER|GOLD|DIAMOND)\\..*",
 	"trophy_fish.odger": "(?<rarity>Bronze|Silver|Gold|Diamond) [✔✖](?: \\((?<amount>[\\d,]+)\\))?"
 }

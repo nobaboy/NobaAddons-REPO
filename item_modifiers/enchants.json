@@ -110,7 +110,7 @@
 			"id": "charm",
 			"name": "Charm",
 			"good": 4,
-			"max": 5,
+			"max": 6,
 			"items": [
 				"FISHING_WEAPON",
 				"FISHING_ROD"

@@ -146,20 +146,14 @@
 		"islands": ["BACKWATER_BAYOU"]
 	},
 	{
-		"id": "ALLIGATOR",
-		"spawnMessage": "A long snout breaks the surface of the water. It's an Alligator!",
-		"rarity": "RARE",
-		"islands": ["BACKWATER_BAYOU"]
-	},
-	{
 		"id": "BAYOU_SLUDGE",
 		"spawnMessage": "A swampy mass of slime emerges, the Bayou Sludge!",
 		"rarity": "EPIC",
 		"islands": ["BACKWATER_BAYOU"]
 	},
 	{
-		"id": "BLUE_RINGED_OCTOPUS",
-		"spawnMessage": "A garish set of tentacles arise. It's a Blue Ringed Octopus!",
+		"id": "ALLIGATOR",
+		"spawnMessage": "A long snout breaks the surface of the water. It's an Alligator!",
 		"rarity": "LEGENDARY",
 		"islands": ["BACKWATER_BAYOU"]
 	},
@@ -167,6 +161,12 @@
 		"id": "TITANOBOA",
 		"spawnMessage": "A massive Titanoboa surfaces. It's body stretches as far as the eye can see.",
 		"rarity": "MYTHIC",
+		"islands": ["BACKWATER_BAYOU"]
+	},
+	{
+		"id": "BLUE_RINGED_OCTOPUS",
+		"spawnMessage": "A garish set of tentacles arise. It's a Blue Ringed Octopus!",
+		"rarity": "LEGENDARY",
 		"islands": ["BACKWATER_BAYOU"]
 	},
 	{

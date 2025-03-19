@@ -158,15 +158,15 @@
 		"islands": ["BACKWATER_BAYOU"]
 	},
 	{
-		"id": "TITANOBOA",
-		"spawnMessage": "A massive Titanoboa surfaces. It's body stretches as far as the eye can see.",
-		"rarity": "MYTHIC",
-		"islands": ["BACKWATER_BAYOU"]
-	},
-	{
 		"id": "BLUE_RINGED_OCTOPUS",
 		"spawnMessage": "A garish set of tentacles arise. It's a Blue Ringed Octopus!",
 		"rarity": "LEGENDARY",
+		"islands": ["BACKWATER_BAYOU"]
+	},
+	{
+		"id": "TITANOBOA",
+		"spawnMessage": "A massive Titanoboa surfaces. It's body stretches as far as the eye can see.",
+		"rarity": "MYTHIC",
 		"islands": ["BACKWATER_BAYOU"]
 	},
 	{
@@ -248,7 +248,7 @@
 		"type": "LAVA"
 	},
 	{
-		"id": "LAVA_EEL",
+		"id": "FIRE_EEL",
 		"spawnMessage": "A Fire Eel slithers out from the depths.",
 		"rarity": "RARE",
 		"islands": ["CRIMSON_ISLE"],

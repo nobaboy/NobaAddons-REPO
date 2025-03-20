@@ -119,7 +119,8 @@
 		"id": "FROG_MAN",
 		"spawnMessage": "Is it a frog? Is it a man? Well, yes, sorta, IT'S FROG MAN!!!!!!",
 		"rarity": "COMMON",
-		"islands": ["BACKWATER_BAYOU"]
+		"islands": ["BACKWATER_BAYOU"],
+		"tags": ["hotspot"]
 	},
 	{
 		"id": "TRASH_GOBBLER",
@@ -143,7 +144,8 @@
 		"id": "SNAPPING_TURTLE",
 		"spawnMessage": "A Snapping Turtle is coming your way, and it's ANGRY!",
 		"rarity": "RARE",
-		"islands": ["BACKWATER_BAYOU"]
+		"islands": ["BACKWATER_BAYOU"],
+		"tags": ["hotspot"]
 	},
 	{
 		"id": "BAYOU_SLUDGE",
@@ -167,13 +169,15 @@
 		"id": "BLUE_RINGED_OCTOPUS",
 		"spawnMessage": "A garish set of tentacles arise. It's a Blue Ringed Octopus!",
 		"rarity": "LEGENDARY",
-		"islands": ["BACKWATER_BAYOU"]
+		"islands": ["BACKWATER_BAYOU"],
+		"tags": ["hotspot"]
 	},
 	{
 		"id": "WIKI_TIKI",
 		"spawnMessage": "The water bubbles and froths. A massive form emerges- you have disturbed the Wiki Tiki! You shall pay the price.",
 		"rarity": "MYTHIC",
-		"islands": ["BACKWATER_BAYOU"]
+		"islands": ["BACKWATER_BAYOU"],
+		"tags": ["hotspot"]
 	},
 
 	{
@@ -203,7 +207,8 @@
 		"spawnMessage": "Smells of burning. Must be a Fried Chicken.",
 		"rarity": "COMMON",
 		"islands": ["CRIMSON_ISLE"],
-		"type": "LAVA"
+		"type": "LAVA",
+		"tags": ["hotspot"]
 	},
 	{
 		"id": "MAGMA_SLUG",
@@ -224,7 +229,8 @@
 		"spawnMessage": "Trouble's brewing, it's a Fireproof Witch!",
 		"rarity": "RARE",
 		"islands": ["CRIMSON_ISLE"],
-		"type": "LAVA"
+		"type": "LAVA",
+		"tags": ["hotspot"]
 	},
 	{
 		"id": "LAVA_LEECH",
@@ -266,7 +272,8 @@
 		"spawnMessage": "A Fiery Scuttler inconspicuously waddles up to you, friends in tow.",
 		"rarity": "LEGENDARY",
 		"islands": ["CRIMSON_ISLE"],
-		"type": "LAVA"
+		"type": "LAVA",
+		"tags": ["hotspot"]
 	},
 	{
 		"id": "PLHLEGBLAST",
@@ -297,7 +304,7 @@
 		"rarity": "MYTHIC",
 		"islands": ["CRIMSON_ISLE"],
 		"type": "LAVA",
-		"tags": ["crimson_isle_mythic"]
+		"tags": ["crimson_isle_mythic", "hotspot"]
 	},
 
 	{

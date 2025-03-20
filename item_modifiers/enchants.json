@@ -199,9 +199,6 @@
 			"max": 3,
 			"items": [
 				"BOOTS"
-			],
-			"conflicts": [
-				"frost_walker"
 			]
 		},
 		{
@@ -396,18 +393,6 @@
 			"items": [
 				"FISHING_WEAPON",
 				"FISHING_ROD"
-			]
-		},
-		{
-			"id": "frost_walker",
-			"name": "Frost Walker",
-			"good": 2,
-			"max": 2,
-			"items": [
-				"BOOTS"
-			],
-			"conflicts": [
-				"depth_strider"
 			]
 		},
 		{

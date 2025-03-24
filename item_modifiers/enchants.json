@@ -105,7 +105,7 @@
 		{
 			"id": "charm",
 			"name": "Charm",
-			"good": 4,
+			"good": 5,
 			"max": 6,
 			"items": [
 				"FISHING_ROD"
@@ -125,7 +125,6 @@
 		{
 			"id": "corruption",
 			"name": "Corruption",
-			"good": 4,
 			"max": 5,
 			"items": [
 				"FISHING_ROD"
@@ -349,7 +348,7 @@
 		{
 			"id": "flame",
 			"name": "Flame",
-			"good": 1,
+			"good": 2,
 			"max": 2,
 			"items": [
 				"BOW"
@@ -587,7 +586,7 @@
 		{
 			"id": "quick_bite",
 			"name": "Quick Bite",
-			"good": 1,
+			"good": 5,
 			"max": 5,
 			"items": [
 				"FISHING_ROD"
@@ -1034,7 +1033,7 @@
 		{
 			"id": "tabasco",
 			"name": "Tabasco",
-			"good": 2,
+			"good": 3,
 			"max": 3,
 			"items": [
 				"SWORD",
@@ -1091,7 +1090,7 @@
 		{
 			"id": "tidal",
 			"name": "Tidal",
-			"good": 1,
+			"good": 3,
 			"max": 3,
 			"items": [
 				"LEGGINGS"

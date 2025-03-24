@@ -125,6 +125,7 @@
 		{
 			"id": "corruption",
 			"name": "Corruption",
+			"good": 5,
 			"max": 5,
 			"items": [
 				"FISHING_ROD"

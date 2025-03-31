@@ -63,7 +63,7 @@
 	"skyblock.zone": "^[⏣ф] (?<zone>[A-z-'\" ]+)(?: ൠ x\\d)?$",
 
 	"slayer.boss_slain": "^[ ]+NICE! SLAYER BOSS SLAIN!",
-	"slayer.level": "^[ ]+(?<slayer>[A-z]+) Slayer LVL (?<level>\\d) - (?:LVL MAXED OUT!|Next LVL in (?<nextLevel>[\\d,]+) XP)",
+	"slayer.level": "^[ ]+(?<slayer>[A-z]+) Slayer LVL (?<level>\\d) - (?:LVL MAXED OUT|Next LVL in (?<nextLevel>[\\d,]+) XP)!",
 	"slayer.rng_meter": "^[ ]+RNG Meter - (?<xp>[\\d,]+) Stored XP",
 	"slayer.quest_complete": "^[ ]+SLAYER QUEST COMPLETE!",
 	"slayer.quest_started": "^[ ]+SLAYER QUEST STARTED!",

@@ -7,6 +7,7 @@
 
 	"dungeons.device_completed": "^(?<username>[A-z0-9_]+) completed a device! \\([1-7]/7\\)",
 
+	"fishing.catch_timer": "^(?:\\d+\\.\\d+|!{3})$",
 	"fishing.double_hook": "^It's a Double Hook!(?: Woot woot!)?",
 	"fishing.treasure_catch": "^⛃ (?<rarity>GOOD|GREAT|OUTSTANDING)(?<treasureType> JUNK)? CATCH! You caught .+",
 	"fishing.trophy_fish_catch": "^♔ TROPHY FISH! You caught an? (?<fish>[A-z 0-9-]+) (?<rarity>BRONZE|SILVER|GOLD|DIAMOND)!.*",
@@ -69,9 +70,11 @@
 
 	"slayer.boss_slain": "^[ ]+NICE! SLAYER BOSS SLAIN!",
 	"slayer.level": "^[ ]+(?<slayer>[A-z]+) Slayer LVL (?<level>\\d) - (?:LVL MAXED OUT|Next LVL in (?<nextLevel>[\\d,]+) XP)!",
-	"slayer.rng_meter": "^[ ]+RNG Meter - (?<xp>[\\d,]+) Stored XP",
+	"slayer.quest_clear": "^[ ]+SLAYER QUEST COMPLETE!",
 	"slayer.quest_complete": "^[ ]+SLAYER QUEST COMPLETE!",
+	"slayer.quest_failed": "^[ ]+SLAYER QUEST FAILED!",
 	"slayer.quest_started": "^[ ]+SLAYER QUEST STARTED!",
+	"slayer.rng_meter": "^[ ]+RNG Meter - (?<xp>[\\d,]+) Stored XP",
 	"slayer.slay_to_spawn": "^[ ]+» Slay [\\d,]+ Combat XP worth of .+",
 	"slayer.talk_to_maddox": "^[ ]+» Talk to Maddox to claim your [A-z]+ Slayer XP!",
 

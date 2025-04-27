@@ -2,7 +2,7 @@
 	"chat_coordinates": "(?<username>[A-z0-9_]+): [Xx]: (?<x>[0-9.-]+),? [Yy]: (?<y>[0-9.-]+),? [Zz]: (?<z>[0-9.-]+)(?<info>.*)",
 
 	"chat.channel": "^You are now in the (?<channel>ALL|GUILD|OFFICER|PARTY|SKYBLOCK CO-OP) channel",
-	"chat.message_channel": "^Opened a chat conversation with (?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+) for the next 5 minutes\\. Use /chat a to leave",
+	"chat.conversation_opened": "^Opened a chat conversation with (?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+) for the next 5 minutes\\. Use /chat a to leave",
 
 	"chat_commands.dm": "^From (?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+): [!?.](?<command>[A-z0-9_]+) ?(?<argument>[A-z0-9_ ]+)?",
 	"chat_commands.guild": "^Guild > (?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+)(?<grank> \\[[A-z0-9 ]+])?: [!?.](?<command>[A-z0-9_]+) ?(?<argument>[A-z0-9_ ]+)?",

@@ -8,6 +8,7 @@
 	"chat_commands.guild": "^Guild > (?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+)(?<grank> \\[[A-z0-9 ]+])?: [!?.](?<command>[A-z0-9_]+) ?(?<argument>[A-z0-9_ ]+)?",
 	"chat_commands.party": "^Party > (?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+): [!?.](?<command>[A-z0-9_]+) ?(?<argument>[A-z0-9_ ]+)?",
 
+	"dungeons.boss_dialogue": "^\\[BOSS] (?<name>[A-z ]+):.*",
 	"dungeons.device_completed": "^(?<username>[A-z0-9_]+) completed a device! \\([1-7]/7\\)",
 
 	"fishing.catch_timer": "^(?:\\d+\\.\\d+|!{3})$",

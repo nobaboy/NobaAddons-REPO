@@ -125,6 +125,7 @@
 		{
 			"id": "corruption",
 			"name": "Corruption",
+			"good": 5,
 			"max": 5,
 			"items": [
 				"FISHING_ROD"
@@ -856,7 +857,7 @@
 			"id": "scavenger",
 			"name": "Scavenger",
 			"good": 3,
-			"max": 5,
+			"max": 6,
 			"items": [
 				"SWORD",
 				"LONGSWORD",

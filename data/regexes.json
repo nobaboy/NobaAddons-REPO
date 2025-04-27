@@ -30,7 +30,7 @@
 	"filter.tips.already_tipped": "You've already tipped someone in the past hour in [A-z ]+! Wait a bit and try again!",
 
 	"mayor.foxy_event": "Schedules an extra §.(?<event>[A-z ]+) §.event during the year\\.",
-	"mayor.skull_item": "Mayor (?<name>[A-z]+)",
+	"mayor.name": "Mayor (?<name>[A-z]+)",
 
 	"mythological.dig_burrow": "^(?:You dug out a Griffin Burrow|You finished the Griffin burrow chain)! \\(\\d/4\\)",
 	"mythological.dig_mob": "^(?:Oi|Uh oh|Yikes|Woah|Oh|Danger|Good Grief)! You dug out (?:a )?(?<mob>[A-z ]+)!",
@@ -82,5 +82,5 @@
 
 	"slot_info.desk_pest_count": "ൠ This plot has (?<count>\\d+) Pests?!",
 	"slot_info.tuning_points": "^Stat has: (?<points>\\d+) points?",
-	"slot_info.vacuum_pests": "Vacuum Bag: (?<amount>\\d+) Pests"
+	"slot_info.vacuum_pests": "^Vacuum Bag: (?<amount>[\\d,]+) Pests"
 }

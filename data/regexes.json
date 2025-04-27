@@ -69,7 +69,7 @@
 	"skyblock.profile_id": "^Profile ID: (?<id>[0-9a-f]{8}-?(?:[0-9a-f]{4}-?){3}[0-9a-f]{12})",
 	"skyblock.profile_type": "^. (?<type>Ironman|Stranded|Bingo)",
 	"skyblock.xp": "^\\s+(?<xp>\\d+)/100 XP",
-	"skyblock.zone": "^[⏣ф] (?<zone>[A-z-'\" ]+)(?: ൠ x\\d)?$",
+	"skyblock.zone": "^[⏣ф] (?<zone>[A-z-'\" ]+)(?: .*)?$",
 
 	"slayer.boss_slain": "^[ ]+NICE! SLAYER BOSS SLAIN!",
 	"slayer.level": "^[ ]+(?<slayer>[A-z]+) Slayer LVL (?<level>\\d) - (?:LVL MAXED OUT|Next LVL in (?<nextLevel>[\\d,]+) XP)!",

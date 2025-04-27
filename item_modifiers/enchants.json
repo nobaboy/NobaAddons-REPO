@@ -6,7 +6,6 @@
 			"good": 5,
 			"max": 6,
 			"items": [
-				"FISHING_WEAPON",
 				"FISHING_ROD"
 			],
 			"conflicts": [
@@ -31,7 +30,6 @@
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			]
 		},
@@ -70,7 +68,6 @@
 			"good": 5,
 			"max": 6,
 			"items": [
-				"FISHING_WEAPON",
 				"FISHING_ROD"
 			]
 		},
@@ -80,7 +77,6 @@
 			"good": 5,
 			"max": 6,
 			"items": [
-				"FISHING_WEAPON",
 				"FISHING_ROD"
 			]
 		},
@@ -109,10 +105,9 @@
 		{
 			"id": "charm",
 			"name": "Charm",
-			"good": 4,
-			"max": 5,
+			"good": 5,
+			"max": 6,
 			"items": [
-				"FISHING_WEAPON",
 				"FISHING_ROD"
 			]
 		},
@@ -124,17 +119,15 @@
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			]
 		},
 		{
 			"id": "corruption",
 			"name": "Corruption",
-			"good": 4,
+			"good": 5,
 			"max": 5,
 			"items": [
-				"FISHING_WEAPON",
 				"FISHING_ROD"
 			]
 		},
@@ -155,7 +148,6 @@
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			]
 		},
@@ -168,7 +160,6 @@
 				"SWORD",
 				"LONGSWORD",
 				"BOW",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			]
 		},
@@ -199,9 +190,6 @@
 			"max": 3,
 			"items": [
 				"BOOTS"
-			],
-			"conflicts": [
-				"frost_walker"
 			]
 		},
 		{
@@ -213,7 +201,6 @@
 				"SWORD",
 				"LONGSWORD",
 				"BOW",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			]
 		},
@@ -226,7 +213,6 @@
 				"SWORD",
 				"LONGSWORD",
 				"BOW",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			]
 		},
@@ -262,7 +248,6 @@
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			]
 		},
@@ -274,7 +259,6 @@
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			],
 			"conflicts": [
@@ -289,7 +273,6 @@
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"DRILL",
 				"GAUNTLET",
 				"PICKAXE"
@@ -329,7 +312,6 @@
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			]
 		},
@@ -358,7 +340,6 @@
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			],
 			"conflicts": [
@@ -368,7 +349,7 @@
 		{
 			"id": "flame",
 			"name": "Flame",
-			"good": 1,
+			"good": 2,
 			"max": 2,
 			"items": [
 				"BOW"
@@ -392,22 +373,9 @@
 			"id": "frail",
 			"name": "Frail",
 			"good": 5,
-			"max": 6,
+			"max": 7,
 			"items": [
-				"FISHING_WEAPON",
 				"FISHING_ROD"
-			]
-		},
-		{
-			"id": "frost_walker",
-			"name": "Frost Walker",
-			"good": 2,
-			"max": 2,
-			"items": [
-				"BOOTS"
-			],
-			"conflicts": [
-				"depth_strider"
 			]
 		},
 		{
@@ -418,7 +386,6 @@
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			],
 			"conflicts": [
@@ -515,7 +482,6 @@
 				"SWORD",
 				"LONGSWORD",
 				"BOW",
-				"FISHING_WEAPON",
 				"FISHING_ROD",
 				"GAUNTLET"
 			]
@@ -537,7 +503,6 @@
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			]
 		},
@@ -560,7 +525,6 @@
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			]
 		},
@@ -572,7 +536,6 @@
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			],
 			"conflicts": [
@@ -588,7 +551,6 @@
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"FISHING_ROD",
 				"GAUNTLET"
 			]
@@ -601,7 +563,6 @@
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			]
 		},
@@ -609,9 +570,8 @@
 			"id": "luck_of_the_sea",
 			"name": "Luck of the Sea",
 			"good": 5,
-			"max": 6,
+			"max": 7,
 			"items": [
-				"FISHING_WEAPON",
 				"FISHING_ROD"
 			]
 		},
@@ -621,7 +581,15 @@
 			"good": 5,
 			"max": 6,
 			"items": [
-				"FISHING_WEAPON",
+				"FISHING_ROD"
+			]
+		},
+		{
+			"id": "quick_bite",
+			"name": "Quick Bite",
+			"good": 5,
+			"max": 5,
+			"items": [
 				"FISHING_ROD"
 			]
 		},
@@ -631,7 +599,6 @@
 			"good": 5,
 			"max": 6,
 			"items": [
-				"FISHING_WEAPON",
 				"FISHING_ROD"
 			]
 		},
@@ -643,7 +610,6 @@
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			],
 			"conflicts": [
@@ -713,9 +679,8 @@
 			"id": "piscary",
 			"name": "Piscary",
 			"good": 5,
-			"max": 6,
+			"max": 7,
 			"items": [
-				"FISHING_WEAPON",
 				"FISHING_ROD"
 			]
 		},
@@ -764,7 +729,6 @@
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			],
 			"conflicts": [
@@ -893,11 +857,10 @@
 			"id": "scavenger",
 			"name": "Scavenger",
 			"good": 3,
-			"max": 5,
+			"max": 6,
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			]
 		},
@@ -909,7 +872,6 @@
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			],
 			"conflicts": [
@@ -982,7 +944,6 @@
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			],
 			"conflicts": [
@@ -999,7 +960,6 @@
 				"SWORD",
 				"LONGSWORD",
 				"BOW",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			]
 		},
@@ -1016,9 +976,8 @@
 			"id": "spiked_hook",
 			"name": "Spiked Hook",
 			"good": 5,
-			"max": 6,
+			"max": 7,
 			"items": [
-				"FISHING_WEAPON",
 				"FISHING_ROD"
 			]
 		},
@@ -1065,7 +1024,6 @@
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			],
 			"conflicts": [
@@ -1076,13 +1034,12 @@
 		{
 			"id": "tabasco",
 			"name": "Tabasco",
-			"good": 2,
+			"good": 3,
 			"max": 3,
 			"items": [
 				"SWORD",
 				"LONGSWORD",
 				"BOW",
-				"FISHING_WEAPON",
 				"FISHING_ROD",
 				"GAUNTLET",
 				"AXE"
@@ -1111,7 +1068,6 @@
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			],
 			"conflicts": [
@@ -1126,7 +1082,6 @@
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			],
 			"conflicts": [
@@ -1136,7 +1091,7 @@
 		{
 			"id": "tidal",
 			"name": "Tidal",
-			"good": 1,
+			"good": 3,
 			"max": 3,
 			"items": [
 				"LEGGINGS"
@@ -1150,7 +1105,6 @@
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			],
 			"conflicts": [
@@ -1174,7 +1128,6 @@
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			],
 			"conflicts": [
@@ -1299,7 +1252,6 @@
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			]
 		},
@@ -1311,7 +1263,6 @@
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			]
 		},
@@ -1324,7 +1275,6 @@
 				"SWORD",
 				"LONGSWORD",
 				"BOW",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			]
 		}
@@ -1348,7 +1298,6 @@
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			]
 		},
@@ -1409,7 +1358,6 @@
 				15000
 			],
 			"items": [
-				"FISHING_WEAPON",
 				"FISHING_ROD"
 			]
 		},
@@ -1482,7 +1430,6 @@
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			]
 		},
@@ -1493,7 +1440,6 @@
 			"items": [
 				"SWORD",
 				"LONGSWORD",
-				"FISHING_WEAPON",
 				"GAUNTLET"
 			]
 		},
@@ -1513,7 +1459,6 @@
 				"SWORD",
 				"LONGSWORD",
 				"BOW",
-				"FISHING_WEAPON",
 				"FISHING_ROD",
 				"GAUNTLET",
 				"AXE"
@@ -1524,7 +1469,6 @@
 			"name": "Flash",
 			"max": 5,
 			"items": [
-				"FISHING_WEAPON",
 				"FISHING_ROD"
 			]
 		},
@@ -1557,7 +1501,6 @@
 				"SWORD",
 				"LONGSWORD",
 				"BOW",
-				"FISHING_WEAPON",
 				"FISHING_ROD",
 				"GAUNTLET",
 				"AXE"
@@ -1669,7 +1612,6 @@
 				"SWORD",
 				"LONGSWORD",
 				"BOW",
-				"FISHING_WEAPON",
 				"FISHING_ROD",
 				"DRILL",
 				"GAUNTLET",

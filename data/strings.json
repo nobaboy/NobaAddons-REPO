@@ -1,4 +1,7 @@
 {
+	"chat.conversation_expired": "The conversation you were in expired and you have been moved back to the ALL channel.",
+	"chat.not_in_party": "You are not in a party and were moved to the ALL channel.",
+
 	"crimson_isle.vanquisher_spawn": "A Vanquisher is spawning nearby!",
 
 	"filter.tips.already_tipped_all": "You already tipped everyone that has boosters active, so there isn't anybody to be tipped right now!",
@@ -9,6 +12,8 @@
 	"filter.tips.sent_prefix": "You tipped",
 
 	"mayor.election_end": "The election room is now closed. Clerk Seraphine is doing a final count of the votes...",
+
+	"mythological.defeat_mobs": "Defeat all the burrow defenders in order to dig it!",
 
 	"slayer.quest_cancel": "Your Slayer Quest has been cancelled!",
 

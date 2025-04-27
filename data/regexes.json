@@ -1,6 +1,9 @@
 {
 	"chat_coordinates": "(?<username>[A-z0-9_]+): [Xx]: (?<x>[0-9.-]+),? [Yy]: (?<y>[0-9.-]+),? [Zz]: (?<z>[0-9.-]+)(?<info>.*)",
 
+	"chat.channel": "^You are now in the (?<channel>ALL|GUILD|OFFICER|PARTY|SKYBLOCK CO-OP) channel",
+	"chat.message_channel": "^Opened a chat conversation with (?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+) for the next 5 minutes\\. Use /chat a to leave",
+
 	"chat_commands.dm": "^From (?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+): [!?.](?<command>[A-z0-9_]+) ?(?<argument>[A-z0-9_ ]+)?",
 	"chat_commands.guild": "^Guild > (?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+)(?<grank> \\[[A-z0-9 ]+])?: [!?.](?<command>[A-z0-9_]+) ?(?<argument>[A-z0-9_ ]+)?",
 	"chat_commands.party": "^Party > (?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+): [!?.](?<command>[A-z0-9_]+) ?(?<argument>[A-z0-9_ ]+)?",
@@ -11,7 +14,6 @@
 	"fishing.double_hook": "^It's a Double Hook!(?: Woot woot!)?",
 	"fishing.treasure_catch": "^⛃ (?<rarity>GOOD|GREAT|OUTSTANDING)(?<treasureType> JUNK)? CATCH! You caught .+",
 	"fishing.trophy_fish_catch": "^♔ TROPHY FISH! You caught an? (?<fish>[A-z 0-9-]+) (?<rarity>BRONZE|SILVER|GOLD|DIAMOND)!.*",
-	"trophy_fish.catch": "^♔ TROPHY FISH! You caught an? (?<fish>[A-z 0-9-]+) (?<rarity>BRONZE|SILVER|GOLD|DIAMOND)!.*",
 	"fishing.trophy_fish_rarity": "(?<rarity>Bronze|Silver|Gold|Diamond) [✔✖](?: \\((?<amount>[\\d,]+)\\))?",
 
 	"filter.abilities.cooldown": "This ability is on cooldown for [0-9]+s\\.",
@@ -32,7 +34,6 @@
 
 	"mythological.dig_burrow": "^(?:You dug out a Griffin Burrow|You finished the Griffin burrow chain)! \\(\\d/4\\)",
 	"mythological.dig_mob": "^(?:Oi|Uh oh|Yikes|Woah|Oh|Danger|Good Grief)! You dug out (?:a )?(?<mob>[A-z ]+)!",
-	"mythological.dig_treasure": "^(?:RARE DROP|Wow)! You dug out (?:a )?(?<treasure>[A-z0-9- ]+)(?: coins)?!",
 	"mythological.inquisitor_dead": "(?:Party > )?(?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+): Inquisitor dead!",
 	"mythological.inquisitor_spawn.coords": "(?<username>[A-z0-9_]+): [Xx]: (?<x>[0-9.-]+),? [Yy]: (?<y>[0-9.-]+),? [Zz]: (?<z>[0-9.-]+).*",
 	"mythological.inquisitor_spawn.inquisitorchecker": "(?<username>[A-z0-9_]+): A MINOS INQUISITOR has spawned near \\[.*] at Coords (?<x>[0-9.-]+) (?<y>[0-9.-]+) (?<z>[0-9.-]+)",

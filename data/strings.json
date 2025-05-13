@@ -15,6 +15,11 @@
 
 	"mythological.defeat_mobs": "Defeat all the burrow defenders in order to dig it!",
 
+	"party.invite_other.not_found": "Couldn't find a player with that name!",
+	"party.invite_other.offline": "You cannot invite that player since they're not online.",
+	"party.invite_other.blocked": "You cannot invite that player since they have blocked you.",
+	"party.invite_other.generic_unallowed": "You cannot invite that player.",
+
 	"slayer.quest_cancel": "Your Slayer Quest has been cancelled!",
 
 	"slot_info.desk_sprayed_with_prefix": "Sprayed with"

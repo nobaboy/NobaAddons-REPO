@@ -1281,6 +1281,20 @@
 	],
 	"stacking": [
 		{
+			"id": "absorb",
+			"name": "Absorb",
+			"nbtKey": "absorb_logs_chopped",
+			"tiers": [
+				1000,
+				5000,
+				25000,
+				100000
+			],
+			"items": [
+				"AXE"
+			]
+		},
+		{
 			"id": "champion",
 			"name": "Champion",
 			"nbtKey": "champion_combat_xp",

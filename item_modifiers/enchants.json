@@ -367,7 +367,7 @@
 		{
 			"id": "forest_pledge",
 			"name": "Forest Pledge",
-			"good": 1,
+			"good": 3,
 			"max": 5,
 			"items": [
 				"HELMET",

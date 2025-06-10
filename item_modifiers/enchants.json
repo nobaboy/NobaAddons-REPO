@@ -854,7 +854,7 @@
 			"id": "respiration",
 			"name": "Respiration",
 			"good": 3,
-			"max": 3,
+			"max": 4,
 			"items": [
 				"HELMET"
 			]

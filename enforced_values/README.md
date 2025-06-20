@@ -12,7 +12,7 @@ the (de)serialized config file.
 
 ## Schema
 
-```json5
+```json
 {
   "override": {
     // Fragment of a full config file, overriding certain values. In this case, this sets `autoShareCorpses` in
@@ -39,7 +39,7 @@ the (de)serialized config file.
 
 Always returns `true`.
 
-```json5
+```json
 {
   "type": "true"
 }
@@ -51,7 +51,7 @@ Always returns `true`.
 
 Always returns `false`. **Use this to deactivate an enforced option.**
 
-```json5
+```json
 {
   "type": "false"
 }
@@ -63,7 +63,7 @@ Always returns `false`. **Use this to deactivate an enforced option.**
 
 Inverts the value of another check.
 
-```json5
+```json
 {
   "type": "not",
   "check": {"type": "false"}
@@ -74,7 +74,7 @@ Inverts the value of another check.
 <details>
 <summary><code>mod</code></summary>
 
-```json5
+```json
 {
   "type": "mod",
   "id": "other_mod",
@@ -91,7 +91,7 @@ Inverts the value of another check.
 
 Same as `mod`, but implicitly targets the `nobaaddons` mod `id`.
 
-```json5
+```json
 {
   "type": "self",
   // optional; only returns true if the mod version is >=1.0.0
@@ -107,7 +107,7 @@ Same as `mod`, but implicitly targets the `nobaaddons` mod `id`.
 
 Same as `mod`, but implicitly targets the `minecraft` mod `id`.
 
-```json5
+```json
 {
   "type": "self",
   // optional; only returns true if the current minecraft version is >=1.21.4
@@ -123,7 +123,7 @@ Same as `mod`, but implicitly targets the `minecraft` mod `id`.
 
 Checks if the player is on the given Hypixel server environment.
 
-```json5
+```json
 {
   "type": "environment",
   // returns true if the player is on alpha.hypixel.net
@@ -137,7 +137,7 @@ Checks if the player is on the given Hypixel server environment.
 
 Returns `true` if the player is not in a development environment.
 
-```json5
+```json
 {
   "type": "production"
 }
@@ -149,7 +149,7 @@ Returns `true` if the player is not in a development environment.
 
 Returns `true` if all provided `checks` also return `true`.
 
-```json5
+```json
 {
   "type": "all",
   "checks": [
@@ -165,7 +165,7 @@ Returns `true` if all provided `checks` also return `true`.
 
 Returns `true` if any of the provided `checks` return `true`.
 
-```json5
+```json
 {
   "type": "any",
   "checks": [
@@ -181,7 +181,7 @@ Returns `true` if any of the provided `checks` return `true`.
 
 Returns `true` if none of the provided `checks` return `true`.
 
-```json5
+```json
 {
   "type": "none",
   "checks": [

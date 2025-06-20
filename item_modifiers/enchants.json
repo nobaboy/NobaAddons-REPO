@@ -1,32 +1,10 @@
 {
 	"standard": [
 		{
-			"id": "angler",
-			"name": "Angler",
-			"good": 5,
-			"max": 6,
-			"items": [
-				"FISHING_ROD"
-			],
-			"conflicts": [
-				"sharpness",
-				"smite"
-			]
-		},
-		{
-			"id": "aqua_affinity",
-			"name": "Aqua Affinity",
-			"good": 1,
-			"max": 1,
-			"items": [
-				"HELMET"
-			]
-		},
-		{
-			"id": "bane_of_arthropods",
-			"name": "Bane of Arthropods",
-			"good": 5,
-			"max": 7,
+			"id": "fire_aspect",
+			"name": "Fire Aspect",
+			"good": 2,
+			"max": 3,
 			"items": [
 				"SWORD",
 				"LONGSWORD",
@@ -34,16 +12,58 @@
 			]
 		},
 		{
-			"id": "big_brain",
-			"name": "Big Brain",
+			"id": "turbo_cactus",
+			"name": "Turbo-Cacti",
+			"good": 1,
+			"max": 5,
+			"items": [
+				"HOE",
+				"AXE"
+			],
+			"abbreviation": "Cac."
+		},
+		{
+			"id": "life_steal",
+			"name": "Life Steal",
 			"good": 3,
 			"max": 5,
 			"items": [
-				"HELMET"
+				"SWORD",
+				"LONGSWORD",
+				"GAUNTLET"
 			],
 			"conflicts": [
-				"small_brain"
+				"mana_steal",
+				"syphon"
 			]
+		},
+		{
+			"id": "great_spook",
+			"name": "Great Spook",
+			"good": 1,
+			"max": 1,
+			"items": [
+				"HELMET",
+				"CHESTPLATE",
+				"LEGGINGS",
+				"BOOTS"
+			],
+			"exclusiveToItems": [
+				"GREAT_SPOOK_HELMET",
+				"GREAT_SPOOK_CHESTPLATE",
+				"GREAT_SPOOK_LEGGINGS",
+				"GREAT_SPOOK_BOOTS"
+			]
+		},
+		{
+			"id": "turbo_coco",
+			"name": "Turbo-Cocoa",
+			"good": 1,
+			"max": 5,
+			"items": [
+				"AXE"
+			],
+			"abbreviation": "Coc."
 		},
 		{
 			"id": "blast_protection",
@@ -63,57 +83,8 @@
 			]
 		},
 		{
-			"id": "blessing",
-			"name": "Blessing",
-			"good": 5,
-			"max": 6,
-			"items": [
-				"FISHING_ROD"
-			]
-		},
-		{
-			"id": "caster",
-			"name": "Caster",
-			"good": 5,
-			"max": 6,
-			"items": [
-				"FISHING_ROD"
-			]
-		},
-		{
-			"id": "cayenne",
-			"name": "Cayenne",
-			"good": 4,
-			"max": 5,
-			"items": [
-				"NECKLACE",
-				"CLOAK",
-				"BELT",
-				"GLOVES",
-				"BRACELET"
-			]
-		},
-		{
-			"id": "chance",
-			"name": "Chance",
-			"good": 3,
-			"max": 5,
-			"items": [
-				"BOW"
-			]
-		},
-		{
-			"id": "charm",
-			"name": "Charm",
-			"good": 5,
-			"max": 6,
-			"items": [
-				"FISHING_ROD"
-			]
-		},
-		{
-			"id": "cleave",
-			"name": "Cleave",
+			"id": "venomous",
+			"name": "Venomous",
 			"good": 5,
 			"max": 6,
 			"items": [
@@ -123,85 +94,33 @@
 			]
 		},
 		{
-			"id": "corruption",
-			"name": "Corruption",
-			"good": 5,
-			"max": 5,
+			"id": "rainbow",
+			"name": "Rainbow",
+			"good": 1,
+			"max": 3,
 			"items": [
-				"FISHING_ROD"
+				"SHEARS"
 			]
 		},
 		{
-			"id": "counter_strike",
-			"name": "Counter-Strike",
-			"good": 3,
-			"max": 5,
-			"items": [
-				"CHESTPLATE"
-			]
-		},
-		{
-			"id": "critical",
-			"name": "Critical",
+			"id": "growth",
+			"name": "Growth",
 			"good": 5,
 			"max": 7,
 			"items": [
-				"SWORD",
-				"LONGSWORD",
-				"GAUNTLET"
-			]
-		},
-		{
-			"id": "cubism",
-			"name": "Cubism",
-			"good": 5,
-			"max": 6,
-			"items": [
-				"SWORD",
-				"LONGSWORD",
-				"BOW",
-				"GAUNTLET"
-			]
-		},
-		{
-			"id": "dedication",
-			"name": "Dedication",
-			"good": 3,
-			"max": 4,
-			"items": [
-				"HOE",
-				"AXE"
-			]
-		},
-		{
-			"id": "delicate",
-			"name": "Delicate",
-			"good": 5,
-			"max": 5,
-			"items": [
-				"HOE",
-				"AXE"
-			]
-		},
-		{
-			"id": "depth_strider",
-			"name": "Depth Strider",
-			"good": 3,
-			"max": 3,
-			"items": [
+				"HELMET",
+				"CHESTPLATE",
+				"LEGGINGS",
 				"BOOTS"
 			]
 		},
 		{
-			"id": "divine_gift",
-			"name": "Divine Gift",
-			"good": 3,
-			"max": 3,
+			"id": "harvesting",
+			"name": "Harvesting",
+			"good": 5,
+			"max": 6,
 			"items": [
-				"SWORD",
-				"LONGSWORD",
-				"BOW",
-				"GAUNTLET"
+				"HOE"
 			]
 		},
 		{
@@ -217,27 +136,61 @@
 			]
 		},
 		{
-			"id": "aiming",
-			"name": "Dragon Tracer",
-			"good": 5,
+			"id": "small_brain",
+			"name": "Small Brain",
+			"good": 3,
 			"max": 5,
 			"items": [
-				"BOW"
+				"HELMET"
+			],
+			"conflicts": [
+				"big_brain"
 			]
 		},
 		{
-			"id": "efficiency",
-			"name": "Efficiency",
-			"good": 5,
-			"max": 10,
+			"id": "smarty_pants",
+			"name": "Smarty Pants",
+			"good": 1,
+			"max": 5,
+			"items": [
+				"LEGGINGS"
+			]
+		},
+		{
+			"id": "mana_steal",
+			"name": "Mana Steal",
+			"good": 1,
+			"max": 3,
+			"items": [
+				"SWORD",
+				"LONGSWORD",
+				"GAUNTLET"
+			],
+			"conflicts": [
+				"life_steal",
+				"syphon"
+			]
+		},
+		{
+			"id": "scavenger",
+			"name": "Scavenger",
+			"good": 3,
+			"max": 6,
+			"items": [
+				"SWORD",
+				"LONGSWORD",
+				"GAUNTLET"
+			]
+		},
+		{
+			"id": "paleontologist",
+			"name": "Paleontologist",
+			"good": 1,
+			"max": 5,
 			"items": [
 				"DRILL",
 				"GAUNTLET",
-				"PICKAXE",
-				"HOE",
-				"AXE",
-				"SHOVEL",
-				"SHEARS"
+				"PICKAXE"
 			]
 		},
 		{
@@ -252,46 +205,63 @@
 			]
 		},
 		{
-			"id": "execute",
-			"name": "Execute",
+			"id": "thunderbolt",
+			"name": "Thunderbolt",
 			"good": 5,
-			"max": 6,
+			"max": 7,
 			"items": [
 				"SWORD",
 				"LONGSWORD",
 				"GAUNTLET"
 			],
 			"conflicts": [
-				"PROSECUTE"
+				"thunderlord"
 			]
 		},
 		{
-			"id": "experience",
-			"name": "Experience",
-			"good": 3,
-			"max": 5,
+			"id": "silk_touch",
+			"name": "Silk Touch",
+			"good": 1,
+			"max": 1,
 			"items": [
-				"SWORD",
-				"LONGSWORD",
 				"DRILL",
 				"GAUNTLET",
-				"PICKAXE"
+				"PICKAXE",
+				"HOE",
+				"AXE",
+				"SHOVEL",
+				"SHEARS"
+			],
+			"conflicts": [
+				"fortune",
+				"smelting_touch"
 			]
 		},
 		{
-			"id": "feather_falling",
-			"name": "Feather Falling",
-			"good": 5,
-			"max": 10,
+			"id": "turbo_wheat",
+			"name": "Turbo-Wheat",
+			"good": 1,
+			"max": 5,
 			"items": [
-				"BOOTS"
-			]
+				"HOE"
+			],
+			"abbreviation": "Whe."
 		},
 		{
-			"id": "ferocious_mana",
-			"name": "Ferocious Mana",
-			"good": 5,
-			"max": 10,
+			"id": "turbo_carrot",
+			"name": "Turbo-Carrot",
+			"good": 1,
+			"max": 5,
+			"items": [
+				"HOE"
+			],
+			"abbreviation": "Car."
+		},
+		{
+			"id": "rejuvenate",
+			"name": "Rejuvenate",
+			"good": 3,
+			"max": 5,
 			"items": [
 				"HELMET",
 				"CHESTPLATE",
@@ -299,20 +269,71 @@
 				"BOOTS"
 			],
 			"conflicts": [
-				"hardened_mana",
-				"mana_vampire",
-				"strong_mana"
+				"respite"
 			]
 		},
 		{
-			"id": "fire_aspect",
-			"name": "Fire Aspect",
-			"good": 2,
-			"max": 3,
+			"id": "protection",
+			"name": "Protection",
+			"good": 5,
+			"max": 7,
+			"items": [
+				"HELMET",
+				"CHESTPLATE",
+				"LEGGINGS",
+				"BOOTS"
+			],
+			"conflicts": [
+				"blast_protection",
+				"fire_protection",
+				"projectile_protection"
+			]
+		},
+		{
+			"id": "aqua_affinity",
+			"name": "Aqua Affinity",
+			"good": 1,
+			"max": 1,
+			"items": [
+				"HELMET"
+			]
+		},
+		{
+			"id": "lethality",
+			"name": "Lethality",
+			"good": 5,
+			"max": 6,
 			"items": [
 				"SWORD",
 				"LONGSWORD",
 				"GAUNTLET"
+			]
+		},
+		{
+			"id": "snipe",
+			"name": "Snipe",
+			"good": 3,
+			"max": 4,
+			"items": [
+				"BOW"
+			]
+		},
+		{
+			"id": "aiming",
+			"name": "Dragon Tracer",
+			"good": 5,
+			"max": 5,
+			"items": [
+				"BOW"
+			]
+		},
+		{
+			"id": "magnet",
+			"name": "Magnet",
+			"good": 5,
+			"max": 6,
+			"items": [
+				"FISHING_ROD"
 			]
 		},
 		{
@@ -333,8 +354,185 @@
 			]
 		},
 		{
-			"id": "first_strike",
-			"name": "First Strike",
+			"id": "chance",
+			"name": "Chance",
+			"good": 3,
+			"max": 5,
+			"items": [
+				"BOW"
+			]
+		},
+		{
+			"id": "dedication",
+			"name": "Dedication",
+			"good": 1,
+			"max": 4,
+			"items": [
+				"HOE",
+				"AXE"
+			]
+		},
+		{
+			"id": "caster",
+			"name": "Caster",
+			"good": 5,
+			"max": 6,
+			"items": [
+				"FISHING_ROD"
+			]
+		},
+		{
+			"id": "turbo_potato",
+			"name": "Turbo-Potato",
+			"good": 1,
+			"max": 5,
+			"items": [
+				"HOE"
+			],
+			"abbreviation": "Pot."
+		},
+		{
+			"id": "power",
+			"name": "Power",
+			"good": 5,
+			"max": 7,
+			"items": [
+				"BOW"
+			]
+		},
+		{
+			"id": "lure",
+			"name": "Lure",
+			"good": 5,
+			"max": 6,
+			"items": [
+				"FISHING_ROD"
+			]
+		},
+		{
+			"id": "punch",
+			"name": "Punch",
+			"good": 2,
+			"max": 2,
+			"items": [
+				"BOW"
+			]
+		},
+		{
+			"id": "smelting_touch",
+			"name": "Smelting Touch",
+			"good": 1,
+			"max": 1,
+			"items": [
+				"DRILL",
+				"GAUNTLET",
+				"PICKAXE",
+				"HOE",
+				"AXE",
+				"SHOVEL"
+			],
+			"conflicts": [
+				"silk_touch"
+			]
+		},
+		{
+			"id": "blessing",
+			"name": "Blessing",
+			"good": 5,
+			"max": 6,
+			"items": [
+				"FISHING_ROD"
+			]
+		},
+		{
+			"id": "projectile_protection",
+			"name": "Projectile Protection",
+			"good": 5,
+			"max": 7,
+			"items": [
+				"HELMET",
+				"CHESTPLATE",
+				"LEGGINGS",
+				"BOOTS"
+			],
+			"conflicts": [
+				"blast_protection",
+				"fire_protection",
+				"protection"
+			]
+		},
+		{
+			"id": "piscary",
+			"name": "Piscary",
+			"good": 5,
+			"max": 7,
+			"items": [
+				"FISHING_ROD"
+			]
+		},
+		{
+			"id": "titan_killer",
+			"name": "Titan Killer",
+			"good": 5,
+			"max": 7,
+			"items": [
+				"SWORD",
+				"LONGSWORD",
+				"GAUNTLET"
+			],
+			"conflicts": [
+				"giant_killer"
+			]
+		},
+		{
+			"id": "sugar_rush",
+			"name": "Sugar Rush",
+			"good": 1,
+			"max": 3,
+			"items": [
+				"BOOTS"
+			]
+		},
+		{
+			"id": "angler",
+			"name": "Angler",
+			"good": 5,
+			"max": 6,
+			"items": [
+				"FISHING_ROD"
+			],
+			"conflicts": [
+				"sharpness",
+				"smite"
+			]
+		},
+		{
+			"id": "feather_falling",
+			"name": "Feather Falling",
+			"good": 5,
+			"max": 10,
+			"items": [
+				"BOOTS"
+			]
+		},
+		{
+			"id": "sharpness",
+			"name": "Sharpness",
+			"good": 5,
+			"max": 7,
+			"items": [
+				"SWORD",
+				"LONGSWORD",
+				"GAUNTLET"
+			],
+			"conflicts": [
+				"bane_of_arthropods",
+				"smite"
+			]
+		},
+		{
+			"id": "triple_strike",
+			"name": "Triple-Strike",
 			"good": 4,
 			"max": 5,
 			"items": [
@@ -343,30 +541,136 @@
 				"GAUNTLET"
 			],
 			"conflicts": [
-				"triple_strike"
+				"first_strike"
 			]
 		},
 		{
-			"id": "flame",
-			"name": "Flame",
+			"id": "cayenne",
+			"name": "Cayenne",
+			"good": 4,
+			"max": 5,
+			"items": [
+				"NECKLACE",
+				"CLOAK",
+				"BELT",
+				"GLOVES",
+				"BRACELET"
+			]
+		},
+		{
+			"id": "knockback",
+			"name": "Knockback",
 			"good": 2,
 			"max": 2,
+			"items": [
+				"SWORD",
+				"LONGSWORD",
+				"GAUNTLET"
+			]
+		},
+		{
+			"id": "big_brain",
+			"name": "Big Brain",
+			"good": 3,
+			"max": 5,
+			"items": [
+				"HELMET"
+			],
+			"conflicts": [
+				"small_brain"
+			]
+		},
+		{
+			"id": "cleave",
+			"name": "Cleave",
+			"good": 5,
+			"max": 6,
+			"items": [
+				"SWORD",
+				"LONGSWORD",
+				"GAUNTLET"
+			]
+		},
+		{
+			"id": "strong_mana",
+			"name": "Strong Mana",
+			"good": -1,
+			"max": 10,
+			"items": [
+				"HELMET",
+				"CHESTPLATE",
+				"LEGGINGS",
+				"BOOTS"
+			],
+			"conflicts": [
+				"ferocious_mana",
+				"hardened_mana",
+				"mana_vampire"
+			]
+		},
+		{
+			"id": "overload",
+			"name": "Overload",
+			"good": 1,
+			"max": 5,
 			"items": [
 				"BOW"
 			]
 		},
 		{
-			"id": "fortune",
-			"name": "Fortune",
+			"id": "respiration",
+			"name": "Respiration",
 			"good": 3,
-			"max": 4,
+			"max": 3,
 			"items": [
-				"DRILL",
-				"GAUNTLET",
-				"PICKAXE"
+				"HELMET"
+			]
+		},
+		{
+			"id": "syphon",
+			"name": "Syphon",
+			"good": 3,
+			"max": 5,
+			"items": [
+				"SWORD",
+				"LONGSWORD",
+				"GAUNTLET"
 			],
 			"conflicts": [
-				"silk_touch"
+				"life_steal",
+				"mana_steal"
+			]
+		},
+		{
+			"id": "luck",
+			"name": "Luck",
+			"good": 5,
+			"max": 7,
+			"items": [
+				"SWORD",
+				"LONGSWORD",
+				"GAUNTLET"
+			]
+		},
+		{
+			"id": "pesterminator",
+			"name": "Pesterminator",
+			"good": 1,
+			"max": 6,
+			"items": [
+				"HELMET",
+				"CHESTPLATE",
+				"LEGGINGS",
+				"BOOTS"
+			]
+		},
+		{
+			"id": "quick_bite",
+			"name": "Quick Bite",
+			"good": 1,
+			"max": 5,
+			"items": [
+				"FISHING_ROD"
 			]
 		},
 		{
@@ -393,84 +697,39 @@
 			]
 		},
 		{
-			"id": "great_spook",
-			"name": "Great Spook",
+			"id": "transylvanian",
+			"name": "Transylvanian",
+			"good": 4,
+			"max": 5,
+			"items": [
+				"HELMET"
+			]
+		},
+		{
+			"id": "true_protection",
+			"name": "True Protection",
 			"good": 1,
 			"max": 1,
 			"items": [
-				"HELMET",
-				"CHESTPLATE",
-				"LEGGINGS",
-				"BOOTS"
-			],
-			"exclusiveToItems": [
-				"GREAT_SPOOK_HELMET",
-				"GREAT_SPOOK_CHESTPLATE",
-				"GREAT_SPOOK_LEGGINGS",
-				"GREAT_SPOOK_BOOTS"
+				"CHESTPLATE"
 			]
 		},
 		{
-			"id": "green_thumb",
-			"name": "Green Thumb",
-			"good": 5,
-			"max": 5,
+			"id": "flame",
+			"name": "Flame",
+			"good": 2,
+			"max": 2,
 			"items": [
-				"NECKLACE",
-				"CLOAK",
-				"BELT",
-				"GLOVES",
-				"BRACELET"
+				"BOW"
 			]
 		},
 		{
-			"id": "growth",
-			"name": "Growth",
+			"id": "luck_of_the_sea",
+			"name": "Luck of the Sea",
 			"good": 5,
 			"max": 7,
 			"items": [
-				"HELMET",
-				"CHESTPLATE",
-				"LEGGINGS",
-				"BOOTS"
-			]
-		},
-		{
-			"id": "hardened_mana",
-			"name": "Hardened Mana",
-			"good": 5,
-			"max": 10,
-			"items": [
-				"HELMET",
-				"CHESTPLATE",
-				"LEGGINGS",
-				"BOOTS"
-			],
-			"conflicts": [
-				"ferocious_mana",
-				"mana_vampire",
-				"strong_mana"
-			]
-		},
-		{
-			"id": "harvesting",
-			"name": "Harvesting",
-			"good": 5,
-			"max": 6,
-			"items": [
-				"HOE"
-			]
-		},
-		{
-			"id": "ice_cold",
-			"name": "Ice Cold",
-			"good": 5,
-			"max": 5,
-			"items": [
-				"HELMET",
-				"CHESTPLATE",
-				"LEGGINGS",
-				"BOOTS"
+				"FISHING_ROD"
 			]
 		},
 		{
@@ -487,60 +746,39 @@
 			]
 		},
 		{
-			"id": "infinite_quiver",
-			"name": "Infinite Quiver",
-			"good": 5,
-			"max": 10,
-			"items": [
-				"BOW"
-			]
-		},
-		{
-			"id": "knockback",
-			"name": "Knockback",
-			"good": 2,
-			"max": 2,
-			"items": [
-				"SWORD",
-				"LONGSWORD",
-				"GAUNTLET"
-			]
-		},
-		{
-			"id": "lapidary",
-			"name": "Lapidary",
-			"good": 5,
+			"id": "counter_strike",
+			"name": "Counter-Strike",
+			"good": 3,
 			"max": 5,
 			"items": [
-				"DRILL",
-				"GAUNTLET",
-				"PICKAXE"
+				"CHESTPLATE"
 			]
 		},
 		{
-			"id": "lethality",
-			"name": "Lethality",
-			"good": 5,
-			"max": 6,
-			"items": [
-				"SWORD",
-				"LONGSWORD",
-				"GAUNTLET"
-			]
-		},
-		{
-			"id": "life_steal",
-			"name": "Life Steal",
+			"id": "vicious",
+			"name": "Vicious",
 			"good": 3,
 			"max": 5,
 			"items": [
 				"SWORD",
 				"LONGSWORD",
+				"BOW",
 				"GAUNTLET"
-			],
-			"conflicts": [
-				"mana_steal",
-				"syphon"
+			]
+		},
+		{
+			"id": "efficiency",
+			"name": "Efficiency",
+			"good": 5,
+			"max": 10,
+			"items": [
+				"DRILL",
+				"GAUNTLET",
+				"PICKAXE",
+				"HOE",
+				"AXE",
+				"SHOVEL",
+				"SHEARS"
 			]
 		},
 		{
@@ -556,28 +794,103 @@
 			]
 		},
 		{
-			"id": "luck",
-			"name": "Luck",
-			"good": 5,
-			"max": 7,
+			"id": "replenish",
+			"name": "Replenish",
+			"good": 1,
+			"max": 1,
+			"items": [
+				"HOE",
+				"AXE"
+			]
+		},
+		{
+			"id": "divine_gift",
+			"name": "Divine Gift",
+			"good": 3,
+			"max": 3,
 			"items": [
 				"SWORD",
 				"LONGSWORD",
+				"BOW",
 				"GAUNTLET"
 			]
 		},
 		{
-			"id": "luck_of_the_sea",
-			"name": "Luck of the Sea",
-			"good": 5,
-			"max": 7,
+			"id": "experience",
+			"name": "Experience",
+			"good": 3,
+			"max": 5,
 			"items": [
-				"FISHING_ROD"
+				"SWORD",
+				"LONGSWORD",
+				"DRILL",
+				"GAUNTLET",
+				"PICKAXE"
 			]
 		},
 		{
-			"id": "lure",
-			"name": "Lure",
+			"id": "respite",
+			"name": "Respite",
+			"good": 1,
+			"max": 5,
+			"items": [
+				"HELMET",
+				"CHESTPLATE",
+				"LEGGINGS",
+				"BOOTS"
+			],
+			"conflicts": [
+				"rejuvenate"
+			]
+		},
+		{
+			"id": "smoldering",
+			"name": "Smoldering",
+			"good": 1,
+			"max": 5,
+			"items": [
+				"SWORD",
+				"LONGSWORD",
+				"BOW",
+				"GAUNTLET"
+			]
+		},
+		{
+			"id": "pristine",
+			"name": "Prismatic",
+			"good": 1,
+			"max": 5,
+			"items": [
+				"DRILL",
+				"GAUNTLET",
+				"PICKAXE"
+			]
+		},
+		{
+			"id": "ice_cold",
+			"name": "Ice Cold",
+			"good": 1,
+			"max": 5,
+			"items": [
+				"HELMET",
+				"CHESTPLATE",
+				"LEGGINGS",
+				"BOOTS"
+			]
+		},
+		{
+			"id": "delicate",
+			"name": "Delicate",
+			"good": 5,
+			"max": 5,
+			"items": [
+				"HOE",
+				"AXE"
+			]
+		},
+		{
+			"id": "charm",
+			"name": "Charm",
 			"good": 5,
 			"max": 6,
 			"items": [
@@ -585,8 +898,8 @@
 			]
 		},
 		{
-			"id": "quick_bite",
-			"name": "Quick Bite",
+			"id": "corruption",
+			"name": "Corruption",
 			"good": 5,
 			"max": 5,
 			"items": [
@@ -594,33 +907,9 @@
 			]
 		},
 		{
-			"id": "magnet",
-			"name": "Magnet",
-			"good": 5,
-			"max": 6,
-			"items": [
-				"FISHING_ROD"
-			]
-		},
-		{
-			"id": "mana_steal",
-			"name": "Mana Steal",
-			"good": 3,
-			"max": 3,
-			"items": [
-				"SWORD",
-				"LONGSWORD",
-				"GAUNTLET"
-			],
-			"conflicts": [
-				"life_steal",
-				"syphon"
-			]
-		},
-		{
 			"id": "mana_vampire",
 			"name": "Mana Vampire",
-			"good": 5,
+			"good": -1,
 			"max": 10,
 			"items": [
 				"HELMET",
@@ -635,305 +924,107 @@
 			]
 		},
 		{
-			"id": "overload",
-			"name": "Overload",
-			"good": 5,
-			"max": 5,
-			"items": [
-				"BOW"
-			]
-		},
-		{
-			"id": "paleontologist",
-			"name": "Paleontologist",
-			"good": 5,
-			"max": 5,
-			"items": [
-				"DRILL",
-				"GAUNTLET",
-				"PICKAXE"
-			]
-		},
-		{
-			"id": "pesterminator",
-			"name": "Pesterminator",
-			"good": 5,
-			"max": 6,
-			"items": [
-				"HELMET",
-				"CHESTPLATE",
-				"LEGGINGS",
-				"BOOTS"
-			]
-		},
-		{
-			"id": "piercing",
-			"name": "Piercing",
-			"good": 1,
-			"max": 1,
-			"items": [
-				"BOW"
-			]
-		},
-		{
-			"id": "piscary",
-			"name": "Piscary",
-			"good": 5,
-			"max": 7,
-			"items": [
-				"FISHING_ROD"
-			]
-		},
-		{
-			"id": "power",
-			"name": "Power",
-			"good": 5,
-			"max": 7,
-			"items": [
-				"BOW"
-			]
-		},
-		{
-			"id": "pristine",
-			"name": "Prismatic",
-			"good": 5,
-			"max": 5,
-			"items": [
-				"DRILL",
-				"GAUNTLET",
-				"PICKAXE"
-			]
-		},
-		{
-			"id": "projectile_protection",
-			"name": "Projectile Protection",
-			"good": 5,
-			"max": 7,
-			"items": [
-				"HELMET",
-				"CHESTPLATE",
-				"LEGGINGS",
-				"BOOTS"
-			],
-			"conflicts": [
-				"blast_protection",
-				"fire_protection",
-				"protection"
-			]
-		},
-		{
-			"id": "PROSECUTE",
-			"name": "Prosecute",
-			"good": 5,
-			"max": 6,
-			"items": [
-				"SWORD",
-				"LONGSWORD",
-				"GAUNTLET"
-			],
-			"conflicts": [
-				"execute"
-			]
-		},
-		{
-			"id": "prosperity",
-			"name": "Prosperity",
-			"good": 5,
-			"max": 5,
-			"items": [
-				"NECKLACE",
-				"CLOAK",
-				"BELT",
-				"GLOVES",
-				"BRACELET"
-			]
-		},
-		{
-			"id": "protection",
-			"name": "Protection",
-			"good": 5,
-			"max": 7,
-			"items": [
-				"HELMET",
-				"CHESTPLATE",
-				"LEGGINGS",
-				"BOOTS"
-			],
-			"conflicts": [
-				"blast_protection",
-				"fire_protection",
-				"projectile_protection"
-			]
-		},
-		{
-			"id": "punch",
-			"name": "Punch",
-			"good": 2,
-			"max": 2,
-			"items": [
-				"BOW"
-			]
-		},
-		{
-			"id": "quantum",
-			"name": "Quantum",
-			"good": 3,
-			"max": 5,
-			"items": [
-				"NECKLACE"
-			]
-		},
-		{
-			"id": "rainbow",
-			"name": "Rainbow",
-			"good": 1,
-			"max": 3,
-			"items": [
-				"SHEARS"
-			]
-		},
-		{
-			"id": "reflection",
-			"name": "Reflection",
-			"good": 5,
-			"max": 5,
-			"items": [
-				"CHESTPLATE"
-			],
-			"conflicts": [
-				"thorns"
-			]
-		},
-		{
-			"id": "rejuvenate",
-			"name": "Rejuvenate",
-			"good": 5,
-			"max": 5,
-			"items": [
-				"HELMET",
-				"CHESTPLATE",
-				"LEGGINGS",
-				"BOOTS"
-			],
-			"conflicts": [
-				"respite"
-			]
-		},
-		{
-			"id": "replenish",
-			"name": "Replenish",
-			"good": 1,
-			"max": 1,
-			"items": [
-				"HOE",
-				"AXE"
-			]
-		},
-		{
-			"id": "respiration",
-			"name": "Respiration",
+			"id": "depth_strider",
+			"name": "Depth Strider",
 			"good": 3,
 			"max": 3,
 			"items": [
-				"HELMET"
-			]
-		},
-		{
-			"id": "respite",
-			"name": "Respite",
-			"good": 5,
-			"max": 5,
-			"items": [
-				"HELMET",
-				"CHESTPLATE",
-				"LEGGINGS",
 				"BOOTS"
-			],
-			"conflicts": [
-				"rejuvenate"
 			]
 		},
 		{
-			"id": "scavenger",
-			"name": "Scavenger",
-			"good": 3,
-			"max": 6,
-			"items": [
-				"SWORD",
-				"LONGSWORD",
-				"GAUNTLET"
-			]
-		},
-		{
-			"id": "sharpness",
-			"name": "Sharpness",
-			"good": 5,
-			"max": 7,
-			"items": [
-				"SWORD",
-				"LONGSWORD",
-				"GAUNTLET"
-			],
-			"conflicts": [
-				"bane_of_arthropods",
-				"smite"
-			]
-		},
-		{
-			"id": "silk_touch",
-			"name": "Silk Touch",
+			"id": "tidal",
+			"name": "Tidal",
 			"good": 1,
-			"max": 1,
-			"items": [
-				"DRILL",
-				"GAUNTLET",
-				"PICKAXE",
-				"HOE",
-				"AXE",
-				"SHOVEL",
-				"SHEARS"
-			],
-			"conflicts": [
-				"fortune",
-				"smelting_touch"
-			]
-		},
-		{
-			"id": "small_brain",
-			"name": "Small Brain",
-			"good": 3,
-			"max": 5,
-			"items": [
-				"HELMET"
-			],
-			"conflicts": [
-				"big_brain"
-			]
-		},
-		{
-			"id": "smarty_pants",
-			"name": "Smarty Pants",
-			"good": 5,
-			"max": 5,
+			"max": 3,
 			"items": [
 				"LEGGINGS"
 			]
 		},
 		{
-			"id": "smelting_touch",
-			"name": "Smelting Touch",
-			"good": 1,
-			"max": 1,
+			"id": "tabasco",
+			"name": "Tabasco",
+			"good": 3,
+			"max": 3,
+			"items": [
+				"SWORD",
+				"LONGSWORD",
+				"BOW",
+				"FISHING_ROD",
+				"GAUNTLET",
+				"AXE"
+			]
+		},
+		{
+			"id": "fortune",
+			"name": "Fortune",
+			"good": 3,
+			"max": 4,
 			"items": [
 				"DRILL",
 				"GAUNTLET",
-				"PICKAXE",
-				"HOE",
-				"AXE",
-				"SHOVEL"
+				"PICKAXE"
 			],
 			"conflicts": [
 				"silk_touch"
+			]
+		},
+		{
+			"id": "lapidary",
+			"name": "Lapidary",
+			"good": 1,
+			"max": 5,
+			"items": [
+				"DRILL",
+				"GAUNTLET",
+				"PICKAXE"
+			]
+		},
+		{
+			"id": "turbo_pumpkin",
+			"name": "Turbo-Pumpkin",
+			"good": 1,
+			"max": 5,
+			"items": [
+				"AXE"
+			],
+			"abbreviation": "Pup."
+		},
+		{
+			"id": "vampirism",
+			"name": "Vampirism",
+			"good": 5,
+			"max": 6,
+			"items": [
+				"SWORD",
+				"LONGSWORD",
+				"GAUNTLET"
+			]
+		},
+		{
+			"id": "ferocious_mana",
+			"name": "Ferocious Mana",
+			"good": -1,
+			"max": 10,
+			"items": [
+				"HELMET",
+				"CHESTPLATE",
+				"LEGGINGS",
+				"BOOTS"
+			],
+			"conflicts": [
+				"hardened_mana",
+				"mana_vampire",
+				"strong_mana"
+			]
+		},
+		{
+			"id": "spiked_hook",
+			"name": "Spiked Hook",
+			"good": 5,
+			"max": 7,
+			"items": [
+				"FISHING_ROD"
 			]
 		},
 		{
@@ -952,10 +1043,10 @@
 			]
 		},
 		{
-			"id": "smoldering",
-			"name": "Smoldering",
+			"id": "cubism",
+			"name": "Cubism",
 			"good": 5,
-			"max": 5,
+			"max": 6,
 			"items": [
 				"SWORD",
 				"LONGSWORD",
@@ -964,85 +1055,58 @@
 			]
 		},
 		{
-			"id": "snipe",
-			"name": "Snipe",
-			"good": 3,
-			"max": 4,
+			"id": "bane_of_arthropods",
+			"name": "Bane of Arthropods",
+			"good": 5,
+			"max": 7,
+			"items": [
+				"SWORD",
+				"LONGSWORD",
+				"GAUNTLET"
+			]
+		},
+		{
+			"id": "infinite_quiver",
+			"name": "Infinite Quiver",
+			"good": 5,
+			"max": 10,
 			"items": [
 				"BOW"
 			]
 		},
 		{
-			"id": "spiked_hook",
-			"name": "Spiked Hook",
-			"good": 5,
-			"max": 7,
-			"items": [
-				"FISHING_ROD"
-			]
-		},
-		{
-			"id": "strong_mana",
-			"name": "Strong Mana",
-			"good": 5,
-			"max": 10,
-			"items": [
-				"HELMET",
-				"CHESTPLATE",
-				"LEGGINGS",
-				"BOOTS"
-			],
-			"conflicts": [
-				"ferocious_mana",
-				"hardened_mana",
-				"mana_vampire"
-			]
-		},
-		{
-			"id": "sugar_rush",
-			"name": "Sugar Rush",
-			"good": 3,
-			"max": 3,
-			"items": [
-				"BOOTS"
-			]
-		},
-		{
-			"id": "sunder",
-			"name": "Sunder",
-			"good": 5,
-			"max": 6,
-			"items": [
-				"AXE"
-			]
-		},
-		{
-			"id": "syphon",
-			"name": "Syphon",
-			"good": 3,
+			"id": "turbo_mushrooms",
+			"name": "Turbo-Mushrooms",
+			"good": 1,
 			"max": 5,
 			"items": [
-				"SWORD",
-				"LONGSWORD",
-				"GAUNTLET"
+				"HOE"
+			],
+			"abbreviation": "Mus."
+		},
+		{
+			"id": "reflection",
+			"name": "Reflection",
+			"good": 1,
+			"max": 5,
+			"items": [
+				"CHESTPLATE"
 			],
 			"conflicts": [
-				"life_steal",
-				"mana_steal"
+				"thorns"
 			]
 		},
 		{
-			"id": "tabasco",
-			"name": "Tabasco",
-			"good": 3,
-			"max": 3,
+			"id": "prosperity",
+			"name": "Prosperity",
+			"good": 1,
+			"max": 5,
 			"items": [
-				"SWORD",
-				"LONGSWORD",
-				"BOW",
-				"FISHING_ROD",
-				"GAUNTLET",
-				"AXE"
+				"NECKLACE",
+				"CLOAK",
+				"BELT",
+				"GLOVES",
+				"BRACELET"
 			]
 		},
 		{
@@ -1061,17 +1125,34 @@
 			]
 		},
 		{
-			"id": "thunderbolt",
-			"name": "Thunderbolt",
-			"good": 5,
-			"max": 7,
+			"id": "green_thumb",
+			"name": "Green Thumb",
+			"good": 1,
+			"max": 5,
 			"items": [
-				"SWORD",
-				"LONGSWORD",
-				"GAUNTLET"
-			],
-			"conflicts": [
-				"thunderlord"
+				"NECKLACE",
+				"CLOAK",
+				"BELT",
+				"GLOVES",
+				"BRACELET"
+			]
+		},
+		{
+			"id": "piercing",
+			"name": "Piercing",
+			"good": 1,
+			"max": 1,
+			"items": [
+				"BOW"
+			]
+		},
+		{
+			"id": "quantum",
+			"name": "Quantum",
+			"good": 3,
+			"max": 5,
+			"items": [
+				"NECKLACE"
 			]
 		},
 		{
@@ -1089,40 +1170,8 @@
 			]
 		},
 		{
-			"id": "tidal",
-			"name": "Tidal",
-			"good": 3,
-			"max": 3,
-			"items": [
-				"LEGGINGS"
-			]
-		},
-		{
-			"id": "titan_killer",
-			"name": "Titan Killer",
-			"good": 5,
-			"max": 7,
-			"items": [
-				"SWORD",
-				"LONGSWORD",
-				"GAUNTLET"
-			],
-			"conflicts": [
-				"giant_killer"
-			]
-		},
-		{
-			"id": "transylvanian",
-			"name": "Transylvanian",
-			"good": 5,
-			"max": 5,
-			"items": [
-				"HELMET"
-			]
-		},
-		{
-			"id": "triple_strike",
-			"name": "Triple-Strike",
+			"id": "first_strike",
+			"name": "First Strike",
 			"good": 4,
 			"max": 5,
 			"items": [
@@ -1131,103 +1180,27 @@
 				"GAUNTLET"
 			],
 			"conflicts": [
-				"first_strike"
+				"triple_strike"
 			]
 		},
 		{
-			"id": "true_protection",
-			"name": "True Protection",
-			"good": 1,
-			"max": 1,
+			"id": "execute",
+			"name": "Execute",
+			"good": 5,
+			"max": 6,
 			"items": [
-				"CHESTPLATE"
+				"SWORD",
+				"LONGSWORD",
+				"GAUNTLET"
+			],
+			"conflicts": [
+				"PROSECUTE"
 			]
-		},
-		{
-			"id": "turbo_cactus",
-			"name": "Turbo-Cacti",
-			"good": 5,
-			"max": 5,
-			"items": [
-				"HOE",
-				"AXE"
-			],
-			"abbreviation": "Cac."
-		},
-		{
-			"id": "turbo_cane",
-			"name": "Turbo-Cane",
-			"good": 5,
-			"max": 5,
-			"items": [
-				"HOE"
-			],
-			"abbreviation": "Can."
-		},
-		{
-			"id": "turbo_carrot",
-			"name": "Turbo-Carrot",
-			"good": 5,
-			"max": 5,
-			"items": [
-				"HOE"
-			],
-			"abbreviation": "Car."
-		},
-		{
-			"id": "turbo_coco",
-			"name": "Turbo-Cocoa",
-			"good": 5,
-			"max": 5,
-			"items": [
-				"AXE"
-			],
-			"abbreviation": "Coc."
-		},
-		{
-			"id": "turbo_melon",
-			"name": "Turbo-Melon",
-			"good": 5,
-			"max": 5,
-			"items": [
-				"AXE"
-			],
-			"abbreviation": "Mel."
-		},
-		{
-			"id": "turbo_mushrooms",
-			"name": "Turbo-Mushrooms",
-			"good": 5,
-			"max": 5,
-			"items": [
-				"HOE"
-			],
-			"abbreviation": "Mus."
-		},
-		{
-			"id": "turbo_potato",
-			"name": "Turbo-Potato",
-			"good": 5,
-			"max": 5,
-			"items": [
-				"HOE"
-			],
-			"abbreviation": "Pot."
-		},
-		{
-			"id": "turbo_pumpkin",
-			"name": "Turbo-Pumpkin",
-			"good": 5,
-			"max": 5,
-			"items": [
-				"AXE"
-			],
-			"abbreviation": "Pup."
 		},
 		{
 			"id": "turbo_warts",
 			"name": "Turbo-Warts",
-			"good": 5,
+			"good": 1,
 			"max": 5,
 			"items": [
 				"HOE"
@@ -1235,20 +1208,34 @@
 			"abbreviation": "War."
 		},
 		{
-			"id": "turbo_wheat",
-			"name": "Turbo-Wheat",
+			"id": "PROSECUTE",
+			"name": "Prosecute",
 			"good": 5,
+			"max": 6,
+			"items": [
+				"SWORD",
+				"LONGSWORD",
+				"GAUNTLET"
+			],
+			"conflicts": [
+				"execute"
+			]
+		},
+		{
+			"id": "turbo_cane",
+			"name": "Turbo-Cane",
+			"good": 1,
 			"max": 5,
 			"items": [
 				"HOE"
 			],
-			"abbreviation": "Whe."
+			"abbreviation": "Can."
 		},
 		{
-			"id": "vampirism",
-			"name": "Vampirism",
+			"id": "critical",
+			"name": "Critical",
 			"good": 5,
-			"max": 6,
+			"max": 7,
 			"items": [
 				"SWORD",
 				"LONGSWORD",
@@ -1256,25 +1243,276 @@
 			]
 		},
 		{
-			"id": "venomous",
-			"name": "Venomous",
-			"good": 5,
-			"max": 6,
+			"id": "hardened_mana",
+			"name": "Hardened Mana",
+			"good": -1,
+			"max": 10,
 			"items": [
-				"SWORD",
-				"LONGSWORD",
-				"GAUNTLET"
+				"HELMET",
+				"CHESTPLATE",
+				"LEGGINGS",
+				"BOOTS"
+			],
+			"conflicts": [
+				"ferocious_mana",
+				"mana_vampire",
+				"strong_mana"
 			]
 		},
 		{
-			"id": "vicious",
-			"name": "Vicious",
-			"good": 3,
+			"id": "turbo_melon",
+			"name": "Turbo-Melon",
+			"good": 1,
+			"max": 5,
+			"items": [
+				"AXE"
+			],
+			"abbreviation": "Mel."
+		},
+		{
+			"id": "sunder",
+			"name": "Sunder",
+			"good": 5,
+			"max": 6,
+			"items": [
+				"AXE"
+			]
+		}
+	],
+	"ultimate": [
+		{
+			"id": "ultimate_rend",
+			"name": "Rend",
+			"max": 5,
+			"items": [
+				"BOW"
+			]
+		},
+		{
+			"id": "ultimate_the_one",
+			"name": "The One",
+			"max": 5,
+			"items": [
+				"NECKLACE"
+			]
+		},
+		{
+			"id": "ultimate_legion",
+			"name": "Legion",
+			"max": 5,
+			"items": [
+				"HELMET",
+				"CHESTPLATE",
+				"LEGGINGS",
+				"BOOTS"
+			]
+		},
+		{
+			"id": "ultimate_habanero_tactics",
+			"name": "Habanero Tactics",
+			"max": 5,
+			"items": [
+				"HELMET",
+				"CHESTPLATE",
+				"LEGGINGS",
+				"BOOTS"
+			]
+		},
+		{
+			"id": "ultimate_flowstate",
+			"name": "Flowstate",
+			"max": 3,
+			"items": [
+				"DRILL",
+				"GAUNTLET",
+				"PICKAXE"
+			]
+		},
+		{
+			"id": "ultimate_fatal_tempo",
+			"name": "Fatal Tempo",
 			"max": 5,
 			"items": [
 				"SWORD",
 				"LONGSWORD",
 				"BOW",
+				"FISHING_ROD",
+				"GAUNTLET",
+				"AXE"
+			]
+		},
+		{
+			"id": "ultimate_one_for_all",
+			"name": "One For All",
+			"max": 1,
+			"items": [
+				"SWORD",
+				"LONGSWORD"
+			]
+		},
+		{
+			"id": "ultimate_bank",
+			"name": "Bank",
+			"max": 5,
+			"items": [
+				"HELMET",
+				"CHESTPLATE",
+				"LEGGINGS",
+				"BOOTS"
+			]
+		},
+		{
+			"id": "ultimate_soul_eater",
+			"name": "Soul Eater",
+			"max": 5,
+			"items": [
+				"SWORD",
+				"LONGSWORD",
+				"BOW"
+			]
+		},
+		{
+			"id": "ultimate_reiterate",
+			"name": "Duplex",
+			"max": 5,
+			"items": [
+				"BOW"
+			]
+		},
+		{
+			"id": "ultimate_wise",
+			"name": "Ultimate Wise",
+			"max": 5,
+			"items": [
+				"SWORD",
+				"LONGSWORD",
+				"BOW",
+				"FISHING_ROD",
+				"DRILL",
+				"GAUNTLET",
+				"PICKAXE",
+				"HOE",
+				"AXE",
+				"SHOVEL",
+				"SHEARS",
+				"WAND"
+			],
+			"exclusiveToItems": [
+				"PRECURSOR_EYE"
+			]
+		},
+		{
+			"id": "ultimate_wisdom",
+			"name": "Wisdom",
+			"max": 5,
+			"items": [
+				"HELMET",
+				"CHESTPLATE",
+				"LEGGINGS",
+				"BOOTS"
+			]
+		},
+		{
+			"id": "ultimate_jerry",
+			"name": "Ultimate Jerry",
+			"max": 5,
+			"exclusiveToItems": [
+				"ASPECT_OF_THE_JERRY",
+				"ASPECT_OF_THE_JERRY_SIGNATURE"
+			]
+		},
+		{
+			"id": "ultimate_flash",
+			"name": "Flash",
+			"max": 5,
+			"items": [
+				"FISHING_ROD"
+			]
+		},
+		{
+			"id": "ultimate_bobbin_time",
+			"name": "Bobbin' Time",
+			"max": 5,
+			"items": [
+				"HELMET",
+				"CHESTPLATE",
+				"LEGGINGS",
+				"BOOTS"
+			]
+		},
+		{
+			"id": "ultimate_refrigerate",
+			"name": "Refrigerate",
+			"max": 5,
+			"items": [
+				"HELMET",
+				"CHESTPLATE",
+				"LEGGINGS",
+				"BOOTS"
+			]
+		},
+		{
+			"id": "ultimate_no_pain_no_gain",
+			"name": "No Pain No Gain",
+			"max": 5,
+			"items": [
+				"HELMET",
+				"CHESTPLATE",
+				"LEGGINGS",
+				"BOOTS"
+			]
+		},
+		{
+			"id": "ultimate_inferno",
+			"name": "Inferno",
+			"max": 5,
+			"items": [
+				"SWORD",
+				"LONGSWORD",
+				"BOW",
+				"FISHING_ROD",
+				"GAUNTLET",
+				"AXE"
+			]
+		},
+		{
+			"id": "ultimate_chimera",
+			"name": "Chimera",
+			"max": 5,
+			"items": [
+				"SWORD",
+				"LONGSWORD",
+				"GAUNTLET"
+			]
+		},
+		{
+			"id": "ultimate_swarm",
+			"name": "Swarm",
+			"max": 5,
+			"items": [
+				"SWORD",
+				"LONGSWORD",
+				"BOW"
+			]
+		},
+		{
+			"id": "ultimate_last_stand",
+			"name": "Last Stand",
+			"max": 5,
+			"items": [
+				"HELMET",
+				"CHESTPLATE",
+				"LEGGINGS",
+				"BOOTS"
+			]
+		},
+		{
+			"id": "ultimate_combo",
+			"name": "Combo",
+			"max": 5,
+			"items": [
+				"SWORD",
+				"LONGSWORD",
 				"GAUNTLET"
 			]
 		}
@@ -1302,6 +1540,25 @@
 			]
 		},
 		{
+			"id": "hecatomb",
+			"name": "Hecatomb",
+			"nbtKey": "hecatomb_s_runs",
+			"tiers": [
+				2,
+				5,
+				10,
+				20,
+				30,
+				40,
+				60,
+				80,
+				100
+			],
+			"items": [
+				"HELMET"
+			]
+		},
+		{
 			"id": "compact",
 			"name": "Compact",
 			"nbtKey": "compact_blocks",
@@ -1320,6 +1577,25 @@
 				"DRILL",
 				"GAUNTLET",
 				"PICKAXE"
+			]
+		},
+		{
+			"id": "toxophilite",
+			"name": "Toxophilite",
+			"nbtKey": "toxophilite_combat_xp",
+			"tiers": [
+				50000,
+				100000,
+				250000,
+				500000,
+				1000000,
+				1500000,
+				2000000,
+				2500000,
+				3000000
+			],
+			"items": [
+				"BOW"
 			]
 		},
 		{
@@ -1359,282 +1635,6 @@
 			],
 			"items": [
 				"FISHING_ROD"
-			]
-		},
-		{
-			"id": "hecatomb",
-			"name": "Hecatomb",
-			"nbtKey": "hecatomb_s_runs",
-			"tiers": [
-				2,
-				5,
-				10,
-				20,
-				30,
-				40,
-				60,
-				80,
-				100
-			],
-			"items": [
-				"HELMET"
-			]
-		},
-		{
-			"id": "toxophilite",
-			"name": "Toxophilite",
-			"nbtKey": "toxophilite_combat_xp",
-			"tiers": [
-				50000,
-				100000,
-				250000,
-				500000,
-				1000000,
-				1500000,
-				2000000,
-				2500000,
-				3000000
-			],
-			"items": [
-				"BOW"
-			]
-		}
-	],
-	"ultimate": [
-		{
-			"id": "ultimate_bank",
-			"name": "Bank",
-			"max": 5,
-			"items": [
-				"HELMET",
-				"CHESTPLATE",
-				"LEGGINGS",
-				"BOOTS"
-			]
-		},
-		{
-			"id": "ultimate_bobbin_time",
-			"name": "Bobbin' Time",
-			"max": 5,
-			"items": [
-				"HELMET",
-				"CHESTPLATE",
-				"LEGGINGS",
-				"BOOTS"
-			]
-		},
-		{
-			"id": "ultimate_chimera",
-			"name": "Chimera",
-			"max": 5,
-			"items": [
-				"SWORD",
-				"LONGSWORD",
-				"GAUNTLET"
-			]
-		},
-		{
-			"id": "ultimate_combo",
-			"name": "Combo",
-			"max": 5,
-			"items": [
-				"SWORD",
-				"LONGSWORD",
-				"GAUNTLET"
-			]
-		},
-		{
-			"id": "ultimate_reiterate",
-			"name": "Duplex",
-			"max": 5,
-			"items": [
-				"BOW"
-			]
-		},
-		{
-			"id": "ultimate_fatal_tempo",
-			"name": "Fatal Tempo",
-			"max": 5,
-			"items": [
-				"SWORD",
-				"LONGSWORD",
-				"BOW",
-				"FISHING_ROD",
-				"GAUNTLET",
-				"AXE"
-			]
-		},
-		{
-			"id": "ultimate_flash",
-			"name": "Flash",
-			"max": 5,
-			"items": [
-				"FISHING_ROD"
-			]
-		},
-		{
-			"id": "ultimate_flowstate",
-			"name": "Flowstate",
-			"max": 3,
-			"items": [
-				"DRILL",
-				"GAUNTLET",
-				"PICKAXE"
-			]
-		},
-		{
-			"id": "ultimate_habanero_tactics",
-			"name": "Habanero Tactics",
-			"max": 5,
-			"items": [
-				"HELMET",
-				"CHESTPLATE",
-				"LEGGINGS",
-				"BOOTS"
-			]
-		},
-		{
-			"id": "ultimate_inferno",
-			"name": "Inferno",
-			"max": 5,
-			"items": [
-				"SWORD",
-				"LONGSWORD",
-				"BOW",
-				"FISHING_ROD",
-				"GAUNTLET",
-				"AXE"
-			]
-		},
-		{
-			"id": "ultimate_last_stand",
-			"name": "Last Stand",
-			"max": 5,
-			"items": [
-				"HELMET",
-				"CHESTPLATE",
-				"LEGGINGS",
-				"BOOTS"
-			]
-		},
-		{
-			"id": "ultimate_legion",
-			"name": "Legion",
-			"max": 5,
-			"items": [
-				"HELMET",
-				"CHESTPLATE",
-				"LEGGINGS",
-				"BOOTS"
-			]
-		},
-		{
-			"id": "ultimate_no_pain_no_gain",
-			"name": "No Pain No Gain",
-			"max": 5,
-			"items": [
-				"HELMET",
-				"CHESTPLATE",
-				"LEGGINGS",
-				"BOOTS"
-			]
-		},
-		{
-			"id": "ultimate_one_for_all",
-			"name": "One For All",
-			"max": 1,
-			"items": [
-				"SWORD",
-				"LONGSWORD"
-			]
-		},
-		{
-			"id": "ultimate_refrigerate",
-			"name": "Refrigerate",
-			"max": 5,
-			"items": [
-				"HELMET",
-				"CHESTPLATE",
-				"LEGGINGS",
-				"BOOTS"
-			]
-		},
-		{
-			"id": "ultimate_rend",
-			"name": "Rend",
-			"max": 5,
-			"items": [
-				"BOW"
-			]
-		},
-		{
-			"id": "ultimate_soul_eater",
-			"name": "Soul Eater",
-			"max": 5,
-			"items": [
-				"SWORD",
-				"LONGSWORD",
-				"BOW"
-			]
-		},
-		{
-			"id": "ultimate_swarm",
-			"name": "Swarm",
-			"max": 5,
-			"items": [
-				"SWORD",
-				"LONGSWORD",
-				"BOW"
-			]
-		},
-		{
-			"id": "ultimate_the_one",
-			"name": "The One",
-			"max": 5,
-			"items": [
-				"NECKLACE"
-			]
-		},
-		{
-			"id": "ultimate_jerry",
-			"name": "Ultimate Jerry",
-			"max": 5,
-			"exclusiveToItems": [
-				"ASPECT_OF_THE_JERRY",
-				"ASPECT_OF_THE_JERRY_SIGNATURE"
-			]
-		},
-		{
-			"id": "ultimate_wise",
-			"name": "Ultimate Wise",
-			"max": 5,
-			"items": [
-				"SWORD",
-				"LONGSWORD",
-				"BOW",
-				"FISHING_ROD",
-				"DRILL",
-				"GAUNTLET",
-				"PICKAXE",
-				"HOE",
-				"AXE",
-				"SHOVEL",
-				"SHEARS",
-				"WAND"
-			],
-			"exclusiveToItems": [
-				"PRECURSOR_EYE"
-			]
-		},
-		{
-			"id": "ultimate_wisdom",
-			"name": "Wisdom",
-			"max": 5,
-			"items": [
-				"HELMET",
-				"CHESTPLATE",
-				"LEGGINGS",
-				"BOOTS"
 			]
 		}
 	]

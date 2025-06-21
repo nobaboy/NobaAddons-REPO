@@ -7,10 +7,10 @@ Overridden values cannot be modified by the user, while the value they originall
 the (de)serialized config file.
 
 >[!warning]
-> Files in this directory *must not be deleted*, as the mod does not currently have the capability
-> to delete files that have since been deleted in the repo; instead, use a `{"type": "false"}` condition.
+> Files in this directory **must not be deleted**, as the mod does not currently have the capability
+> to delete files that have since been deleted; instead, use a `{"type": "false"}` condition.
 
-## Schema
+## Example
 
 ```json
 {
@@ -74,6 +74,8 @@ Inverts the value of another check.
 <details>
 <summary><code>mod</code></summary>
 
+Returns `true` if a mod with the provided `id` is present, and optionally within a specified `min`/`max` version range.
+
 ```json
 {
   "type": "mod",
@@ -109,7 +111,7 @@ Same as `mod`, but implicitly targets the `minecraft` mod `id`.
 
 ```json
 {
-  "type": "self",
+  "type": "minecraft",
   // optional; only returns true if the current minecraft version is >=1.21.4
   "min": "1.21.4",
   // optional; only returns true if the current minecraft version is <=1.21.6
@@ -153,6 +155,7 @@ Returns `true` if all provided `checks` also return `true`.
 {
   "type": "all",
   "checks": [
+    // evaluates to true when both not in a development environment and on alpha.hypixel.net
     {"type": "production"},
     {"type": "environment", "environment": "BETA"}
   ]
@@ -169,7 +172,8 @@ Returns `true` if any of the provided `checks` return `true`.
 {
   "type": "any",
   "checks": [
-    {"type": false},
+    // evalutes to true when not in a development environment
+    {"type": "false"},
     {"type": "production"}
   ]
 }
@@ -185,7 +189,9 @@ Returns `true` if none of the provided `checks` return `true`.
 {
   "type": "none",
   "checks": [
-    {"type": "true"}
+    // this evaluates as false due to the presence of a check that returns true
+    {"type": "true"},
+    {"type": "false"}
   ]
 }
 ```

@@ -1,5 +1,5 @@
 {
-	"latest": "1.0.0-Beta.3",
-	"releaseNotes": "Fixes in preparation for Galatea, many slayer feature fixes and improvements, and a lot more",
-	"forMinecraft": ["1.21.4", "1.21.5"]
+	"latest": "1.0.0-Beta.4",
+	"releaseNotes": "More fixes in preparation for Galatea, and some small additions",
+	"forMinecraft": ["1.21.5", "1.21.6"]
 }

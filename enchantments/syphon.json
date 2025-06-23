@@ -1,7 +1,7 @@
 {
 	"type": "standard",
 	"id": "syphon",
-	"name": "Syphon",
+	"name": "Drain",
 	"good": 3,
 	"max": 5,
 	"items": [

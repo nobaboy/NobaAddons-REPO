@@ -54,11 +54,6 @@
 		"spawnMessage": "The Water Hydra has come to test your strength.",
 		"rarity": "LEGENDARY"
 	},
-	{
-		"id": "THE_SEA_EMPEROR",
-		"spawnMessage": "The Sea Emperor arises from the depths.",
-		"rarity": "LEGENDARY"
-	},
 
 	{
 		"id": "NIGHT_SQUID",
@@ -186,6 +181,38 @@
 		"spawnMessage": "A Reindrake forms from the depths.",
 		"rarity": "MYTHIC",
 		"islands": ["JERRYS_WORKSHOP"]
+	},
+
+	{
+		"id": "STRIDERSURFER",
+		"spawnMessage": "You caught a Stridersurfer.",
+		"rarity": "RARE",
+		"islands": ["GALATEA"],
+		"type": "LAVA"
+	},
+	{
+		"id": "WETWING",
+		"spawnMessage": "Look! A Wetwing emerges!",
+		"rarity": "UNCOMMON",
+		"islands": ["GALATEA"]
+	},
+	{
+		"id": "TADGANG",
+		"spawnMessage": "A gang of Liltads!",
+		"rarity": "RARE",
+		"islands": ["GALATEA"]
+	},
+	{
+		"id": "ENT",
+		"spawnMessage": "You've hooked an Ent, as ancient as the forest itself.",
+		"rarity": "EPIC",
+		"islands": ["GALATEA"]
+	},
+	{
+		"id": "THE_LOCH_EMPEROR",
+		"spawnMessage": "The Loch Emperor arises from the depths.",
+		"rarity": "LEGENDARY",
+		"islands": ["GALATEA"]
 	},
 
 	{

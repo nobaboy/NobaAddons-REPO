@@ -65,14 +65,15 @@
 		"FARMING": 60,
 		"MINING": 60,
 		"COMBAT": 60,
-		"FORAGING": 50,
+		"FORAGING": 54,
 		"FISHING": 50,
 		"ENCHANTING": 60,
 		"ALCHEMY": 50,
 		"TAMING": 50,
 		"CARPENTRY": 50,
 		"RUNECRAFTING": 25,
-		"SOCIAL": 25
+		"SOCIAL": 25,
+		"HUNTING": 25
 	},
 	"skillXpScale": {
 		"RUNECRAFTING": [

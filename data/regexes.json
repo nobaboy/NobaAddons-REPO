@@ -69,7 +69,7 @@
 
 	"skyblock.currency": "^(?<currency>[A-z]+): (?<amount>[\\d,]+).*",
 	"skyblock.item_cooldown": "^Cooldown: (?<cooldown>(?:\\d+[hms] ?)+)",
-	"skyblock.item_tag": "^(?:a )?(?<rarity>(?:UN)?COMMON|RARE|EPIC|LEGENDARY|MYTHIC|DIVINE|ULTIMATE|(?:VERY )?SPECIAL)(?: DUNGEON)? ?(?<type>[A-Z ]+)?(?: a)?$",
+	"skyblock.item_tag": "^(?:a )?(?:SHINY )?(?<rarity>(?:UN)?COMMON|RARE|EPIC|LEGENDARY|MYTHIC|DIVINE|ULTIMATE|(?:VERY )?SPECIAL)(?: DUNGEON)? ?(?<type>[A-Z ]+)?(?: a)?$",
 	"skyblock.level": "^Your SkyBlock Level: \\[(?<level>\\d+)]",
 	"skyblock.profile_id": "^Profile ID: (?<id>[0-9a-f]{8}-?(?:[0-9a-f]{4}-?){3}[0-9a-f]{12})",
 	"skyblock.profile_type": "^. (?<type>Ironman|Stranded|Bingo)",

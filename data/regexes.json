@@ -47,7 +47,7 @@
 	"party.disbanded": "^(?:\\[[A-Z+]+] )?(?<former>[A-z0-9_]+) has disbanded the party!",
 	"party.join": "^You have joined (?:\\[[A-Z+]+] )?(?<leader>[A-z0-9_]+)'s party!",
 	"party.kicked": "^You have been kicked from the party by (?:\\[[A-Z+]+] )?[A-z0-9_]+",
-	"party.leave": "^(?:You left the party\\.|The party was disbanded because all invites expired and the party was empty\\.|You are not in a party(?: right now)?[.!]|You are not currently in a party[.!])",
+	"party.leave": "^(?:You left the party\\.|The party was disbanded because (?:all invites expired and the party was empty|the party leader disconnected)\\.|You are not in a party(?: right now)?[.!]|You are not currently in a party[.!])",
 	"party.offline_kicked": "^Kicked (?:\\[[A-Z+]+] )?(?<name>[A-z0-9_]+) because they were offline\\.",
 	"party.offline_removed": "^(?:\\[[A-Z+]+] )?(?<name>[A-z0-9_]+) was removed from your party because they disconnected\\.",
 	"party.other_join": "^(?:\\[[A-Z+]+] )?(?<name>[A-z0-9_]+) joined the party\\.",

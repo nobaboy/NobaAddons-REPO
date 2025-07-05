@@ -1,7 +1,8 @@
 {
-	"chat_coordinates": "(?<username>[A-z0-9_]+): [Xx]: (?<x>[0-9.-]+),? [Yy]: (?<y>[0-9.-]+),? [Zz]: (?<z>[0-9.-]+)(?<info>.*)",
+	"attribute_menu.shard_name": "^Source: (?<name>.+?) Shard \\((?<id>[CUREL]\\d+)\\)$",
+	"attribute_menu.syphon_to_level": "^Syphon (?<remaining>\\d+) (?:more to level up|shard to unlock)!$",
 
-	"container.storage": "Ender Chest \\(\\d/\\d\\)|(?:Small|Medium|Large|Greater|Jumbo) Backpack(?: ✦)? \\(Slot #\\d+\\)",
+	"chat_coordinates": "(?<username>[A-z0-9_]+): [Xx]: (?<x>[0-9.-]+),? [Yy]: (?<y>[0-9.-]+),? [Zz]: (?<z>[0-9.-]+)(?<info>.*)",
 
 	"chat.channel": "^You are now in the (?<channel>ALL|GUILD|OFFICER|PARTY|SKYBLOCK CO-OP) channel",
 	"chat.conversation_opened": "^Opened a chat conversation with (?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+) for the next 5 minutes\\. Use /chat a to leave",
@@ -88,5 +89,8 @@
 
 	"slot_info.desk_pest_count": "ൠ This plot has (?<count>\\d+) Pests?!",
 	"slot_info.tuning_points": "^Stat has: (?<points>\\d+) points?",
-	"slot_info.vacuum_pests": "^Vacuum Bag: (?<amount>[\\d,]+) Pests"
+	"slot_info.vacuum_pests": "^Vacuum Bag: (?<amount>[\\d,]+) Pests",
+
+	"storage.container": "^(?<type>Ender Chest|(?:Small|Medium|Large|Greater|Jumbo) Backpack(?: ✦)?) \\((?:Slot #)?(?<page>\\d+)(?:/\\d+)?\\)",
+	"storage.backpack_removed": "^Removed backpack from slot (?<slot>\\d+)!"
 }

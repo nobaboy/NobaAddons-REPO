@@ -1,4 +1,7 @@
 {
+	"attribute_menu.container": "Attribute Menu",
+	"attribute_menu.left_click": "Left-Click to open!",
+
 	"chat.conversation_expired": "The conversation you were in expired and you have been moved back to the ALL channel.",
 	"chat.not_in_party": "You are not in a party and were moved to the ALL channel.",
 
@@ -22,5 +25,7 @@
 
 	"slayer.quest_cancel": "Your Slayer Quest has been cancelled!",
 
-	"slot_info.desk_sprayed_with_prefix": "Sprayed with"
+	"slot_info.desk_sprayed_with_prefix": "Sprayed with",
+
+	"storage.container": "Storage"
 }

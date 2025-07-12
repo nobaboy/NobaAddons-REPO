@@ -1,6 +1,6 @@
 {
-	"attribute_menu.shard_name": "^Source: (?<name>.+?) Shard \\((?<id>[CUREL]\\d+)\\)$",
-	"attribute_menu.syphon_to_level": "^Syphon (?<remaining>\\d+) (?:more to level up|shard to unlock)!$",
+	"attribute_menu.shard_name": "^Source: (?<name>.+?) Shard \\((?<id>[CUREL]\\d+)\\)",
+	"attribute_menu.syphon_to_level": "^Syphon (?<remaining>\\d+) (?:more to level up|shard to unlock)!",
 
 	"chat_coordinates": "(?<username>[A-z0-9_]+): [Xx]: (?<x>[0-9.-]+),? [Yy]: (?<y>[0-9.-]+),? [Zz]: (?<z>[0-9.-]+)(?<info>.*)",
 
@@ -91,6 +91,6 @@
 	"slot_info.tuning_points": "^Stat has: (?<points>\\d+) points?",
 	"slot_info.vacuum_pests": "^Vacuum Bag: (?<amount>[\\d,]+) Pests",
 
-	"storage.container": "^(?<type>Ender Chest|(?:Small|Medium|Large|Greater|Jumbo) Backpack(?: ✦)?) \\((?:Slot #)?(?<page>\\d+)(?:/\\d+)?\\)",
+	"storage.container": "^(?<type>Ender Chest|(?:Small|Medium|Large|Greater|Jumbo) Backpack(?: ✦)?) \\((?:Slot #)?(?<page>\\d+)(?:/\\d)?\\)",
 	"storage.backpack_removed": "^Removed backpack from slot (?<slot>\\d+)!"
 }

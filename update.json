@@ -1,5 +1,9 @@
 {
 	"latest": "1.0.0-Beta.5",
 	"releaseNotes": "Added item rarity highlights, cleaner Galatea foraging",
-	"forMinecraft": ["1.21.5", "1.21.6"]
+	"forMinecraft": ["1.21.5", "1.21.6"],
+	"downloadUrl": "https://modrinth.com/mod/nobaaddons/version/1.0.0-Beta.5+{version}",
+	"changelogUrl": "https://codeberg.org/nobaboy/NobaAddons/src/branch/main/docs/changelog/1.0.0-Beta.5.md",
+	"minecraftVersionOverrides": {
+	}
 }

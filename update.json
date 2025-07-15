@@ -1,9 +1,10 @@
 {
-	"latest": "1.0.0-Beta.5",
-	"releaseNotes": "Added item rarity highlights, cleaner Galatea foraging",
-	"forMinecraft": ["1.21.5", "1.21.6"],
-	"downloadUrl": "https://modrinth.com/mod/nobaaddons/version/1.0.0-Beta.5+{version}",
-	"changelogUrl": "https://codeberg.org/nobaboy/NobaAddons/src/branch/main/docs/changelog/1.0.0-Beta.5.md",
+	"latest": "1.0.0-Beta.6",
+	"releaseNotes": "Added attribute and hunting features, custom chat filters, fixed mod compatibility issues, and various bug fixes",
+	"forMinecraft": ["1.21.5", "1.21.6", "1.21.7"],
+	"downloadUrl": "https://modrinth.com/mod/nobaaddons/version/1.0.0-Beta.6+{version}",
+	"changelogUrl": "https://codeberg.org/nobaboy/NobaAddons/src/branch/main/docs/changelog/1.0.0-Beta.6.md",
 	"minecraftVersionOverrides": {
+		"1.21.6": "1.21.7"
 	}
 }

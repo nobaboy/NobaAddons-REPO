@@ -1,0 +1,33 @@
+{
+	"ignoredBlocks": [
+		"#minecraft:flowers",
+		"#minecraft:buttons",
+		"#minecraft:crops",
+		"#minecraft:wool_carpets",
+		"#minecraft:flower_pots",
+		"minecraft:short_grass",
+		"minecraft:tall_grass",
+		"minecraft:dead_bush",
+		"minecraft:torch",
+		"minecraft:redstone_torch",
+		"minecraft:fire",
+		"minecraft:player_head",
+		"minecraft:brown_mushroom",
+		"minecraft:red_mushroom",
+		"minecraft:ladder",
+		"minecraft:vine",
+		"minecraft:rail",
+		"minecraft:powered_rail",
+		"minecraft:activator_rail",
+		"minecraft:snow",
+		"minecraft:sugar_cane",
+		"minecraft:big_dripleaf_stem",
+		"minecraft:decorated_pot",
+		"minecraft:sea_pickle",
+		"minecraft:seagrass",
+		"minecraft:cobweb"
+	],
+	"validBlocks": [
+		"minecraft:flowering_azalea"
+	]
+}

@@ -1,23 +1,18 @@
 {
 	"supportedBlocks": [
-		"flowering_azalea",
-		"lily_pad",
-		"candle",
-		"white_candle",
-		"light_gray_candle",
-		"gray_candle",
-		"black_candle",
-		"brown_candle",
-		"red_candle",
-		"orange_candle",
-		"yellow_candle",
-		"lime_candle",
-		"green_candle",
-		"cyan_candle",
-		"light_blue_candle",
-		"blue_candle",
-		"purple_candle",
-		"magenta_candle",
-		"pink_candle"
+		"#minecraft:candles",
+		"minecraft:flowering_azalea",
+		"minecraft:lily_pad"
+	],
+	"airLikeBlocks": [
+		"#minecraft:flower_pots",
+		"minecraft:ladder",
+		"minecraft:vine",
+		"minecraft:decorated_pot",
+		"minecraft:rail",
+		"minecraft:powered_rail",
+		"minecraft:activator_rail",
+		"minecraft:sugar_cane",
+		"minecraft:tall_grass"
 	]
 }

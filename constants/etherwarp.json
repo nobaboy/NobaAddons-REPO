@@ -13,6 +13,8 @@
 		"minecraft:powered_rail",
 		"minecraft:activator_rail",
 		"minecraft:sugar_cane",
-		"minecraft:tall_grass"
+		"minecraft:tall_grass",
+		"minecraft:water",
+		"minecraft:lava"
 	]
 }

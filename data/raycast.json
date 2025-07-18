@@ -6,9 +6,12 @@
 		"#minecraft:crops",
 		"#minecraft:wool_carpets",
 		"#minecraft:flower_pots",
+		"#minecraft:corals",
+		"#minecraft:wall_corals",
 		"minecraft:short_grass",
 		"minecraft:tall_grass",
 		"minecraft:large_fern",
+		"minecraft:fern",
 		"minecraft:dead_bush",
 		"minecraft:torch",
 		"minecraft:wall_torch",
@@ -29,6 +32,9 @@
 		"minecraft:decorated_pot",
 		"minecraft:sea_pickle",
 		"minecraft:seagrass",
+		"minecraft:tall_seagrass",
+		"minecraft:kelp_plant",
+		"minecraft:kelp",
 		"minecraft:cobweb"
 	],
 	"validBlocks": [

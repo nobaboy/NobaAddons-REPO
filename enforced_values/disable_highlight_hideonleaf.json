@@ -1,0 +1,11 @@
+{
+	"override": {
+		"hunting": {
+			"mobHighlight": {
+				"hideonleaf": false
+			}
+		}
+	},
+	"if": {"type": "self", "min": "1.0.0-Beta.5"},
+	"message": null
+}

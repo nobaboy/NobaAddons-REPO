@@ -2,6 +2,7 @@
 	"supportedBlocks": [
 		"#minecraft:candles",
 		"minecraft:flowering_azalea",
+		"minecraft:azalea",
 		"minecraft:lily_pad"
 	],
 	"airLikeBlocks": [

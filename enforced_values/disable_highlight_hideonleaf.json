@@ -6,6 +6,6 @@
 			}
 		}
 	},
-	"if": {"type": "self", "min": "1.0.0-Beta.5"},
+	"if": {"type": "self", "min": "1.0.0-Beta.6", "max": "1.0.0-Beta.6"},
 	"message": null
 }

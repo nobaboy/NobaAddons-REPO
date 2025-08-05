@@ -191,6 +191,12 @@
 		"type": "LAVA"
 	},
 	{
+		"id": "BOGGED",
+		"spawnMessage": "You've hooked a Bogged!",
+		"rarity": "COMMON",
+		"islands": ["GALATEA"]
+	},
+	{
 		"id": "WETWING",
 		"spawnMessage": "Look! A Wetwing emerges!",
 		"rarity": "UNCOMMON",

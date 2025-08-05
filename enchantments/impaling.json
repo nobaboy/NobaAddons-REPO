@@ -2,8 +2,8 @@
 	"type": "standard",
 	"id": "impaling",
 	"name": "Impaling",
-	"good": 3,
-	"max": 3,
+	"good": 5,
+	"max": 5,
 	"items": [
 		"SWORD",
 		"LONGSWORD",

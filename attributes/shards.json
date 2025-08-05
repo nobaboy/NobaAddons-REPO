@@ -540,6 +540,11 @@
 		"bazaarProduct": "SHARD_GECKO"
 	},
 	{
+		"id": "R64",
+		"name": "Hummingbird Shard",
+		"bazaarProduct": "SHARD_HUMMINGBIRD"
+	},
+	{
 		"id": "E1",
 		"name": "Terra Shard",
 		"bazaarProduct": "SHARD_TERRA"
@@ -868,5 +873,10 @@
 		"id": "L44",
 		"name": "Starborn Shard",
 		"bazaarProduct": "SHARD_STARBORN"
+	},
+	{
+		"id": "L47",
+		"name": "Titanoboa Shard",
+		"bazaarProduct": "SHARD_TITANOBOA"
 	}
 ]

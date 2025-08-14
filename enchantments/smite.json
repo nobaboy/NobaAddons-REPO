@@ -8,9 +8,5 @@
 		"SWORD",
 		"LONGSWORD",
 		"GAUNTLET"
-	],
-	"conflicts": [
-		"bane_of_arthropods",
-		"sharpness"
 	]
 }

@@ -4,6 +4,12 @@
 
 	"chat_coordinates": "(?<username>[A-z0-9_]+): [Xx]: (?<x>[0-9.-]+),? [Yy]: (?<y>[0-9.-]+),? [Zz]: (?<z>[0-9.-]+)(?<info>.*)",
 
+	"chat.all": "^(?:\\[\\d+](?: [^\\[\\w])? )?(?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+): (?<message>.+)",
+	"chat.party": "^§9Party §8> §[a-z0-9](?:\\[(?:[A-Z+]|§[a-z0-9])+] )?(?<username>[A-z0-9_]+)§f: (?<message>.+)",
+	"chat.guild": "^§2Guild > §[a-z0-9](?:\\[(?:[A-Z+]|§[a-z0-9])+] )?(?<username>[A-z0-9_]+)(?: §[a-z0-9]\\[\\w+])?§f: (?<message>.+)",
+	"chat.dm": "^From (?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+): (?<message>.+)",
+	"chat.coop": "§bCo-op > §[a-z0-9](?:\\[(?:[A-Z+]|§[a-z0-9])+] )?(?<username>[A-z0-9_]+)§f: (?<message>.+)",
+
 	"chat.channel": "^You are now in the (?<channel>ALL|GUILD|OFFICER|PARTY|SKYBLOCK CO-OP) channel",
 	"chat.conversation_opened": "^Opened a chat conversation with (?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+) for the next 5 minutes\\. Use /chat a to leave",
 

@@ -2,8 +2,8 @@
 	"type": "standard",
 	"id": "piscary",
 	"name": "Piscary",
-	"good": 5,
 	"max": 7,
+	"good": 5,
 	"items": [
 		"FISHING_ROD"
 	]

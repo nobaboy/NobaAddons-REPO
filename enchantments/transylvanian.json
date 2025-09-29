@@ -2,8 +2,8 @@
 	"type": "standard",
 	"id": "transylvanian",
 	"name": "Transylvanian",
-	"good": 4,
 	"max": 5,
+	"good": 4,
 	"items": [
 		"HELMET"
 	]

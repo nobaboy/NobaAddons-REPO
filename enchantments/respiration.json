@@ -2,8 +2,8 @@
 	"type": "standard",
 	"id": "respiration",
 	"name": "Respiration",
-	"good": 3,
 	"max": 4,
+	"good": 3,
 	"items": [
 		"HELMET"
 	]

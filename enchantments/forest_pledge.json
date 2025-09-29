@@ -2,8 +2,8 @@
 	"type": "standard",
 	"id": "forest_pledge",
 	"name": "Forest Pledge",
-	"good": 3,
 	"max": 5,
+	"good": 3,
 	"items": [
 		"HELMET",
 		"CHESTPLATE",

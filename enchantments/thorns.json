@@ -2,8 +2,8 @@
 	"type": "standard",
 	"id": "thorns",
 	"name": "Thorns",
-	"good": 3,
 	"max": 3,
+	"good": 3,
 	"items": [
 		"HELMET",
 		"CHESTPLATE",

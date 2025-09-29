@@ -2,8 +2,9 @@
 	"type": "standard",
 	"id": "dedication",
 	"name": "Dedication",
-	"good": 1,
 	"max": 4,
+	"good": 3,
+	"average": -1,
 	"items": [
 		"HOE",
 		"AXE"

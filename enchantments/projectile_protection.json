@@ -2,8 +2,8 @@
 	"type": "standard",
 	"id": "projectile_protection",
 	"name": "Projectile Protection",
-	"good": 5,
 	"max": 7,
+	"good": 5,
 	"items": [
 		"HELMET",
 		"CHESTPLATE",

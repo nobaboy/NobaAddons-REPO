@@ -2,8 +2,8 @@
 	"type": "standard",
 	"id": "silk_touch",
 	"name": "Silk Touch",
-	"good": 1,
 	"max": 1,
+	"good": 1,
 	"items": [
 		"DRILL",
 		"GAUNTLET",

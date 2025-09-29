@@ -2,8 +2,8 @@
 	"type": "standard",
 	"id": "giant_killer",
 	"name": "Giant Killer",
-	"good": 5,
 	"max": 7,
+	"good": 5,
 	"items": [
 		"SWORD",
 		"LONGSWORD",

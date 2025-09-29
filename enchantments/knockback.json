@@ -2,8 +2,8 @@
 	"type": "standard",
 	"id": "knockback",
 	"name": "Knockback",
-	"good": 2,
 	"max": 2,
+	"good": 2,
 	"items": [
 		"SWORD",
 		"LONGSWORD",

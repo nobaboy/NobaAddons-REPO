@@ -2,8 +2,8 @@
 	"type": "standard",
 	"id": "titan_killer",
 	"name": "Titan Killer",
-	"good": 5,
 	"max": 7,
+	"good": 5,
 	"items": [
 		"SWORD",
 		"LONGSWORD",

@@ -2,8 +2,8 @@
 	"type": "standard",
 	"id": "small_brain",
 	"name": "Small Brain",
-	"good": 3,
 	"max": 5,
+	"good": 3,
 	"items": [
 		"HELMET"
 	],

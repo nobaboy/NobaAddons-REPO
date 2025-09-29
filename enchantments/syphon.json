@@ -2,8 +2,8 @@
 	"type": "standard",
 	"id": "syphon",
 	"name": "Drain",
-	"good": 3,
 	"max": 5,
+	"good": 3,
 	"items": [
 		"SWORD",
 		"LONGSWORD",

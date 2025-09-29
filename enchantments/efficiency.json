@@ -2,8 +2,8 @@
 	"type": "standard",
 	"id": "efficiency",
 	"name": "Efficiency",
-	"good": 5,
 	"max": 10,
+	"good": 5,
 	"items": [
 		"DRILL",
 		"GAUNTLET",

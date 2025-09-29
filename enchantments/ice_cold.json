@@ -2,8 +2,8 @@
 	"type": "standard",
 	"id": "ice_cold",
 	"name": "Ice Cold",
-	"good": 1,
 	"max": 5,
+	"good": 1,
 	"items": [
 		"HELMET",
 		"CHESTPLATE",

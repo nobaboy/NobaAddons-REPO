@@ -2,8 +2,8 @@
 	"type": "standard",
 	"id": "cayenne",
 	"name": "Cayenne",
-	"good": 4,
 	"max": 5,
+	"good": 4,
 	"items": [
 		"NECKLACE",
 		"CLOAK",

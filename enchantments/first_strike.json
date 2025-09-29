@@ -2,8 +2,8 @@
 	"type": "standard",
 	"id": "first_strike",
 	"name": "First Strike",
-	"good": 4,
 	"max": 5,
+	"good": 4,
 	"items": [
 		"SWORD",
 		"LONGSWORD",

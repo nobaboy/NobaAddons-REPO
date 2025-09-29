@@ -16,8 +16,5 @@
 		"SHOVEL",
 		"SHEARS",
 		"WAND"
-	],
-	"exclusiveToItems": [
-		"PRECURSOR_EYE"
 	]
 }

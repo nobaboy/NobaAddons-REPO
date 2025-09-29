@@ -2,8 +2,8 @@
 	"type": "standard",
 	"id": "counter_strike",
 	"name": "Counter-Strike",
-	"good": 3,
 	"max": 5,
+	"good": 3,
 	"items": [
 		"CHESTPLATE"
 	]

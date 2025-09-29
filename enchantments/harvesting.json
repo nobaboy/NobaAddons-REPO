@@ -2,8 +2,8 @@
 	"type": "standard",
 	"id": "harvesting",
 	"name": "Harvesting",
-	"good": 5,
 	"max": 6,
+	"good": 5,
 	"items": [
 		"HOE"
 	]

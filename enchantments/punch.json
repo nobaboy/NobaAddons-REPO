@@ -2,8 +2,8 @@
 	"type": "standard",
 	"id": "punch",
 	"name": "Punch",
-	"good": 2,
 	"max": 2,
+	"good": 2,
 	"items": [
 		"BOW"
 	]

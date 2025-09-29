@@ -1,9 +1,9 @@
 {
-	"latest": "1.0.0-Beta.8",
-	"releaseNotes": "Added chat peek, revert swords to axes, redesigned the config GUI, and many bug fixes",
+	"latest": "1.0.0-Beta.9",
+	"releaseNotes": "Added compatibility for Iris on 1.21.8, redesigned the Legion Display, alongside various bug fixes and backend improvements",
 	"forMinecraft": ["1.21.5", "1.21.6", "1.21.7", "1.21.8"],
-	"downloadUrl": "https://modrinth.com/mod/nobaaddons/version/1.0.0-Beta.8+{version}",
-	"changelogUrl": "https://codeberg.org/nobaboy/NobaAddons/src/branch/main/docs/changelog/1.0.0-Beta.8.md",
+	"downloadUrl": "https://modrinth.com/mod/nobaaddons/version/1.0.0-Beta.9+{version}",
+	"changelogUrl": "https://codeberg.org/nobaboy/NobaAddons/src/branch/main/docs/changelog/1.0.0-Beta.9.md",
 	"minecraftVersionOverrides": {
 		"1.21.6": "1.21.8",
 		"1.21.7": "1.21.8"

@@ -88,25 +88,33 @@
 		"id": "FROG_MAN",
 		"spawnMessage": "Is it a frog? Is it a man? Well, yes, sorta, IT'S FROG MAN!!!!!!",
 		"rarity": "COMMON",
-		"tags": ["hotspot"]
+		"metadata": {
+			"hotspot": true
+		}
 	},
 	{
 		"id": "SNAPPING_TURTLE",
 		"spawnMessage": "A Snapping Turtle is coming your way, and it's ANGRY!",
 		"rarity": "RARE",
-		"tags": ["hotspot"]
+		"metadata": {
+			"hotspot": true
+		}
 	},
 	{
 		"id": "BLUE_RINGED_OCTOPUS",
 		"spawnMessage": "A garish set of tentacles arise. It's a Blue Ringed Octopus!",
 		"rarity": "LEGENDARY",
-		"tags": ["hotspot"]
+		"metadata": {
+			"hotspot": true
+		}
 	},
 	{
 		"id": "WIKI_TIKI",
 		"spawnMessage": "The water bubbles and froths. A massive form emerges- you have disturbed the Wiki Tiki! You shall pay the price.",
 		"rarity": "MYTHIC",
-		"tags": ["hotspot"]
+		"metadata": {
+			"hotspot": true
+		}
 	},
 
 	{
@@ -401,7 +409,9 @@
 		"rarity": "COMMON",
 		"islands": ["CRIMSON_ISLE"],
 		"type": "LAVA",
-		"tags": ["hotspot"]
+		"metadata": {
+			"hotspot": true
+		}
 	},
 	{
 		"id": "FIREPROOF_WITCH",
@@ -409,7 +419,9 @@
 		"rarity": "RARE",
 		"islands": ["CRIMSON_ISLE"],
 		"type": "LAVA",
-		"tags": ["hotspot"]
+		"metadata": {
+			"hotspot": true
+		}
 	},
 	{
 		"id": "FIERY_SCUTTLER",
@@ -417,7 +429,9 @@
 		"rarity": "LEGENDARY",
 		"islands": ["CRIMSON_ISLE"],
 		"type": "LAVA",
-		"tags": ["hotspot"]
+		"metadata": {
+			"hotspot": true
+		}
 	},
 	{
 		"id": "RAGNAROK",
@@ -425,6 +439,8 @@
 		"rarity": "MYTHIC",
 		"islands": ["CRIMSON_ISLE"],
 		"type": "LAVA",
-		"tags": ["hotspot"]
+		"metadata": {
+			"hotspot": true
+		}
 	}
 ]

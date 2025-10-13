@@ -8,5 +8,11 @@
 		"CHESTPLATE",
 		"LEGGINGS",
 		"BOOTS"
-	]
+	],
+	"metadata": {
+		"legion": {
+			"maxPlayers": 10,
+			"perLevel": 0.1
+		}
+	}
 }

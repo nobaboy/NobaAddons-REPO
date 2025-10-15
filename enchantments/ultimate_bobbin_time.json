@@ -11,8 +11,8 @@
 	],
 	"metadata": {
 		"legion": {
-			"maxPlayers": 10,
-			"perLevel": 0.1
+			"maxPlayers": 5,
+			"perLevel": 0.2
 		}
 	}
 }

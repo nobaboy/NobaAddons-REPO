@@ -595,11 +595,6 @@
 		"bazaarProduct": "SHARD_MORAY_EEL"
 	},
 	{
-		"id": "E12",
-		"name": "Thorn Shard",
-		"bazaarProduct": "SHARD_THORN"
-	},
-	{
 		"id": "E13",
 		"name": "Lunar Moth Shard",
 		"bazaarProduct": "SHARD_LUNAR_MOTH"
@@ -878,5 +873,15 @@
 		"id": "L47",
 		"name": "Titanoboa Shard",
 		"bazaarProduct": "SHARD_TITANOBOA"
+	},
+	{
+		"id": "L48",
+		"name": "Thorn Shard",
+		"bazaarProduct": "SHARD_THORN"
+	},
+	{
+		"id": "L51",
+		"name": "Scarf Shard",
+		"bazaarProduct": "SHARD_SCARF"
 	}
 ]

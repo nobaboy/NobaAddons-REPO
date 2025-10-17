@@ -93,7 +93,7 @@
 	"slayer.slay_to_spawn": "^[ ]+» Slay [\\d,]+ Combat XP worth of .+",
 	"slayer.talk_to_maddox": "^[ ]+» Talk to Maddox to claim your [A-z]+ Slayer XP!",
 
-	"slot_info.desk_pest_count": "ൠ This plot has (?<count>\\d+) Pests?!",
+	"slot_info.desk_pest_count": "ൠ This plot has (?<count>\\d+) ൠ Pests?!",
 	"slot_info.tuning_points": "^Stat has: (?<points>\\d+) points?",
 	"slot_info.vacuum_pests": "^Vacuum Bag: (?<amount>[\\d,]+) Pests",
 

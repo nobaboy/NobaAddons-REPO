@@ -144,6 +144,12 @@
 		"name": "Miner Zombie Shard",
 		"bazaarProduct": "SHARD_MINER_ZOMBIE"
 	},
+
+	{
+		"id": "C39",
+		"name": "Cretan Bull Shard",
+		"bazaarProduct": "SHARD_CRETAN_BULL"
+	},
 	{
 		"id": "U1",
 		"name": "Bramble Shard",
@@ -304,6 +310,7 @@
 		"name": "Termite Shard",
 		"bazaarProduct": "SHARD_TERMITE"
 	},
+
 	{
 		"id": "R1",
 		"name": "Sylvan Shard",
@@ -540,10 +547,16 @@
 		"bazaarProduct": "SHARD_GECKO"
 	},
 	{
+		"id": "R63",
+		"name": "Minotaur Shard",
+		"bazaarProduct": "SHARD_MINOTAUR"
+	},
+	{
 		"id": "R64",
 		"name": "Hummingbird Shard",
 		"bazaarProduct": "SHARD_HUMMINGBIRD"
 	},
+
 	{
 		"id": "E1",
 		"name": "Terra Shard",
@@ -704,6 +717,17 @@
 		"name": "Dragonfly Shard",
 		"bazaarProduct": "SHARD_DRAGONFLY"
 	},
+	{
+		"id": "E39",
+		"name": "Sphinx Shard",
+		"bazaarProduct": "SHARD_SPHINX"
+	},
+	{
+		"id": "E42",
+		"name": "King Minos Shard",
+		"bazaarProduct": "SHARD_KING_MINOS"
+	},
+
 	{
 		"id": "L1",
 		"name": "Tenebris Shard",

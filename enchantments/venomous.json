@@ -2,7 +2,7 @@
 	"type": "standard",
 	"id": "venomous",
 	"name": "Venomous",
-	"max": 6,
+	"max": 7,
 	"good": 5,
 	"items": [
 		"SWORD",

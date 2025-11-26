@@ -1,0 +1,26 @@
+{
+	"name": "Sweet Benevolence",
+	"description": [
+		"Earn ",
+		{
+			"text": "+30%",
+			"color": "green"
+		},
+		" more ",
+		{
+			"text": "Candy",
+			"color": "light_purple"
+		},
+		", ",
+		{
+			"text": "Gifts",
+			"color": "red"
+		},
+		" and ",
+		{
+			"text": "Chocolate",
+			"color": "gold"
+		},
+		" from duplicate rabbits during their respective events."
+	]
+}

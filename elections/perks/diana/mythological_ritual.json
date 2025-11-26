@@ -1,0 +1,12 @@
+{
+	"name": "Mythological Ritual",
+	"description": [
+		"Mayor Diana will sell the ",
+		{"text": "Griffin Pet", "color": "white"},
+		", which lets you find ",
+		{"text": "Mythological Creatures", "color": "dark_green"},
+		" and tons of ",
+		{"text": "unique items", "color": "yellow"},
+		"."
+	]
+}

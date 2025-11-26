@@ -1,0 +1,4 @@
+{
+	"name": "Slayer XP Buff",
+	"description": ["Earn ", {"text": "25%", "color": "light_purple"}, " more Slayer XP."]
+}

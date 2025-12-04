@@ -1,0 +1,5 @@
+{
+	"name": "Scorpius",
+	"perks": ["scorpius/bribe", "scorpius/darker_auctions"],
+	"special": true
+}

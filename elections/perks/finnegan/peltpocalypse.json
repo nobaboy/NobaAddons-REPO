@@ -1,0 +1,16 @@
+{
+	"name": "Pelt-pocalypse",
+	"description": [
+		"Obtain ",
+		{"text": "1.5x", "color": "green"},
+		" more ",
+		{"text": "Pelts", "color": "dark_purple"},
+		" from ",
+		{"text": "Trevor", "color": "green"},
+		" in the ",
+		{"text": "⏣", "color": "dark_gray"},
+		" ",
+		{"text": "Mushroom Desert", "color": "yellow"},
+		", hunt a new Trapper Mob, and purchase items from a new Trapper Shop."
+	]
+}

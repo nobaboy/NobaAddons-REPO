@@ -1,0 +1,4 @@
+{
+	"name": "Shopping Spree",
+	"description": ["Increase daily NPC limits by ", {"text": "10x", "color": "yellow"}, "."]
+}

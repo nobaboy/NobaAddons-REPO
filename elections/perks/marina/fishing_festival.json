@@ -1,0 +1,10 @@
+{
+	"name": "Fishing Festival",
+	"description": [
+		"Start a special fishing event during the first ",
+		{"text": "3", "color": "aqua"},
+		" days of each month! Fish and fight dangerous ",
+		{"text": "sharks", "color": "aqua"},
+		" and earn unique Shark loot."
+	]
+}

@@ -1,0 +1,4 @@
+{
+	"name": "Work Harder",
+	"description": ["Monsters deal ", {"text": "10%", "color": "red"}, " more damage and have ", {"text": "10%", "color": "red"}, " more HP."]
+}

@@ -1,0 +1,27 @@
+{
+	"name": "Extra Event",
+	"description": "Schedules an extra event during the year.",
+	"variants": [
+		{
+			"name": "Extra Event (Mining Fiesta)",
+			"description": ["Schedules an extra ", {"text": "Mining Fiesta", "color": "gold"}, " during the year."],
+			"when": {
+				"description": {"contains": "§6Mining Fiesta"}
+			}
+		},
+		{
+			"name": "Extra Event (Fishing Festival)",
+			"description": ["Schedules an extra ", {"text": "Fishing Festival", "color": "aqua"}, " during the year."],
+			"when": {
+				"description": {"contains": "§bFishing Festival"}
+			}
+		},
+		{
+			"name": "Extra Event (Spooky Festival)",
+			"description": ["Schedules an extra ", {"text": "Spooky Festival", "color": "gold"}, " during the year."],
+			"when": {
+				"description": {"contains": "§6Spooky Festival"}
+			}
+		}
+	]
+}

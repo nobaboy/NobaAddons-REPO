@@ -1,0 +1,4 @@
+{
+	"name": "Statspocalypse",
+	"description": ["Increases most stats by ", {"text": "10%", "color": "green"}, "."]
+}

@@ -1,0 +1,5 @@
+{
+	"name": "Derpy",
+	"perks": ["derpy/quad_taxes", "derpy/turbo_minions", "derpy/double_mob_hp", "derpy/moar_skillz"],
+	"special": true
+}

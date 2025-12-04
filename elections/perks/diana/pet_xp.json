@@ -1,0 +1,4 @@
+{
+	"name": "Pet XP Buff",
+	"description": ["Gain ", {"text": "35%", "color": "light_purple"}, " more pet XP."]
+}

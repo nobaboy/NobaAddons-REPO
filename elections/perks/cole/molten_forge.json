@@ -1,0 +1,10 @@
+{
+	"name": "Molten Forge",
+	"description": [
+		"Decreases the time it takes to ",
+		{"text": "forge", "color": "gold"},
+		" items by ",
+		{"text": "25%", "color": "green"},
+		"."
+	]
+}

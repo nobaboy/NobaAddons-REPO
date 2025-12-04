@@ -1,0 +1,10 @@
+{
+	"name": "Volume Trading",
+	"description": [
+		"The available item quantity per ",
+		{"text": "Shen's Auction", "color": "gold"},
+		" has been doubled, and two additional ",
+		{"text": "Shen's Special", "color": "gold"},
+		" auctions will be available if Diaz is Mayor."
+	]
+}

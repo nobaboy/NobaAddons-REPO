@@ -1,0 +1,14 @@
+{
+	"name": "Sharing is Caring",
+	"description": [
+		"Unlocks ",
+		{"text": "2", "color": "green"},
+		" more ",
+		{"text": "Exp Share", "color": "gold"},
+		" slots in your pets menu and increases the ",
+		{"text": "Exp Share", "color": "gold"},
+		" rate by ",
+		{"text": "+10%", "color": "green"},
+		"!"
+	]
+}

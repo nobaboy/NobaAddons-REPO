@@ -1,0 +1,12 @@
+{
+	"name": "Pest Eradicator",
+	"description": [
+		"The duration of Pesthunter Phillip's ",
+		{"text": "☘ Farming Fortune", "color": "gold"},
+		" bonus is now ",
+		{"text": "60", "color": "green"},
+		" minutes. Pests are now ",
+		{"text": "4x", "color": "green"},
+		" more likely to spawn in sprayed plots."
+	]
+}

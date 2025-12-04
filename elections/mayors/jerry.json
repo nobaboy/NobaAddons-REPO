@@ -1,0 +1,5 @@
+{
+	"name": "Jerry",
+	"perks": ["jerry/jerrypocalypse", "jerry/perkpocalypse", "jerry/statspocalypse"],
+	"special": true
+}

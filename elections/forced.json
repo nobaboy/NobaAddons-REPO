@@ -1,0 +1,6 @@
+[
+	{
+		"perks": ["diana/mythological_ritual", "paul/ezpz"],
+		"env": "PRODUCTION"
+	}
+]

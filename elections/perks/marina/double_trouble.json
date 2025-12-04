@@ -1,0 +1,10 @@
+{
+	"name": "Double Trouble",
+	"description": [
+		"For every ",
+		{"text": "1α Sea Creature Chance", "color": "dark_aqua"},
+		", gain ",
+		{"text": "+0.1⚓ Double Hook Chance", "color": "blue"},
+		"."
+	]
+}

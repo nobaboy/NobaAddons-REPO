@@ -1,0 +1,14 @@
+{
+	"name": "Stock Exchange",
+	"description": [
+		"Participate in the ",
+		{"text": "Stonks Auction", "color": "light_purple"},
+		" for a chance to win Stock of Stonks! Trade them for ",
+		{"text": "extravagant items", "color": "gold"},
+		" at the ",
+		{"text": "⏣", "color": "dark_gray"},
+		" ",
+		{"text": "Trade Center", "color": "aqua"},
+		"."
+	]
+}

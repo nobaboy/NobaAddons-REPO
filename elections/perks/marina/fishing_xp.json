@@ -1,0 +1,8 @@
+{
+	"name": "Fishing XP Buff",
+	"description": [
+		"Earn ",
+		{"text": "+50☯ Fishing Wisdom", "color": "dark_aqua"},
+		" on public islands."
+	]
+}

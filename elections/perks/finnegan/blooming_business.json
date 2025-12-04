@@ -1,0 +1,16 @@
+{
+	"name": "Blooming Business",
+	"description": [
+		"All Garden Visitors reward ",
+		{"text": "Fine Flour", "color": "green"},
+		" and ",
+		{"text": "+10% Copper", "color": "red"},
+		" for accepting offers. Invites ",
+		{"text": "5", "color": "green"},
+		" unique visitors to your ",
+		{"text": "Garden", "color": "green"},
+		" and makes higher rarity visitors ",
+		{"text": "20%", "color": "green"},
+		"more likely to show up."
+	]
+}

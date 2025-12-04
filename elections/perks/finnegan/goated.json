@@ -1,0 +1,9 @@
+{
+	"name": "GOATed",
+	"description": [
+		{"text": "Jacob's Farming Contest", "color": "yellow"},
+		" brackets include up to ",
+		{"text": "10%", "color": "green"},
+		" more players each."
+	]
+}

@@ -1,0 +1,5 @@
+{
+	"name": "Aura",
+	"perks": ["aura/fundraising", "aura/minion_union", "aura/universal_income", "aura/work_better", "aura/work_harder", "aura/work_smarter"],
+	"special": true
+}

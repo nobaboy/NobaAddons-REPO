@@ -1,0 +1,10 @@
+{
+	"name": "Universal Income",
+	"description": [
+		"Every hour, ",
+		{"text": "100%", "color": "green"},
+		" of the ",
+		{"text": "Coins", "color": "gold"},
+		" gained from Fundraising are redistributed equally."
+	]
+}

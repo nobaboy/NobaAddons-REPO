@@ -1,0 +1,4 @@
+{
+	"name": "Minion Union",
+	"description": ["Minions work ", {"text": "+50%", "color": "green"}, " slower."]
+}

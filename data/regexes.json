@@ -2,9 +2,9 @@
 	"attribute_menu.shard_name": "^Source: (?<name>.+?) Shard \\((?<id>[CUREL]\\d+)\\)",
 	"attribute_menu.syphon_to_level": "^Syphon (?<remaining>\\d+) (?:more to level up|shard to unlock)!",
 
-	"chat_coordinates": "(?<username>[A-z0-9_]+): [Xx]: (?<x>[0-9.-]+),? [Yy]: (?<y>[0-9.-]+),? [Zz]: (?<z>[0-9.-]+)(?<info>.*)",
+	"contained_chat_coordinates": "^(?i)x: (?<x>[0-9.-]+),? y: (?<y>[0-9.-]+),? z: (?<z>[0-9.-]+)(?<info>.*)",
 
-	"chat.all": "^(?:\\[\\d+](?: [^\\[\\w])? )?(?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+): (?<message>.+)",
+	"chat.all": "^(?:\\[\\d+](?: [^\\[\\w])? )?(?:§[a-z0-9])?(?:\\[(?:[A-Z+]|§[a-z0-9])+] )?(?<username>[A-z0-9_]+)(?:§.)?: (?<message>.+)",
 	"chat.party": "^§9Party §8> §[a-z0-9](?:\\[(?:[A-Z+]|§[a-z0-9])+] )?(?<username>[A-z0-9_]+)§f: (?<message>.+)",
 	"chat.guild": "^§2Guild > §[a-z0-9](?:\\[(?:[A-Z+]|§[a-z0-9])+] )?(?<username>[A-z0-9_]+)(?: §[a-z0-9]\\[\\w+])?§f: (?<message>.+)",
 	"chat.dm": "^From (?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+): (?<message>.+)",

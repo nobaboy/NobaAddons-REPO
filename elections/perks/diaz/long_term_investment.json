@@ -1,4 +1,12 @@
 {
 	"name": "Long Term Investment",
-	"description": "The elected Minister will appear in the next Election with all of their available perks."
+	"description": [
+		"The ",
+		{"text": "elected minister", "color": "aqua"},
+		" will appear as a candidate with ",
+		{"text": "all", "color": "light_purple"},
+		" of their perks in the ",
+		{"text": "next election cycle", "color": "green"},
+		"."
+	]
 }

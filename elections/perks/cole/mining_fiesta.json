@@ -1,18 +1,16 @@
 {
 	"name": "Mining Fiesta",
 	"description": [
-		"Schedules ",
-		{"text": "5", "color": "green"},
-		" ",
+		"Schedules 5 ",
 		{"text": "Mining Fiesta", "color": "gold"},
-		" events that last for ",
-		{"text": "7", "color": "green"},
-		" SkyBlock Days each. Earn ",
-		{"text": "2x", "color": "light_purple"},
-		" drops and extra ",
-		{"text": "unique loot", "color": "yellow"},
-		", including Refined Minterals and Glossy Gemstones. Grants ",
+		" throughout the year! During these events gain ",
 		{"text": "+75☯ Mining Wisdom", "color": "dark_aqua"},
-		" during the event which is only active on Public Islands."
+		", collect ",
+		{"text": "Refined Mineral", "color": "blue"},
+		" and ",
+		{"text": "Glossy Gemstone", "color": "dark_purple"},
+		", and earn ",
+		{"text": "2x drops", "color": "light_purple"},
+		" from mining!"
 	]
 }

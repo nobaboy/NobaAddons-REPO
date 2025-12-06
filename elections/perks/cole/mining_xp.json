@@ -1,7 +1,7 @@
 {
 	"name": "Mining XP Buff",
 	"description": [
-		"Earn ",
+		"Get ",
 		{"text": "+60☯ Mining Wisdom", "color": "dark_aqua"},
 		" on public islands."
 	]

@@ -1,4 +1,14 @@
 {
 	"name": "A Time for Giving",
-	"description": "Party Chests and Party Gifts can be obtained while this event is active."
+	"description": [
+		"Spawn ",
+		{"text": "Party Chests", "color": "light_purple"},
+		" by killing mobs during the ",
+		{"text": "Spooky Festival", "color": "gold"},
+		" and collect ",
+		{"text": "Party Gifts", "color": "aqua"},
+		" from ",
+		{"text": "Jerry's Workshop", "color": "red"},
+		"."
+	]
 }

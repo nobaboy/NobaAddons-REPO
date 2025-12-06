@@ -1,6 +1,15 @@
 [
 	{
-		"perks": ["diana/mythological_ritual", "paul/ezpz"],
+		"perks": [
+			"aura/fundraising",
+			"aura/minion_union",
+			"aura/universal_income",
+			"aura/work_better",
+			"aura/work_harder",
+			"aura/work_smarter",
+			"diana/mythological_ritual",
+			"paul/ezpz"
+		],
 		"env": "PRODUCTION"
 	}
 ]

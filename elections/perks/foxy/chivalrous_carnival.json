@@ -1,4 +1,10 @@
 {
 	"name": "Chivalrous Carnival",
-	"description": "Schedules a Carnival in the Hub that is active throughout the entire year."
+	"description": [
+		"Schedules a ",
+		{"text": "Carnival", "color": "yellow"},
+		" in the hub, active throughout the ",
+		{"text": "entire year", "color": "aqua"},
+		"."
+	]
 }

@@ -1,6 +1,6 @@
 {
 	"name": "Extra Event",
-	"description": "Schedules an extra event during the year.",
+	"description": ["Schedules an extra ", {"text": "(unknown event!)", "color": "dark_gray"}, " event during the year."],
 	"variants": [
 		{
 			"name": "Extra Event (Mining Fiesta)",

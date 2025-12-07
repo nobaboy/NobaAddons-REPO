@@ -8,7 +8,13 @@
 			"aura/work_harder",
 			"aura/work_smarter",
 			"diana/mythological_ritual",
-			"paul/ezpz"
+			"paul/ezpz",
+			"paul/marauder",
+			"foxy/chivalrous_carnival",
+			"jerry/perkpocalypse",
+			"diaz/stock_exchange",
+			"cole/mining_fiesta",
+			"aatrox/slayer_xp"
 		],
 		"env": "PRODUCTION"
 	}

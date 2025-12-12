@@ -7,14 +7,13 @@
 			"aura/work_better",
 			"aura/work_harder",
 			"aura/work_smarter",
+			"jerry/statspocalypse",
 			"diana/mythological_ritual",
+			"diana/sharing_is_caring",
 			"paul/ezpz",
-			"paul/marauder",
-			"foxy/chivalrous_carnival",
+			"finnegan/blooming_business",
 			"jerry/perkpocalypse",
-			"diaz/stock_exchange",
-			"cole/mining_fiesta",
-			"aatrox/slayer_xp"
+			"diana/huntress_intuition"
 		],
 		"env": "PRODUCTION"
 	}

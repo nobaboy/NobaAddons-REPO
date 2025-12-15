@@ -1,0 +1,11 @@
+{
+	"type": "standard",
+	"id": "turbo_sunflower",
+	"name": "Turbo-Sunflower",
+	"max": 5,
+	"good": 1,
+	"items": [
+		"HOE"
+	],
+	"abbreviation": "Sun."
+}

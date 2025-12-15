@@ -1,0 +1,10 @@
+{
+	"type": "ultimate",
+	"id": "ultimate_crop_fever",
+	"name": "Crop Fever",
+	"max": 5,
+	"items": [
+		"AXE",
+		"HOE"
+	]
+}

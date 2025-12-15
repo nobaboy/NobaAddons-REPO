@@ -1,0 +1,11 @@
+{
+	"type": "standard",
+	"id": "turbo_rose",
+	"name": "Turbo-Rose",
+	"max": 5,
+	"good": 1,
+	"items": [
+		"HOE"
+	],
+	"abbreviation": "Ros."
+}

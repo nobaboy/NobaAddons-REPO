@@ -7,15 +7,7 @@
 			"aura/work_better",
 			"aura/work_harder",
 			"aura/work_smarter",
-			"finnegan/peltpocalypse",
-			"aatrox/pathfinder",
-			"jerry/statspocalypse",
-			"diana/mythological_ritual",
-			"diana/sharing_is_caring",
-			"paul/ezpz",
-			"finnegan/blooming_business",
-			"jerry/perkpocalypse",
-			"diana/huntress_intuition"
+			"diana/mythological_ritual"
 		],
 		"env": "PRODUCTION"
 	}

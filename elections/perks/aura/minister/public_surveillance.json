@@ -1,0 +1,12 @@
+{
+	"name": "Public Surveillance",
+	"description": [
+		"Check in at any of the ",
+		{"text": "Surveillance Goons", "color": "white"},
+		" on the map every ",
+		{"text": "30 minutes", "color": "yellow"},
+		" or suffer a ",
+		{"text": "10% stat debuff", "color": "red"},
+		"."
+	]
+}

@@ -1,9 +1,9 @@
 {
-	"latest": "1.0.0-Beta.10.1",
-	"releaseNotes": "Added support for 1.21.10, fire overlay tweaks, and many fixes",
-	"forMinecraft": ["1.21.5", "1.21.6", "1.21.7", "1.21.8", "1.21.10"],
-	"downloadUrl": "https://modrinth.com/mod/nobaaddons/version/1.0.0-Beta.10.1+{version}",
-	"changelogUrl": "https://codeberg.org/nobaboy/NobaAddons/releases/tag/1.0.0-Beta.10.1",
+	"latest": "1.0.0-Beta.11",
+	"releaseNotes": "Added support for 1.21.11, Aura minister perks, and more; §c§lread the changelog before updating!",
+	"forMinecraft": ["1.21.5", "1.21.6", "1.21.7", "1.21.8", "1.21.10", "1.21.11"],
+	"downloadUrl": "https://modrinth.com/mod/nobaaddons/version/1.0.0-Beta.11+{version}",
+	"changelogUrl": "https://codeberg.org/nobaboy/NobaAddons/releases/tag/1.0.0-Beta.11",
 	"minecraftVersionOverrides": {
 		"1.21.6": "1.21.8",
 		"1.21.7": "1.21.8"

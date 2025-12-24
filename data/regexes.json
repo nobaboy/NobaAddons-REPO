@@ -65,7 +65,7 @@
 	"party.transfer": "^The party was transferred to (?:\\[[A-Z+]+] )?(?<newLeader>[A-z0-9_]+) by (?:\\[[A-Z+]+] )?(?<formerLeader>[A-z0-9_]+)",
 	"party.transfer_leave": "^The party was transferred to (?:\\[[A-Z+]+] )?(?<newLeader>[A-z0-9_]+) because (?:\\[[A-Z+]+] )?(?<formerLeader>[A-z0-9_]+) left",
 
-	"pets.autopet": "^§cAutopet §eequipped your §7\\[Lvl (?<level>\\d+)] (?:§.\\[.*] )?§(?<rarity>.)(?<name>[A-z ]+)(?:§. ✦)?§e! §a§lVIEW RULE",
+	"pets.autopet": "^§cAutopet §eequipped your §7\\[Lvl (?<level>\\d+)] (?:§.\\[.*] )?§(?<rarity>.)(?<name>[A-z- ]+)(?:§. ✦)?§e! §a§lVIEW RULE",
 	"pets.despawn": "^You despawned your (?<name>[A-z ]+)(?: ✦)?!",
 	"pets.menu_title": "^Pets(?: \\(\\d+/\\d+\\) )?",
 	"pets.name": "^(?<favorite>⭐ )?\\[Lvl (?<level>\\d+)] (?:\\[\\d+✦] )?(?<name>[A-z- ]+)(?: ✦|$)",

@@ -26,6 +26,7 @@
 	],
 	"overrideMaxLevels": {
 		"GOLDEN_DRAGON": 200,
-		"JADE_DRAGON": 200
+		"JADE_DRAGON": 200,
+		"ROSE_DRAGON": 200
 	}
 }

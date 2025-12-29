@@ -6,7 +6,8 @@
 			"aura/universal_income",
 			"aura/work_better",
 			"aura/work_harder",
-			"aura/work_smarter"
+			"aura/work_smarter",
+			"derpy/quad_taxes"
 		],
 		"env": "PRODUCTION"
 	}

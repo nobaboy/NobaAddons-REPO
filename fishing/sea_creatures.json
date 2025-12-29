@@ -75,13 +75,13 @@
 		"id": "OASIS_SHEEP",
 		"spawnMessage": "An Oasis Sheep appears from the water.",
 		"rarity": "UNCOMMON",
-		"islands": ["FARMING_ISLANDS"]
+		"islands": ["farming_islands"]
 	},
 	{
 		"id": "OASIS_RABBIT",
 		"spawnMessage": "An Oasis Rabbit appears from the water.",
 		"rarity": "UNCOMMON",
-		"islands": ["FARMING_ISLANDS"]
+		"islands": ["farming_islands"]
 	},
 
 	{
@@ -121,112 +121,112 @@
 		"id": "TRASH_GOBBLER",
 		"spawnMessage": "The Trash Gobbler is hungry for you!",
 		"rarity": "COMMON",
-		"islands": ["BACKWATER_BAYOU"]
+		"islands": ["backwater_bayou"]
 	},
 	{
 		"id": "DUMPSTER_DIVER",
 		"spawnMessage": "A Dumpster Diver has emerged from the swamp!",
 		"rarity": "UNCOMMON",
-		"islands": ["BACKWATER_BAYOU"]
+		"islands": ["backwater_bayou"]
 	},
 	{
 		"id": "BANSHEE",
 		"spawnMessage": "The desolate wail of a Banshee breaks the silence.",
 		"rarity": "RARE",
-		"islands": ["BACKWATER_BAYOU"]
+		"islands": ["backwater_bayou"]
 	},
 	{
 		"id": "BAYOU_SLUDGE",
 		"spawnMessage": "A swampy mass of slime emerges, the Bayou Sludge!",
 		"rarity": "EPIC",
-		"islands": ["BACKWATER_BAYOU"]
+		"islands": ["backwater_bayou"]
 	},
 	{
 		"id": "ALLIGATOR",
 		"spawnMessage": "A long snout breaks the surface of the water. It's an Alligator!",
 		"rarity": "LEGENDARY",
-		"islands": ["BACKWATER_BAYOU"]
+		"islands": ["backwater_bayou"]
 	},
 	{
 		"id": "TITANOBOA",
 		"spawnMessage": "A massive Titanoboa surfaces. Its body stretches as far as the eye can see.",
 		"rarity": "MYTHIC",
-		"islands": ["BACKWATER_BAYOU"]
+		"islands": ["backwater_bayou"]
 	},
 
 	{
 		"id": "FROZEN_STEVE",
 		"spawnMessage": "Frozen Steve fell into the pond long ago, never to resurface...until now!",
 		"rarity": "COMMON",
-		"islands": ["JERRYS_WORKSHOP"]
+		"islands": ["jerrys_workshop"]
 	},
 	{
 		"id": "FROSTY",
 		"spawnMessage": "It's a snowman! He looks harmless.",
 		"rarity": "COMMON",
-		"islands": ["JERRYS_WORKSHOP"]
+		"islands": ["jerrys_workshop"]
 	},
 	{
 		"id": "GRINCH",
 		"spawnMessage": "The Grinch stole Jerry's Gifts...get them back!",
 		"rarity": "UNCOMMON",
-		"islands": ["JERRYS_WORKSHOP"]
+		"islands": ["jerrys_workshop"]
 	},
 	{
 		"id": "NUTCRACKER",
 		"spawnMessage": "You found a forgotten Nutcracker laying beneath the ice.",
 		"rarity": "RARE",
-		"islands": ["JERRYS_WORKSHOP"]
+		"islands": ["jerrys_workshop"]
 	},
 	{
 		"id": "YETI",
 		"spawnMessage": "What is this creature!?",
 		"rarity": "LEGENDARY",
-		"islands": ["JERRYS_WORKSHOP"]
+		"islands": ["jerrys_workshop"]
 	},
 	{
 		"id": "REINDRAKE",
 		"spawnMessage": "A Reindrake forms from the depths.",
 		"rarity": "MYTHIC",
-		"islands": ["JERRYS_WORKSHOP"]
+		"islands": ["jerrys_workshop"]
 	},
 
 	{
 		"id": "STRIDERSURFER",
 		"spawnMessage": "You caught a Stridersurfer.",
 		"rarity": "RARE",
-		"islands": ["GALATEA"],
+		"islands": ["galatea"],
 		"type": "LAVA"
 	},
 	{
 		"id": "BOGGED",
 		"spawnMessage": "You've hooked a Bogged!",
 		"rarity": "COMMON",
-		"islands": ["GALATEA"]
+		"islands": ["galatea"]
 	},
 	{
 		"id": "WETWING",
 		"spawnMessage": "Look! A Wetwing emerges!",
 		"rarity": "UNCOMMON",
-		"islands": ["GALATEA"]
+		"islands": ["galatea"]
 	},
 	{
 		"id": "TADGANG",
 		"spawnMessage": "A gang of Liltads!",
 		"rarity": "RARE",
-		"islands": ["GALATEA"]
+		"islands": ["galatea"]
 	},
 	{
 		"id": "ENT",
 		"spawnMessage": "You've hooked an Ent, as ancient as the forest itself.",
 		"rarity": "EPIC",
-		"islands": ["GALATEA"]
+		"islands": ["galatea"]
 	},
 	{
 		"id": "THE_LOCH_EMPEROR",
 		"spawnMessage": "The Loch Emperor arises from the depths.",
 		"rarity": "LEGENDARY",
-		"islands": ["GALATEA"]
+		"islands": ["galatea"]
 	},
 
 	{
@@ -278,10 +278,10 @@
 
 	{
 		"id": "MITHRIL_GRUBBER",
-		"spawnMessage": "A leech of the mines surfaces... you've caught a (?:Medium|Large|Bloated)? ?Mithril Grubber.",
+		"spawnMessage": "A leech of the mines surfaces... you've caught a (?:(?:Medium|Large|Bloated) )?Mithril Grubber.",
 		"spawnMessageRegex": true,
 		"rarity": "UNCOMMON",
-		"islands": ["DWARVEN_MINES"],
+		"islands": ["dwarven_mines"],
 		"zones": ["Abandoned Quarry"]
 	},
 
@@ -289,21 +289,21 @@
 		"id": "WATER_WORM",
 		"spawnMessage": "A Water Worm surfaces!",
 		"rarity": "RARE",
-		"islands": ["CRYSTAL_HOLLOWS"],
+		"islands": ["crystal_hollows"],
 		"zones": ["Goblin Holdout"]
 	},
 	{
 		"id": "POISONED_WATER_WORM",
 		"spawnMessage": "A Poisoned Water Worm surfaces!",
 		"rarity": "RARE",
-		"islands": ["CRYSTAL_HOLLOWS"],
+		"islands": ["crystal_hollows"],
 		"zones": ["Goblin Holdout"]
 	},
 	{
 		"id": "ABYSSAL_MINER",
 		"spawnMessage": "An Abyssal Miner breaks out of the water!",
 		"rarity": "LEGENDARY",
-		"islands": ["CRYSTAL_HOLLOWS"],
+		"islands": ["crystal_hollows"],
 		"zones": ["Mithril Deposits", "Precursor Remnants", "Jungle"]
 	},
 
@@ -311,7 +311,7 @@
 		"id": "FLAMING_WORM",
 		"spawnMessage": "A Flaming Worm surfaces from the depths!",
 		"rarity": "RARE",
-		"islands": ["CRYSTAL_HOLLOWS"],
+		"islands": ["crystal_hollows"],
 		"type": "LAVA",
 		"zones": ["Precursor Remnants"]
 	},
@@ -319,7 +319,7 @@
 		"id": "LAVA_BLAZE",
 		"spawnMessage": "A Lava Blaze has surfaced from the depths!",
 		"rarity": "EPIC",
-		"islands": ["CRYSTAL_HOLLOWS"],
+		"islands": ["crystal_hollows"],
 		"type": "LAVA",
 		"zones": ["Magma Fields"]
 	},
@@ -327,7 +327,7 @@
 		"id": "LAVA_PIGMAN",
 		"spawnMessage": "A Lava Pigman arose from the depths!",
 		"rarity": "EPIC",
-		"islands": ["CRYSTAL_HOLLOWS"],
+		"islands": ["crystal_hollows"],
 		"type": "LAVA",
 		"zones": ["Magma Fields"]
 	},
@@ -336,70 +336,70 @@
 		"id": "MAGMA_SLUG",
 		"spawnMessage": "From beneath the lava appears a Magma Slug.",
 		"rarity": "UNCOMMON",
-		"islands": ["CRIMSON_ISLE"],
+		"islands": ["crimson_isle"],
 		"type": "LAVA"
 	},
 	{
 		"id": "MOOGMA",
 		"spawnMessage": "You hear a faint Moo from the lava... A Moogma appears.",
 		"rarity": "UNCOMMON",
-		"islands": ["CRIMSON_ISLE"],
+		"islands": ["crimson_isle"],
 		"type": "LAVA"
 	},
 	{
 		"id": "LAVA_LEECH",
 		"spawnMessage": "A small but fearsome Lava Leech emerges.",
 		"rarity": "RARE",
-		"islands": ["CRIMSON_ISLE"],
+		"islands": ["crimson_isle"],
 		"type": "LAVA"
 	},
 	{
 		"id": "PYROCLASTIC_WORM",
 		"spawnMessage": "You feel the heat radiating as a Pyroclastic Worm surfaces.",
 		"rarity": "RARE",
-		"islands": ["CRIMSON_ISLE"],
+		"islands": ["crimson_isle"],
 		"type": "LAVA"
 	},
 	{
 		"id": "LAVA_FLAME",
 		"spawnMessage": "A Lava Flame flies out from beneath the lava.",
 		"rarity": "RARE",
-		"islands": ["CRIMSON_ISLE"],
+		"islands": ["crimson_isle"],
 		"type": "LAVA"
 	},
 	{
 		"id": "FIRE_EEL",
 		"spawnMessage": "A Fire Eel slithers out from the depths.",
 		"rarity": "RARE",
-		"islands": ["CRIMSON_ISLE"],
+		"islands": ["crimson_isle"],
 		"type": "LAVA"
 	},
 	{
 		"id": "TAURUS",
 		"spawnMessage": "Taurus and his steed emerge.",
 		"rarity": "EPIC",
-		"islands": ["CRIMSON_ISLE"],
+		"islands": ["crimson_isle"],
 		"type": "LAVA"
 	},
 	{
 		"id": "PLHLEGBLAST",
 		"spawnMessage": "WOAH! A Plhlegblast appeared.",
 		"rarity": "MYTHIC",
-		"islands": ["CRIMSON_ISLE"],
+		"islands": ["crimson_isle"],
 		"type": "LAVA"
 	},
 	{
 		"id": "THUNDER",
 		"spawnMessage": "You hear a massive rumble as Thunder emerges.",
 		"rarity": "MYTHIC",
-		"islands": ["CRIMSON_ISLE"],
+		"islands": ["crimson_isle"],
 		"type": "LAVA"
 	},
 	{
 		"id": "LORD_JAWBUS",
 		"spawnMessage": "You have angered a legendary creature... Lord Jawbus has arrived.",
 		"rarity": "MYTHIC",
-		"islands": ["CRIMSON_ISLE"],
+		"islands": ["crimson_isle"],
 		"type": "LAVA"
 	},
 
@@ -407,7 +407,7 @@
 		"id": "FRIED_CHICKEN",
 		"spawnMessage": "Smells of burning. Must be a Fried Chicken.",
 		"rarity": "COMMON",
-		"islands": ["CRIMSON_ISLE"],
+		"islands": ["crimson_isle"],
 		"type": "LAVA",
 		"metadata": {
 			"hotspot": true
@@ -417,7 +417,7 @@
 		"id": "FIREPROOF_WITCH",
 		"spawnMessage": "Trouble's brewing, it's a Fireproof Witch!",
 		"rarity": "RARE",
-		"islands": ["CRIMSON_ISLE"],
+		"islands": ["crimson_isle"],
 		"type": "LAVA",
 		"metadata": {
 			"hotspot": true
@@ -427,7 +427,7 @@
 		"id": "FIERY_SCUTTLER",
 		"spawnMessage": "A Fiery Scuttler inconspicuously waddles up to you, friends in tow.",
 		"rarity": "LEGENDARY",
-		"islands": ["CRIMSON_ISLE"],
+		"islands": ["crimson_isle"],
 		"type": "LAVA",
 		"metadata": {
 			"hotspot": true
@@ -437,7 +437,7 @@
 		"id": "RAGNAROK",
 		"spawnMessage": "The sky darkens and the air thickens. The end times are upon us: Ragnarok is here.",
 		"rarity": "MYTHIC",
-		"islands": ["CRIMSON_ISLE"],
+		"islands": ["crimson_isle"],
 		"type": "LAVA",
 		"metadata": {
 			"hotspot": true

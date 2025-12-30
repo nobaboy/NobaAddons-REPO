@@ -7,5 +7,8 @@
 	"items": [
 		"HOE"
 	],
-	"abbreviation": "War."
+	"abbreviation": "War.",
+	"metadata": {
+		"abbreviation": "War."
+	}
 }

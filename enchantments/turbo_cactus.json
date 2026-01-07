@@ -8,5 +8,8 @@
 		"HOE",
 		"AXE"
 	],
-	"abbreviation": "Cac."
+	"abbreviation": "Cac.",
+	"metadata": {
+		"abbreviation": "Cac."
+	}
 }

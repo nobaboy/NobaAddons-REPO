@@ -7,5 +7,8 @@
 	"items": [
 		"AXE"
 	],
-	"abbreviation": "Coc."
+	"abbreviation": "Coc.",
+	"metadata": {
+		"abbreviation": "Coc."
+	}
 }

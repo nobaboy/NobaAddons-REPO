@@ -3,7 +3,7 @@
 	"id": "green_thumb",
 	"name": "Green Thumb",
 	"max": 5,
-	"good": 1,
+	"good": -1,
 	"items": [
 		"NECKLACE",
 		"CLOAK",

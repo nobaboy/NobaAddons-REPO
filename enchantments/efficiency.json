@@ -15,6 +15,11 @@
 	],
 	"overrides": [
 		{
+			"when": {"type": "item", "id": "STONK"},
+			"max": 6,
+			"good": 5
+		},
+		{
 			"when": {
 				"type": "any",
 				"conditions": [

@@ -1,4 +1,7 @@
 {
 	"displayName": "Dungeon",
-	"apiName": "dungeon"
+	"apiName": "dungeon",
+	"metadata": {
+		"modernEtherwarp": true
+	}
 }

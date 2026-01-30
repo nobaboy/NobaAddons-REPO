@@ -2,6 +2,7 @@
 	"displayName": "Gold Mine",
 	"apiName": "mining_1",
 	"metadata": {
+		"modernEtherwarp": true,
 		"eggs": [
 			[-15, 104, -313],
 			[-19, 25, -305],

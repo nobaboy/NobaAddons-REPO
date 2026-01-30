@@ -2,6 +2,7 @@
 	"displayName": "Hub",
 	"apiName": "hub",
 	"metadata": {
+		"modernEtherwarp": true,
 		"eggs": [
 			[161, 71, 157],
 			[125, 74, 168],

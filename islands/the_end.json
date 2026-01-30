@@ -2,6 +2,7 @@
 	"displayName": "The End",
 	"apiName": "combat_3",
 	"metadata": {
+		"modernEtherwarp": true,
 		"eggs": [
 			[-451, 50, -274],
 			[-539, 102, -271],

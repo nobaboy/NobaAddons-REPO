@@ -1,4 +1,7 @@
 {
 	"displayName": "Dark Auction",
-	"apiName": "dark_auction"
+	"apiName": "dark_auction",
+	"metadata": {
+		"modernEtherwarp": true
+	}
 }

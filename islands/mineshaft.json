@@ -1,4 +1,7 @@
 {
 	"displayName": "Mineshaft",
-	"apiName": "mineshaft"
+	"apiName": "mineshaft",
+	"metadata": {
+		"modernEtherwarp": true
+	}
 }

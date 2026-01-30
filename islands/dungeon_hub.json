@@ -2,6 +2,7 @@
 	"displayName": "Dungeon Hub",
 	"apiName": "dungeon_hub",
 	"metadata": {
+		"modernEtherwarp": true,
 		"eggs": [
 			[5, 11, -1],
 			[0, 146, -78],

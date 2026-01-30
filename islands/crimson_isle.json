@@ -2,6 +2,7 @@
 	"displayName": "Crimson Isle",
 	"apiName": "crimson_isle",
 	"metadata": {
+		"modernEtherwarp": true,
 		"eggs": [
 			[-270, 83, -496],
 			[-289, 127, -985],

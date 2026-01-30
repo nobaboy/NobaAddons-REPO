@@ -2,6 +2,7 @@
 	"displayName": "Spider's Den",
 	"apiName": "combat_1",
 	"metadata": {
+		"modernEtherwarp": true,
 		"eggs": [
 			[-303, 65, -182],
 			[-266, 72, -191],

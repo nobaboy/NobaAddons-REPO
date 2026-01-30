@@ -2,6 +2,7 @@
 	"displayName": "Backwater Bayou",
 	"apiName": "fishing_1",
 	"metadata": {
+		"modernEtherwarp": true,
 		"eggs": [
 			[74, 89, -1],
 			[15, 71, -16],

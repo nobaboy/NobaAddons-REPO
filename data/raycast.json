@@ -54,7 +54,8 @@
 		"minecraft:cocoa",
 		"minecraft:tripwire",
 		"minecraft:tripwire_hook",
-		"minecraft:moss_carpet"
+		"minecraft:moss_carpet",
+		"minecraft:bush"
 	],
 	"validBlocks": [
 		"minecraft:flowering_azalea"

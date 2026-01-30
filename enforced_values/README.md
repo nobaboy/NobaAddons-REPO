@@ -6,17 +6,13 @@ at runtime, allowing for disabling broken functionality until a release can be m
 Overridden values cannot be modified by the user, while the value they originally set is preserved in
 the (de)serialized config file.
 
->[!warning]
-> Files in this directory **must not be deleted**, as the mod does not currently have the capability
-> to delete files that have since been deleted; instead, use a `{"type": "false"}` condition.
-
 ## Example
 
 ```json
 {
   "override": {
     // Fragment of a full config file, overriding certain values. In this case, this sets `autoShareCorpses` in
-    // the Glacite Mineshaft group to false.
+    // the Glacite Mineshaft category to false.
     "mining": {
       "glaciteMineshaft": {
         "autoShareCorpses": false
@@ -50,7 +46,8 @@ Always returns `true`.
 <details>
 <summary><code>false</code></summary>
 
-Always returns `false`. **Use this to deactivate an enforced option.**
+Always returns `false`; this should be preferred over deleting enforced options that affect
+very old mod versions (versions before 1.0.0-Beta.9).
 
 ```json
 {

@@ -2,7 +2,7 @@
 	"type": "standard",
 	"id": "efficiency",
 	"name": "Efficiency",
-	"max": 10,
+	"max": 5,
 	"good": 5,
 	"items": [
 		"DRILL",
@@ -12,5 +12,24 @@
 		"AXE",
 		"SHOVEL",
 		"SHEARS"
+	],
+	"overrides": [
+		{
+			"when": {"type": "item", "id": "STONK"},
+			"max": 6,
+			"good": 5
+		},
+		{
+			"when": {
+				"type": "any",
+				"conditions": [
+					{"type": "item", "itemType": "DRILL"},
+					{"type": "item", "itemType": "GAUNTLET"},
+					{"type": "item", "itemType": "PICKAXE"}
+				]
+			},
+			"max": 10,
+			"good": 5
+		}
 	]
 }

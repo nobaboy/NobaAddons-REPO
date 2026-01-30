@@ -3,7 +3,7 @@
 	"id": "prosperity",
 	"name": "Prosperity",
 	"max": 5,
-	"good": 1,
+	"good": -1,
 	"items": [
 		"NECKLACE",
 		"CLOAK",

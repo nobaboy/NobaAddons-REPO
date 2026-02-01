@@ -2,7 +2,6 @@
 	"displayName": "Crystal Hollows",
 	"apiName": "crystal_hollows",
 	"metadata": {
-		"modernEtherwarp": true,
 		"eggs": [
 			[472, 106, 518],
 			[485, 65, 479],

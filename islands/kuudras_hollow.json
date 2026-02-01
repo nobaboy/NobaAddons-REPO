@@ -1,7 +1,4 @@
 {
 	"displayName": "Kuudra's Hollow",
-	"apiName": "instanced",
-	"metadata": {
-		"modernEtherwarp": true
-	}
+	"apiName": "instanced"
 }

@@ -1,7 +1,4 @@
 {
 	"displayName": "Private Island",
-	"apiName": "dynamic",
-	"metadata": {
-		"modernEtherwarp": true
-	}
+	"apiName": "dynamic"
 }

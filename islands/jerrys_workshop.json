@@ -1,7 +1,4 @@
 {
 	"displayName": "Jerry's Workshop",
-	"apiName": "winter",
-	"metadata": {
-		"modernEtherwarp": true
-	}
+	"apiName": "winter"
 }

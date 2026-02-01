@@ -2,7 +2,6 @@
 	"displayName": "Deep Caverns",
 	"apiName": "mining_2",
 	"metadata": {
-		"modernEtherwarp": true,
 		"eggs": [
 			[4, 148, 88],
 			[24, 156, -38],

@@ -2,7 +2,6 @@
 	"displayName": "Dwarven Mines",
 	"apiName": "mining_3",
 	"metadata": {
-		"modernEtherwarp": true,
 		"eggs": [
 			[32, 179, 103],
 			[-17, 128, 177],

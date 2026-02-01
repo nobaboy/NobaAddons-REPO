@@ -61,7 +61,8 @@
 		"minecraft:bush",
 		"minecraft:nether_wart",
 		"minecraft:glow_lichen",
-		"minecraft:leaf_litter"
+		"minecraft:leaf_litter",
+		"minecraft:pale_hanging_moss"
 	],
 	"validBlocks": [
 		"minecraft:flowering_azalea",

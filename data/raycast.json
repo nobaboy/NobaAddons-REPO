@@ -9,6 +9,8 @@
 		"#minecraft:corals",
 		"#minecraft:wall_corals",
 		"#minecraft:portals",
+		"#minecraft:cave_vines",
+		"#minecraft:fire",
 		"minecraft:short_grass",
 		"minecraft:tall_grass",
 		"minecraft:tall_dry_grass",
@@ -24,7 +26,6 @@
 		"minecraft:comparator",
 		"minecraft:repeater",
 		"minecraft:lever",
-		"minecraft:fire",
 		"minecraft:player_head",
 		"minecraft:player_wall_head",
 		"minecraft:skeleton_skull",
@@ -57,9 +58,13 @@
 		"minecraft:tripwire",
 		"minecraft:tripwire_hook",
 		"minecraft:moss_carpet",
-		"minecraft:bush"
+		"minecraft:bush",
+		"minecraft:nether_wart",
+		"minecraft:glow_lichen",
+		"minecraft:leaf_litter"
 	],
 	"validBlocks": [
-		"minecraft:flowering_azalea"
+		"minecraft:flowering_azalea",
+		"minecraft:flowering_azalea_leaves"
 	]
 }

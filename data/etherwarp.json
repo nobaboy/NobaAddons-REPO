@@ -3,6 +3,31 @@
 		"#minecraft:candles",
 		"minecraft:azalea",
 		"minecraft:flowering_azalea",
-		"minecraft:lily_pad"
+		"minecraft:lily_pad",
+		"minecraft:end_rod"
+	],
+	"interactables": [
+		"#minecraft:fence_gates",
+		"#minecraft:wooden_doors",
+		"#minecraft:buttons",
+		"minecraft:azalea",
+		"minecraft:flowering_azalea",
+		"minecraft:chest",
+		"minecraft:trapped_chest",
+		"minecraft:ender_chest",
+		"minecraft:furnace",
+		"minecraft:hopper",
+		"minecraft:dropper",
+		"minecraft:dispenser",
+		"minecraft:beacon",
+		"minecraft:anvil",
+		"minecraft:crafting_table",
+		"minecraft:oak_trapdoor",
+		"minecraft:iron_door",
+		"minecraft:brewing_stand",
+		"minecraft:lever",
+		"minecraft:enchanting_table",
+		"minecraft:cauldron",
+		"minecraft:water_cauldron"
 	]
 }

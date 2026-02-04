@@ -15,7 +15,7 @@
 	],
 	"overrides": [
 		{
-			"when": {"type": "item", "id": "STONK"},
+			"when": {"type": "item", "id": "STONK_PICKAXE"},
 			"max": 6,
 			"good": 5
 		},

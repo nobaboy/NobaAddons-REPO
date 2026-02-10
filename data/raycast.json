@@ -56,6 +56,8 @@
 	],
 	"validBlocks": [
 		"minecraft:flowering_azalea",
-		"minecraft:flowering_azalea_leaves"
+		"minecraft:flowering_azalea_leaves",
+		"minecraft:azaela",
+		"minecraft:flowering_azalea"
 	]
 }

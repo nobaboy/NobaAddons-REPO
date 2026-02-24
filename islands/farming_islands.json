@@ -2,6 +2,7 @@
 	"displayName": "Farming Islands",
 	"apiName": "farming_1",
 	"metadata": {
+		"modernEtherwarp": true,
 		"eggs": [
 			[152, 72, -217],
 			[146, 81, -242],

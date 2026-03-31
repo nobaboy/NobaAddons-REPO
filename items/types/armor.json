@@ -1,0 +1,8 @@
+{
+	"combines": [
+		"armor/helmet",
+		"armor/chestplate",
+		"armor/leggings",
+		"armor/boots"
+	]
+}

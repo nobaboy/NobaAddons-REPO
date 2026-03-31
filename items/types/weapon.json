@@ -1,0 +1,7 @@
+{
+	"combines": [
+		"weapons/sword",
+		"weapons/longsword",
+		"weapons/bow"
+	]
+}

@@ -8,5 +8,5 @@
 		"HOE",
 		"AXE"
 	],
-	"applicableTo": ["tools/farming_tool"]
+	"applicableTo": ["tools/farming"]
 }

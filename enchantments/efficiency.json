@@ -13,7 +13,7 @@
 		"SHOVEL",
 		"SHEARS"
 	],
-	"applicableTo": ["tool/pickaxes", "tool/shovel", "tool/axe", "tool/farming", "tool/shears"],
+	"applicableTo": ["tools/pickaxes", "tools/shovel", "tools/axe", "tools/farming", "tools/shears"],
 	"overrides": [
 		{
 			"when": {"type": "item", "id": "STONK_PICKAXE"},
@@ -21,14 +21,7 @@
 			"good": 5
 		},
 		{
-			"when": {
-				"type": "any",
-				"conditions": [
-					{"type": "item", "itemType": "DRILL"},
-					{"type": "item", "itemType": "GAUNTLET"},
-					{"type": "item", "itemType": "PICKAXE"}
-				]
-			},
+			"when": {"type": "item", "types": ["tools/pickaxes"]},
 			"max": 10,
 			"good": 5
 		}

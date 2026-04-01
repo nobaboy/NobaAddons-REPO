@@ -2,8 +2,9 @@
 	"type": "standard",
 	"id": "turbo_cactus",
 	"name": "Turbo-Cacti",
-	"max": 5,
-	"good": 1,
+	"average": 1,
+	"good": 5,
+	"max": 7,
 	"items": [
 		"HOE",
 		"AXE"

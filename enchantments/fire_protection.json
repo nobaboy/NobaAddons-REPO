@@ -14,5 +14,6 @@
 		"blast_protection",
 		"projectile_protection",
 		"protection"
-	]
+	],
+	"applicableTo": ["armor"]
 }

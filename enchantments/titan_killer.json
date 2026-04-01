@@ -11,5 +11,6 @@
 	],
 	"conflicts": [
 		"giant_killer"
-	]
+	],
+	"applicableTo": ["weapons/melee"]
 }

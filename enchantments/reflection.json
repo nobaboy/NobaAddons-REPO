@@ -9,5 +9,6 @@
 	],
 	"conflicts": [
 		"thorns"
-	]
+	],
+	"applicableTo": ["armor/chestplate"]
 }

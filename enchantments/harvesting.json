@@ -6,5 +6,6 @@
 	"good": 5,
 	"items": [
 		"HOE"
-	]
+	],
+	"applicableTo": ["tools/farming"]
 }

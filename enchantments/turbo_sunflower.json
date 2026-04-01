@@ -10,5 +10,6 @@
 	"abbreviation": "Sun.",
 	"metadata": {
 		"abbreviation": "Sun."
-	}
+	},
+	"applicableTo": ["tools/farming"]
 }

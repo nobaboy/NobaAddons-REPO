@@ -10,5 +10,6 @@
 		"BELT",
 		"GLOVES",
 		"BRACELET"
-	]
+	],
+	"applicableTo": ["equipment"]
 }

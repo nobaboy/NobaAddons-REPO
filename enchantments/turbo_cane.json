@@ -10,5 +10,6 @@
 	"abbreviation": "Can.",
 	"metadata": {
 		"abbreviation": "Can."
-	}
+	},
+	"applicableTo": ["tools/farming"]
 }

@@ -1,8 +1,5 @@
 {
 	"combines": [
-		"tools/farming",
-		"tools/axe",
-		"tools/fishing_rod",
 		"tools/pickaxe",
 		"tools/drill",
 		"tools/gauntlet"

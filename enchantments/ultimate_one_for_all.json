@@ -6,5 +6,6 @@
 	"items": [
 		"SWORD",
 		"LONGSWORD"
-	]
+	],
+	"applicableTo": ["weapons/sword", "weapons/longsword"]
 }

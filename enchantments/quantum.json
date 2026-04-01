@@ -6,5 +6,6 @@
 	"good": 3,
 	"items": [
 		"NECKLACE"
-	]
+	],
+	"applicableTo": ["equipment/necklace"]
 }

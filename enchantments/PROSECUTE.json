@@ -11,5 +11,6 @@
 	],
 	"conflicts": [
 		"execute"
-	]
+	],
+	"applicableTo": ["weapons/melee"]
 }

@@ -10,5 +10,6 @@
 	"abbreviation": "Moo.",
 	"metadata": {
 		"abbreviation": "Moo."
-	}
+	},
+	"applicableTo": ["tools/farming"]
 }

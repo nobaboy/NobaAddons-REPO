@@ -11,5 +11,6 @@
 	],
 	"conflicts": [
 		"triple_strike"
-	]
+	],
+	"applicableTo": ["weapons/melee"]
 }

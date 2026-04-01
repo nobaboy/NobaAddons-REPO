@@ -9,5 +9,6 @@
 		"LONGSWORD",
 		"BOW",
 		"GAUNTLET"
-	]
+	],
+	"applicableTo": ["weapon"]
 }

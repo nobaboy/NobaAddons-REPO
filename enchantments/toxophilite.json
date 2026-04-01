@@ -16,5 +16,6 @@
 	],
 	"items": [
 		"BOW"
-	]
+	],
+	"applicableTo": ["weapons/bow"]
 }

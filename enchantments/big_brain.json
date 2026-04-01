@@ -9,5 +9,6 @@
 	],
 	"conflicts": [
 		"small_brain"
-	]
+	],
+	"applicableTo": ["armor/helmet"]
 }

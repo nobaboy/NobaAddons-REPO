@@ -9,6 +9,7 @@
 		"LEGGINGS",
 		"BOOTS"
 	],
+	"applicableTo": ["armor"],
 	"metadata": {
 		"legion": {
 			"maxPlayers": 20,

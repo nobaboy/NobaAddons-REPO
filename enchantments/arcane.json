@@ -6,5 +6,6 @@
 	"good": 5,
 	"items": [
 		"AXE"
-	]
+	],
+	"applicableTo": ["tools/axe"]
 }

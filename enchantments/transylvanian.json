@@ -6,5 +6,6 @@
 	"good": 4,
 	"items": [
 		"HELMET"
-	]
+	],
+	"applicableTo": ["armor/helmet"]
 }

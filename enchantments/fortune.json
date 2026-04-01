@@ -11,5 +11,6 @@
 	],
 	"conflicts": [
 		"silk_touch"
-	]
+	],
+	"applicableTo": ["tools/pickaxes"]
 }

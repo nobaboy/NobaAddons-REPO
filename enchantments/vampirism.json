@@ -8,5 +8,6 @@
 		"SWORD",
 		"LONGSWORD",
 		"GAUNTLET"
-	]
+	],
+	"applicableTo": ["weapons/melee"]
 }

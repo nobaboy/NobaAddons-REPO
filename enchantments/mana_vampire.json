@@ -14,5 +14,6 @@
 		"ferocious_mana",
 		"hardened_mana",
 		"strong_mana"
-	]
+	],
+	"applicableTo": ["armor"]
 }

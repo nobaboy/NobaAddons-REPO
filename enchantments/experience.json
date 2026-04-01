@@ -10,5 +10,6 @@
 		"DRILL",
 		"GAUNTLET",
 		"PICKAXE"
-	]
+	],
+	"applicableTo": ["weapons/melee", "tools/pickaxes"]
 }

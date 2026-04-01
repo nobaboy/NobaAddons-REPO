@@ -14,5 +14,6 @@
 	],
 	"conflicts": [
 		"silk_touch"
-	]
+	],
+	"applicableTo": ["tools/pickaxes", "tools/farming", "tools/axe", "tools/shovel"]
 }

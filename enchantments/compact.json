@@ -18,5 +18,6 @@
 		"DRILL",
 		"GAUNTLET",
 		"PICKAXE"
-	]
+	],
+	"applicableTo": ["tools/pickaxes"]
 }

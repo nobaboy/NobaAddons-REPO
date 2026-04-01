@@ -12,5 +12,6 @@
 	],
 	"conflicts": [
 		"respite"
-	]
+	],
+	"applicableTo": ["armor"]
 }

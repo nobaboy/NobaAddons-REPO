@@ -10,5 +10,6 @@
 	"abbreviation": "Mus.",
 	"metadata": {
 		"abbreviation": "Mus."
-	}
+	},
+	"applicableTo": ["tools/farming"]
 }

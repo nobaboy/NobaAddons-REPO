@@ -10,5 +10,6 @@
 	"conflicts": [
 		"sharpness",
 		"smite"
-	]
+	],
+	"applicableTo": ["tools/fishing_rod"]
 }

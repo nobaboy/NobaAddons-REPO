@@ -11,5 +11,6 @@
 	],
 	"conflicts": [
 		"thunderbolt"
-	]
+	],
+	"applicableTo": ["weapons/melee"]
 }

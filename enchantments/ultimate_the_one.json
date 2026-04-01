@@ -5,5 +5,6 @@
 	"max": 5,
 	"items": [
 		"NECKLACE"
-	]
+	],
+	"applicableTo": ["equipment/necklace"]
 }

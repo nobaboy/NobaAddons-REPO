@@ -10,5 +10,6 @@
 	"abbreviation": "Ros.",
 	"metadata": {
 		"abbreviation": "Ros."
-	}
+	},
+	"applicableTo": ["tools/farming"]
 }

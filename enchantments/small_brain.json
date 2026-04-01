@@ -9,5 +9,6 @@
 	],
 	"conflicts": [
 		"big_brain"
-	]
+	],
+	"applicableTo": ["armor/helmet"]
 }

@@ -16,5 +16,6 @@
 	],
 	"items": [
 		"AXE"
-	]
+	],
+	"applicableTo": ["tools/axe"]
 }

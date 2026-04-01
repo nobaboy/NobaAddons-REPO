@@ -13,6 +13,7 @@
 		"SHOVEL",
 		"SHEARS"
 	],
+	"applicableTo": ["tool/pickaxes", "tool/shovel", "tool/axe", "tool/farming", "tool/shears"],
 	"overrides": [
 		{
 			"when": {"type": "item", "id": "STONK_PICKAXE"},

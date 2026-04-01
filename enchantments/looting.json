@@ -9,5 +9,6 @@
 		"LONGSWORD",
 		"FISHING_ROD",
 		"GAUNTLET"
-	]
+	],
+	"applicableTo": ["weapons/melee", "tools/fishing_rod"]
 }

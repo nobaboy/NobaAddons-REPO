@@ -10,5 +10,6 @@
 	"abbreviation": "Car.",
 	"metadata": {
 		"abbreviation": "Car."
-	}
+	},
+	"applicableTo": ["tools/farming"]
 }

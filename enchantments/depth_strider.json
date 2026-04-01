@@ -6,5 +6,6 @@
 	"good": 3,
 	"items": [
 		"BOOTS"
-	]
+	],
+	"applicableTo": ["armor/boots"]
 }

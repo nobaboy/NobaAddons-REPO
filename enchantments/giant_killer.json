@@ -11,5 +11,6 @@
 	],
 	"conflicts": [
 		"titan_killer"
-	]
+	],
+	"applicableTo": ["weapons/melee"]
 }

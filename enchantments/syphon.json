@@ -12,5 +12,6 @@
 	"conflicts": [
 		"life_steal",
 		"mana_steal"
-	]
+	],
+	"applicableTo": ["weapons/melee"]
 }

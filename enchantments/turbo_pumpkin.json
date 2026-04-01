@@ -10,5 +10,6 @@
 	"abbreviation": "Pum.",
 	"metadata": {
 		"abbreviation": "Pum."
-	}
+	},
+	"applicableTo": ["tools/farming"]
 }

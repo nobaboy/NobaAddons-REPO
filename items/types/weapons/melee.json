@@ -2,7 +2,6 @@
 	"combines": [
 		"weapons/sword",
 		"weapons/longsword",
-		"weapons/bow",
 		"tools/gauntlet"
 	]
 }

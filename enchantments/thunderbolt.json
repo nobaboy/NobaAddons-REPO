@@ -11,5 +11,6 @@
 	],
 	"conflicts": [
 		"thunderlord"
-	]
+	],
+	"applicableTo": ["weapons/melee"]
 }

@@ -9,5 +9,6 @@
 		"CHESTPLATE",
 		"LEGGINGS",
 		"BOOTS"
-	]
+	],
+	"applicableTo": ["armor"]
 }

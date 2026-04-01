@@ -6,5 +6,6 @@
 	"good": 3,
 	"items": [
 		"CHESTPLATE"
-	]
+	],
+	"applicableTo": ["armor/chestplate"]
 }

@@ -6,5 +6,6 @@
 	"max": 6,
 	"items": [
 		"FISHING_ROD"
-	]
+	],
+	"applicableTo": ["tools/fishing_rod"]
 }

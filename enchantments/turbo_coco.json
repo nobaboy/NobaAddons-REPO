@@ -10,5 +10,6 @@
 	"abbreviation": "Coc.",
 	"metadata": {
 		"abbreviation": "Coc."
-	}
+	},
+	"applicableTo": ["tools/farming"]
 }

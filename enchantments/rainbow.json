@@ -6,5 +6,6 @@
 	"good": 1,
 	"items": [
 		"SHEARS"
-	]
+	],
+	"applicableTo": ["tools/shears"]
 }

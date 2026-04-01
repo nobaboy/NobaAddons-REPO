@@ -16,5 +16,6 @@
 	],
 	"items": [
 		"HELMET"
-	]
+	],
+	"applicableTo": ["armor/helmet"]
 }

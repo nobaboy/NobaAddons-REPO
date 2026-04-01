@@ -14,5 +14,6 @@
 			"maxPlayers": 5,
 			"perLevel": 0.2
 		}
-	}
+	},
+	"applicableTo": ["armor"]
 }

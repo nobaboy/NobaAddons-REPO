@@ -6,5 +6,6 @@
 	"items": [
 		"AXE",
 		"HOE"
-	]
+	],
+	"applicableTo": ["tools/farming"]
 }

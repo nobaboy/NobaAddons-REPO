@@ -10,5 +10,6 @@
 	"abbreviation": "Mel.",
 	"metadata": {
 		"abbreviation": "Mel."
-	}
+	},
+	"applicableTo": ["tools/farming"]
 }

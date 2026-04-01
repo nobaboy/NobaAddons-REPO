@@ -12,5 +12,6 @@
 	],
 	"conflicts": [
 		"rejuvenate"
-	]
+	],
+	"applicableTo": ["armor"]
 }

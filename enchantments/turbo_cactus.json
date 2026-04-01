@@ -11,5 +11,6 @@
 	"abbreviation": "Cac.",
 	"metadata": {
 		"abbreviation": "Cac."
-	}
+	},
+	"applicableTo": ["tools/farming"]
 }

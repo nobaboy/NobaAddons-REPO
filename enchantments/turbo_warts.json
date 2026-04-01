@@ -10,5 +10,6 @@
 	"abbreviation": "War.",
 	"metadata": {
 		"abbreviation": "War."
-	}
+	},
+	"applicableTo": ["tools/farming"]
 }

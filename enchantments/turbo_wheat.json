@@ -10,5 +10,6 @@
 	"abbreviation": "Whe.",
 	"metadata": {
 		"abbreviation": "Whe."
-	}
+	},
+	"applicableTo": ["tools/farming"]
 }

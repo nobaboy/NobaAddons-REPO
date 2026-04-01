@@ -13,5 +13,6 @@
 	"conflicts": [
 		"life_steal",
 		"syphon"
-	]
+	],
+	"applicableTo": ["weapons/melee"]
 }

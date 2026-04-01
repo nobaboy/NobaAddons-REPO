@@ -11,5 +11,6 @@
 	],
 	"conflicts": [
 		"first_strike"
-	]
+	],
+	"applicableTo": ["weapons/melee"]
 }

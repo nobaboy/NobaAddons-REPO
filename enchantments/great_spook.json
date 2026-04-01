@@ -15,5 +15,6 @@
 		"GREAT_SPOOK_CHESTPLATE",
 		"GREAT_SPOOK_LEGGINGS",
 		"GREAT_SPOOK_BOOTS"
-	]
+	],
+	"applicableTo": ["armor"]
 }

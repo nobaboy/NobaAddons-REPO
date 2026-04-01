@@ -10,5 +10,6 @@
 	"abbreviation": "Pot.",
 	"metadata": {
 		"abbreviation": "Pot."
-	}
+	},
+	"applicableTo": ["tools/farming"]
 }

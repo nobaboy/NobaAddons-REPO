@@ -16,5 +16,6 @@
 	],
 	"items": [
 		"FISHING_ROD"
-	]
+	],
+	"applicableTo": ["tools/fishing_rod"]
 }

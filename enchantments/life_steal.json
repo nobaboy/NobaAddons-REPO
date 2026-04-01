@@ -12,5 +12,6 @@
 	"conflicts": [
 		"mana_steal",
 		"syphon"
-	]
+	],
+	"applicableTo": ["weapons/melee"]
 }

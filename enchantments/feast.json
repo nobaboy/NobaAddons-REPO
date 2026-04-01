@@ -1,0 +1,12 @@
+{
+	"type": "standard",
+	"id": "feast",
+	"name": "Feast",
+	"max": 5,
+	"good": 5,
+	"items": [
+		"HOE",
+		"AXE"
+	],
+	"applicableTo": ["tools/farming"]
+}

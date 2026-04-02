@@ -17,5 +17,5 @@
 		"SHEARS",
 		"WAND"
 	],
-	"applicableTo": ["weapon", "tool", "wand"]
+	"applicableTo": ["weapons", "tools", "wand"]
 }

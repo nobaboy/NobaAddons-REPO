@@ -13,7 +13,7 @@
 		"SHOVEL",
 		"SHEARS"
 	],
-	"applicableTo": ["tools/pickaxes", "tools/shovel", "tools/axe", "tools/farming", "tools/shears"],
+	"applicableTo": ["tools/pickaxes", "tools/shovel", "tools/axe", "tools/shears"],
 	"overrides": [
 		{
 			"when": {"type": "item", "id": "STONK_PICKAXE"},
@@ -21,7 +21,15 @@
 			"good": 5
 		},
 		{
-			"when": {"type": "item", "types": ["tools/pickaxes"]},
+			"//": "TODO combine these into one condition once versions that require this old type syntax are no longer supported",
+			"when": {
+				"type": "any",
+				"conditions": [
+					{"type": "item", "itemType": "DRILL", "types": ["tools/drill"]},
+					{"type": "item", "itemType": "GAUNTLET", "types": ["tools/gauntlet"]},
+					{"type": "item", "itemType": "PICKAXE", "types": ["tools/pickaxe"]}
+				]
+			},
 			"max": 10,
 			"good": 5
 		}

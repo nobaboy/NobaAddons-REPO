@@ -12,5 +12,5 @@
 	"metadata": {
 		"abbreviation": "Moo."
 	},
-	"applicableTo": ["tools/farming"]
+	"applicableTo": ["tools/hoe"]
 }

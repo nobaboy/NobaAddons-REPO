@@ -10,5 +10,5 @@
 		"BOW",
 		"GAUNTLET"
 	],
-	"applicableTo": ["weapon"]
+	"applicableTo": ["weapons"]
 }

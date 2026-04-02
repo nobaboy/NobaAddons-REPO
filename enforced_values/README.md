@@ -1,7 +1,7 @@
 # Enforced Options
 
-This directory is used by the mod to load `.json` files that override values used for certain config options
-at runtime, allowing for disabling broken functionality until a release can be made to fix it.
+Configuration options can be overridden by placing files in this directory, which the mod then loads and enforces
+when this repository is loaded.
 
 Overridden values cannot be modified by the user, while the value they originally set is preserved in
 the (de)serialized config file.
@@ -12,7 +12,7 @@ the (de)serialized config file.
 {
   "override": {
     // Fragment of a full config file, overriding certain values. In this case, this sets `autoShareCorpses` in
-    // the Glacite Mineshaft category to false.
+    // the Glacite Mineshaft category to false, while leaving all other configuration options untouched.
     "mining": {
       "glaciteMineshaft": {
         "autoShareCorpses": false

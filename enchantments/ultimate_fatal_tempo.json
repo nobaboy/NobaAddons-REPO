@@ -11,5 +11,5 @@
 		"GAUNTLET",
 		"AXE"
 	],
-	"applicableTo": ["weapon", "tools/fishing_rod", "tools/axe"]
+	"applicableTo": ["weapons", "tools/fishing_rod", "tools/axe"]
 }

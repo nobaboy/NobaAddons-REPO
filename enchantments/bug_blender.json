@@ -1,8 +1,0 @@
-{
-	"type": "standard",
-	"id": "bug_blender",
-	"name": "Bug Blender",
-	"max": 5,
-	"good": 5,
-	"applicableTo": ["tools/vacuum"]
-}

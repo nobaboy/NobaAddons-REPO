@@ -5,7 +5,6 @@
 		"tools/fishing_rod",
 		"tools/pickaxe",
 		"tools/drill",
-		"tools/gauntlet",
-		"tools/vacuum"
+		"tools/gauntlet"
 	]
 }

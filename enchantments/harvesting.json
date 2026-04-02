@@ -7,5 +7,5 @@
 	"items": [
 		"HOE"
 	],
-	"applicableTo": ["tools/farming"]
+	"applicableTo": ["tools/hoe"]
 }

@@ -17,5 +17,5 @@
 		"fortune",
 		"smelting_touch"
 	],
-	"applicableTo": ["tools/pickaxes", "tools/axe", "tools/shears", "tools/shovel", "tools/farming"]
+	"applicableTo": ["tools/pickaxes", "tools/axe", "tools/shears", "tools/shovel", "tools/hoe"]
 }

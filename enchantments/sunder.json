@@ -1,0 +1,11 @@
+{
+	"type": "standard",
+	"id": "sunder",
+	"name": "Sunder",
+	"max": 6,
+	"good": 5,
+	"items": [
+		"AXE"
+	],
+	"applicableTo": ["tools/axe"]
+}

@@ -1,0 +1,9 @@
+{
+	"override": {
+		"general": {
+			"autoUpdate": false
+		}
+	},
+	"if": {"type": "true"},
+	"message": null
+}

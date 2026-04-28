@@ -1,0 +1,6 @@
+{
+	"enchantments": {
+		"to": "items/enchantments",
+		"if": {"type": "true"}
+	}
+}

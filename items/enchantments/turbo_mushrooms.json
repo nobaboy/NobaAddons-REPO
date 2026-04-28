@@ -1,0 +1,16 @@
+{
+	"type": "standard",
+	"id": "turbo_mushrooms",
+	"name": "Turbo-Mushrooms",
+	"average": 1,
+	"good": 5,
+	"max": 7,
+	"items": [
+		"HOE"
+	],
+	"abbreviation": "Mus.",
+	"metadata": {
+		"abbreviation": "Mus."
+	},
+	"applicableTo": ["tools/farming"]
+}

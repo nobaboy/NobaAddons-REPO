@@ -1,0 +1,14 @@
+{
+	"type": "standard",
+	"id": "reflection",
+	"name": "Reflection",
+	"max": 5,
+	"good": 1,
+	"items": [
+		"CHESTPLATE"
+	],
+	"conflicts": [
+		"thorns"
+	],
+	"applicableTo": ["armor/chestplate"]
+}

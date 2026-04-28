@@ -1,0 +1,14 @@
+{
+	"type": "standard",
+	"id": "vicious",
+	"name": "Vicious",
+	"max": 5,
+	"good": 3,
+	"items": [
+		"SWORD",
+		"LONGSWORD",
+		"BOW",
+		"GAUNTLET"
+	],
+	"applicableTo": ["weapon"]
+}

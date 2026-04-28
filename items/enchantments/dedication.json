@@ -1,0 +1,13 @@
+{
+	"type": "standard",
+	"id": "dedication",
+	"name": "Dedication",
+	"max": 4,
+	"good": 3,
+	"average": -1,
+	"items": [
+		"HOE",
+		"AXE"
+	],
+	"applicableTo": ["tools/farming"]
+}

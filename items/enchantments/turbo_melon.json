@@ -1,0 +1,16 @@
+{
+	"type": "standard",
+	"id": "turbo_melon",
+	"name": "Turbo-Melon",
+	"average": 1,
+	"good": 5,
+	"max": 7,
+	"items": [
+		"AXE"
+	],
+	"abbreviation": "Mel.",
+	"metadata": {
+		"abbreviation": "Mel."
+	},
+	"applicableTo": ["tools/farming"]
+}

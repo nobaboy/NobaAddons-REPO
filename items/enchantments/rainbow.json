@@ -1,0 +1,11 @@
+{
+	"type": "standard",
+	"id": "rainbow",
+	"name": "Rainbow",
+	"max": 3,
+	"good": 1,
+	"items": [
+		"SHEARS"
+	],
+	"applicableTo": ["tools/shears"]
+}

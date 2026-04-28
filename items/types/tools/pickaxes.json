@@ -1,0 +1,7 @@
+{
+	"combines": [
+		"tools/pickaxe",
+		"tools/drill",
+		"tools/gauntlet"
+	]
+}

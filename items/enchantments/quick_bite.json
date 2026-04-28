@@ -1,0 +1,11 @@
+{
+	"type": "standard",
+	"id": "quick_bite",
+	"name": "Quick Bite",
+	"max": 5,
+	"good": 1,
+	"items": [
+		"FISHING_ROD"
+	],
+	"applicableTo": ["tools/fishing_rod"]
+}

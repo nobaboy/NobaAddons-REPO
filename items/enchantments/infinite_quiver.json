@@ -1,0 +1,11 @@
+{
+	"type": "standard",
+	"id": "infinite_quiver",
+	"name": "Infinite Quiver",
+	"max": 10,
+	"good": 5,
+	"items": [
+		"BOW"
+	],
+	"applicableTo": ["weapons/bow"]
+}

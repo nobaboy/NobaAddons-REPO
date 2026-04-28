@@ -1,0 +1,19 @@
+{
+	"type": "ultimate",
+	"id": "ultimate_legion",
+	"name": "Legion",
+	"max": 5,
+	"items": [
+		"HELMET",
+		"CHESTPLATE",
+		"LEGGINGS",
+		"BOOTS"
+	],
+	"applicableTo": ["armor"],
+	"metadata": {
+		"legion": {
+			"maxPlayers": 20,
+			"perLevel": 0.07
+		}
+	}
+}

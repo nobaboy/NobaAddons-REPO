@@ -1,0 +1,14 @@
+{
+	"type": "standard",
+	"id": "big_brain",
+	"name": "Big Brain",
+	"max": 5,
+	"good": 3,
+	"items": [
+		"HELMET"
+	],
+	"conflicts": [
+		"small_brain"
+	],
+	"applicableTo": ["armor/helmet"]
+}

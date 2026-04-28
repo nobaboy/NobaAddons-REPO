@@ -1,0 +1,11 @@
+{
+	"type": "standard",
+	"id": "tidal",
+	"name": "Tidal",
+	"max": 3,
+	"good": 1,
+	"items": [
+		"LEGGINGS"
+	],
+	"applicableTo": ["armor/leggings"]
+}

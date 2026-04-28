@@ -1,0 +1,11 @@
+{
+	"type": "standard",
+	"id": "depth_strider",
+	"name": "Depth Strider",
+	"max": 3,
+	"good": 3,
+	"items": [
+		"BOOTS"
+	],
+	"applicableTo": ["armor/boots"]
+}

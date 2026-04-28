@@ -1,0 +1,29 @@
+{
+	"type": "standard",
+	"id": "efficiency",
+	"name": "Efficiency",
+	"max": 5,
+	"good": 5,
+	"items": [
+		"DRILL",
+		"GAUNTLET",
+		"PICKAXE",
+		"HOE",
+		"AXE",
+		"SHOVEL",
+		"SHEARS"
+	],
+	"applicableTo": ["tools/pickaxes", "tools/shovel", "tools/axe", "tools/farming", "tools/shears"],
+	"overrides": [
+		{
+			"when": {"type": "item", "id": "STONK_PICKAXE"},
+			"max": 6,
+			"good": 5
+		},
+		{
+			"when": {"type": "item", "types": ["tools/pickaxes"]},
+			"max": 10,
+			"good": 5
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"type": "standard",
+	"id": "turbo_potato",
+	"name": "Turbo-Potato",
+	"average": 1,
+	"good": 5,
+	"max": 7,
+	"items": [
+		"HOE"
+	],
+	"abbreviation": "Pot.",
+	"metadata": {
+		"abbreviation": "Pot."
+	},
+	"applicableTo": ["tools/farming"]
+}

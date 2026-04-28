@@ -1,0 +1,10 @@
+{
+	"type": "ultimate",
+	"id": "ultimate_reiterate",
+	"name": "Duplex",
+	"max": 5,
+	"items": [
+		"BOW"
+	],
+	"applicableTo": ["weapons/bow"]
+}

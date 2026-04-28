@@ -1,0 +1,19 @@
+{
+	"type": "standard",
+	"id": "smelting_touch",
+	"name": "Smelting Touch",
+	"max": 1,
+	"good": 1,
+	"items": [
+		"DRILL",
+		"GAUNTLET",
+		"PICKAXE",
+		"HOE",
+		"AXE",
+		"SHOVEL"
+	],
+	"conflicts": [
+		"silk_touch"
+	],
+	"applicableTo": ["tools/pickaxes", "tools/farming", "tools/axe", "tools/shovel"]
+}

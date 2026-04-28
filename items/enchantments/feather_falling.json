@@ -1,0 +1,11 @@
+{
+	"type": "standard",
+	"id": "feather_falling",
+	"name": "Feather Falling",
+	"max": 10,
+	"good": 5,
+	"items": [
+		"BOOTS"
+	],
+	"applicableTo": ["armor/boots"]
+}

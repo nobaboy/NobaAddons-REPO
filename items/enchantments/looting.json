@@ -1,0 +1,14 @@
+{
+	"type": "standard",
+	"id": "looting",
+	"name": "Looting",
+	"max": 5,
+	"good": 3,
+	"items": [
+		"SWORD",
+		"LONGSWORD",
+		"FISHING_ROD",
+		"GAUNTLET"
+	],
+	"applicableTo": ["weapons/melee", "tools/fishing_rod"]
+}

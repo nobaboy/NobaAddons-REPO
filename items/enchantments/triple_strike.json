@@ -1,0 +1,16 @@
+{
+	"type": "standard",
+	"id": "triple_strike",
+	"name": "Triple-Strike",
+	"max": 5,
+	"good": 4,
+	"items": [
+		"SWORD",
+		"LONGSWORD",
+		"GAUNTLET"
+	],
+	"conflicts": [
+		"first_strike"
+	],
+	"applicableTo": ["weapons/melee"]
+}

@@ -1,0 +1,16 @@
+{
+	"type": "standard",
+	"id": "turbo_coco",
+	"name": "Turbo-Cocoa",
+	"average": 1,
+	"good": 5,
+	"max": 7,
+	"items": [
+		"AXE"
+	],
+	"abbreviation": "Coc.",
+	"metadata": {
+		"abbreviation": "Coc."
+	},
+	"applicableTo": ["tools/farming"]
+}

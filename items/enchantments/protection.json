@@ -1,0 +1,19 @@
+{
+	"type": "standard",
+	"id": "protection",
+	"name": "Protection",
+	"max": 7,
+	"good": 5,
+	"items": [
+		"HELMET",
+		"CHESTPLATE",
+		"LEGGINGS",
+		"BOOTS"
+	],
+	"conflicts": [
+		"blast_protection",
+		"fire_protection",
+		"projectile_protection"
+	],
+	"applicableTo": ["armor"]
+}

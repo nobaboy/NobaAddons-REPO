@@ -1,0 +1,13 @@
+{
+	"type": "standard",
+	"id": "vampirism",
+	"name": "Vampirism",
+	"max": 6,
+	"good": 5,
+	"items": [
+		"SWORD",
+		"LONGSWORD",
+		"GAUNTLET"
+	],
+	"applicableTo": ["weapons/melee"]
+}

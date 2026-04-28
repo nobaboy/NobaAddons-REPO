@@ -1,0 +1,11 @@
+{
+	"type": "standard",
+	"id": "corruption",
+	"name": "Corruption",
+	"max": 5,
+	"good": 5,
+	"items": [
+		"FISHING_ROD"
+	],
+	"applicableTo": ["tools/fishing_rod"]
+}

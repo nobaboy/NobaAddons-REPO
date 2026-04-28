@@ -1,0 +1,17 @@
+{
+	"type": "standard",
+	"id": "respite",
+	"name": "Respite",
+	"max": 5,
+	"good": 1,
+	"items": [
+		"HELMET",
+		"CHESTPLATE",
+		"LEGGINGS",
+		"BOOTS"
+	],
+	"conflicts": [
+		"rejuvenate"
+	],
+	"applicableTo": ["armor"]
+}

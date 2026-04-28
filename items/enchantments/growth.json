@@ -1,0 +1,14 @@
+{
+	"type": "standard",
+	"id": "growth",
+	"name": "Growth",
+	"max": 7,
+	"good": 5,
+	"items": [
+		"HELMET",
+		"CHESTPLATE",
+		"LEGGINGS",
+		"BOOTS"
+	],
+	"applicableTo": ["armor"]
+}

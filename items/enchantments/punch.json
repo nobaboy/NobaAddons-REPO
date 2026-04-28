@@ -1,0 +1,11 @@
+{
+	"type": "standard",
+	"id": "punch",
+	"name": "Punch",
+	"max": 2,
+	"good": 2,
+	"items": [
+		"BOW"
+	],
+	"applicableTo": ["weapons/bow"]
+}

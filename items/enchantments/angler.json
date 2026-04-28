@@ -1,0 +1,15 @@
+{
+	"type": "standard",
+	"id": "angler",
+	"name": "Angler",
+	"max": 6,
+	"good": 5,
+	"items": [
+		"FISHING_ROD"
+	],
+	"conflicts": [
+		"sharpness",
+		"smite"
+	],
+	"applicableTo": ["tools/fishing_rod"]
+}

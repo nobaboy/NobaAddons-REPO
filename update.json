@@ -1,7 +1,0 @@
-{
-	"latest": "1.0.0",
-	"releaseNotes": "Many major changes",
-	"forMinecraft": ["1.21.10", "1.21.11"],
-	"downloadUrl": "https://modrinth.com/mod/noba/version/1.0.0+{version}",
-	"changelogUrl": "https://codeberg.org/nobaboy/NobaAddons/releases/tag/1.0.0"
-}

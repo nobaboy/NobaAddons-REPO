@@ -1,0 +1,11 @@
+{
+	"type": "standard",
+	"id": "respiration",
+	"name": "Respiration",
+	"max": 4,
+	"good": 3,
+	"items": [
+		"HELMET"
+	],
+	"applicableTo": ["armor/helmet"]
+}

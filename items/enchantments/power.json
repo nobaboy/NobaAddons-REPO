@@ -1,0 +1,11 @@
+{
+	"type": "standard",
+	"id": "power",
+	"name": "Power",
+	"max": 7,
+	"good": 5,
+	"items": [
+		"BOW"
+	],
+	"applicableTo": ["weapons/bow"]
+}

@@ -1,0 +1,13 @@
+{
+	"type": "standard",
+	"id": "bane_of_arthropods",
+	"name": "Bane of Arthropods",
+	"max": 7,
+	"good": 5,
+	"items": [
+		"SWORD",
+		"LONGSWORD",
+		"GAUNTLET"
+	],
+	"applicableTo": ["weapons/melee"]
+}

@@ -1,0 +1,13 @@
+{
+	"type": "standard",
+	"id": "critical",
+	"name": "Critical",
+	"max": 7,
+	"good": 5,
+	"items": [
+		"SWORD",
+		"LONGSWORD",
+		"GAUNTLET"
+	],
+	"applicableTo": ["weapons/melee"]
+}

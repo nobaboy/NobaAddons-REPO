@@ -1,0 +1,13 @@
+{
+	"type": "standard",
+	"id": "smite",
+	"name": "Smite",
+	"max": 7,
+	"good": 5,
+	"items": [
+		"SWORD",
+		"LONGSWORD",
+		"GAUNTLET"
+	],
+	"applicableTo": ["weapons/melee"]
+}

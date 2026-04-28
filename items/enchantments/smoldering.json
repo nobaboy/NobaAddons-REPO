@@ -1,0 +1,14 @@
+{
+	"type": "standard",
+	"id": "smoldering",
+	"name": "Smoldering",
+	"max": 5,
+	"good": 1,
+	"items": [
+		"SWORD",
+		"LONGSWORD",
+		"BOW",
+		"GAUNTLET"
+	],
+	"applicableTo": ["weapon"]
+}

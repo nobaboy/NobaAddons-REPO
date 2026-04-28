@@ -1,0 +1,11 @@
+{
+	"type": "standard",
+	"id": "harvesting",
+	"name": "Harvesting",
+	"max": 6,
+	"good": 5,
+	"items": [
+		"HOE"
+	],
+	"applicableTo": ["tools/farming"]
+}

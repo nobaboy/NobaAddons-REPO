@@ -1,0 +1,11 @@
+{
+	"type": "standard",
+	"id": "counter_strike",
+	"name": "Counter-Strike",
+	"max": 5,
+	"good": 3,
+	"items": [
+		"CHESTPLATE"
+	],
+	"applicableTo": ["armor/chestplate"]
+}

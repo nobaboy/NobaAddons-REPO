@@ -1,0 +1,11 @@
+{
+	"type": "standard",
+	"id": "frail",
+	"name": "Frail",
+	"max": 7,
+	"good": 5,
+	"items": [
+		"FISHING_ROD"
+	],
+	"applicableTo": ["tools/fishing_rod"]
+}

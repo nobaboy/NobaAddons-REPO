@@ -1,0 +1,9 @@
+{
+	"combines": [
+		"equipment/necklace",
+		"equipment/cloak",
+		"equipment/belt",
+		"equipment/gloves",
+		"equipment/bracelet"
+	]
+}

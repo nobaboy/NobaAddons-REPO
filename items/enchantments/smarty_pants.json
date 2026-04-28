@@ -1,0 +1,11 @@
+{
+	"type": "standard",
+	"id": "smarty_pants",
+	"name": "Smarty Pants",
+	"max": 5,
+	"good": 1,
+	"items": [
+		"LEGGINGS"
+	],
+	"applicableTo": ["armor/leggings"]
+}

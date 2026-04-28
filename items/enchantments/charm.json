@@ -1,0 +1,11 @@
+{
+	"type": "standard",
+	"id": "charm",
+	"name": "Charm",
+	"max": 6,
+	"good": 5,
+	"items": [
+		"FISHING_ROD"
+	],
+	"applicableTo": ["tools/fishing_rod"]
+}

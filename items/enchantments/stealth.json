@@ -1,0 +1,11 @@
+{
+	"type": "standard",
+	"id": "stealth",
+	"name": "Stealth",
+	"max": 1,
+	"good": 1,
+	"items": [
+		"BOOTS"
+	],
+	"applicableTo": ["armor/boots"]
+}

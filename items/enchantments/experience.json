@@ -1,0 +1,15 @@
+{
+	"type": "standard",
+	"id": "experience",
+	"name": "Experience",
+	"max": 5,
+	"good": 3,
+	"items": [
+		"SWORD",
+		"LONGSWORD",
+		"DRILL",
+		"GAUNTLET",
+		"PICKAXE"
+	],
+	"applicableTo": ["weapons/melee", "tools/pickaxes"]
+}

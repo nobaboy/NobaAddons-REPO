@@ -1,0 +1,17 @@
+{
+	"type": "standard",
+	"id": "turbo_cactus",
+	"name": "Turbo-Cacti",
+	"average": 1,
+	"good": 5,
+	"max": 7,
+	"items": [
+		"HOE",
+		"AXE"
+	],
+	"abbreviation": "Cac.",
+	"metadata": {
+		"abbreviation": "Cac."
+	},
+	"applicableTo": ["tools/farming"]
+}

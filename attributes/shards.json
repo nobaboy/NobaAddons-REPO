@@ -727,6 +727,11 @@
 		"name": "King Minos Shard",
 		"bazaarProduct": "SHARD_KING_MINOS"
 	},
+	{
+		"id": "E45",
+		"name": "Littlefoot Shard",
+		"bazaarProduct": "SHARD_LITTLEFOOT"
+	},
 
 	{
 		"id": "L1",
@@ -747,6 +752,11 @@
 		"id": "L4",
 		"name": "Chameleon Shard",
 		"bazaarProduct": "SHARD_CHAMELEON"
+	},
+	{
+		"id": "L5",
+		"name": "Nessie Shard",
+		"bazaarProduct": "SHARD_NESSIE"
 	},
 	{
 		"id": "L6",
@@ -892,6 +902,11 @@
 		"id": "L44",
 		"name": "Starborn Shard",
 		"bazaarProduct": "SHARD_STARBORN"
+	},
+	{
+		"id": "L46",
+		"name": "Cocoaleech Shard",
+		"bazaarProduct": "SHARD_COCOALEECH"
 	},
 	{
 		"id": "L47",

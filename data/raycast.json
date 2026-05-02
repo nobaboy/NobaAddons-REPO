@@ -5,7 +5,6 @@
 		"#minecraft:buttons",
 		"#minecraft:crops",
 		"#minecraft:wool_carpets",
-		"#minecraft:flower_pots",
 		"#minecraft:corals",
 		"#minecraft:wall_corals",
 		"#minecraft:portals",
@@ -21,16 +20,6 @@
 		"minecraft:comparator",
 		"minecraft:repeater",
 		"minecraft:lever",
-		"minecraft:player_head",
-		"minecraft:player_wall_head",
-		"minecraft:skeleton_skull",
-		"minecraft:skeleton_wall_skull",
-		"minecraft:wither_skeleton_skull",
-		"minecraft:wither_skeleton_wall_skull",
-		"minecraft:zombie_head",
-		"minecraft:zombie_wall_head",
-		"minecraft:creeper_head",
-		"minecraft:creeper_wall_head",
 		"minecraft:brown_mushroom",
 		"minecraft:red_mushroom",
 		"minecraft:ladder",
@@ -58,7 +47,6 @@
 	"validBlocks": [
 		"minecraft:flowering_azalea",
 		"minecraft:flowering_azalea_leaves",
-		"minecraft:azalea",
-		"minecraft:flowering_azalea"
+		"minecraft:azalea"
 	]
 }

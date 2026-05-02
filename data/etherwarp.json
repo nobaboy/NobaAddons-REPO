@@ -1,6 +1,9 @@
 {
 	"validBlocks": [
 		"#minecraft:candles",
+		"#minecraft:wool_carpets",
+		"minecraft:moss_carpet",
+		"minecraft:pale_moss_carpet",
 		"minecraft:azalea",
 		"minecraft:flowering_azalea",
 		"minecraft:lily_pad",

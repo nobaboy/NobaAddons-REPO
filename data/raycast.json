@@ -15,8 +15,6 @@
 		"minecraft:redstone_torch",
 		"minecraft:redstone_wall_torch",
 		"minecraft:redstone_wire",
-		"minecraft:comparator",
-		"minecraft:repeater",
 		"minecraft:lever",
 		"minecraft:brown_mushroom",
 		"minecraft:red_mushroom",
@@ -40,6 +38,7 @@
 	"validBlocks": [
 		"minecraft:flowering_azalea",
 		"minecraft:flowering_azalea_leaves",
-		"minecraft:azalea"
+		"minecraft:azalea",
+		"minecraft:tripwire_hook"
 	]
 }

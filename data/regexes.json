@@ -1,6 +1,6 @@
 {
 	"attribute_menu.shard_name": "^Source: (?<name>.+?) Shard \\((?<id>[CUREL]\\d+)\\)$",
-	"attribute_menu.syphon_to_level": "^Syphon (?<remaining>\\d+) shards? (?:to level up|to unlock)!$",
+	"attribute_menu.syphon_to_level": "^Syphon (?<remaining>\\d+) shards? to (?:level up|unlock)!$",
 	"attribute_menu.syphon_to_max": "^Syphon (?<remaining>\\d+) (?:more|shards) to max!$",
 
 	"contained_chat_coordinates": "^(?i)x: (?<x>[0-9.-]+),? y: (?<y>[0-9.-]+),? z: (?<z>[0-9.-]+)(?<info>.*)",

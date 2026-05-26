@@ -230,7 +230,7 @@
 	{
 		"id": "SCARECROW",
 		"spawnMessage": "Phew! It's only a Scarecrow.",
-		"rarity": "COMMON"
+		"rarity": "UNCOMMON"
 	},
 	{
 		"id": "NIGHTMARE",
@@ -250,7 +250,7 @@
 	{
 		"id": "GRIM_REAPER",
 		"spawnMessage": "This can't be! The manifestation of death himself!",
-		"rarity": "LEGENDARY"
+		"rarity": "MYTHIC"
 	},
 
 	{

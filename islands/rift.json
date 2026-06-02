@@ -1,4 +1,7 @@
 {
 	"displayName": "Rift",
-	"apiName": "rift"
+	"apiName": "rift",
+	"metadata": {
+		"modernEtherwarp": true
+	}
 }

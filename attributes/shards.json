@@ -110,6 +110,11 @@
 		"bazaarProduct": "SHARD_MUDWORM"
 	},
 	{
+		"id": "C26",
+		"name": "Lotusfish Shard",
+		"bazaarProduct": "SHARD_LOTUS_FISH"
+	},
+	{
 		"id": "C27",
 		"name": "Golden Ghoul Shard",
 		"bazaarProduct": "SHARD_GOLDEN_GHOUL"
@@ -241,6 +246,11 @@
 		"bazaarProduct": "SHARD_PRAYING_MANTIS"
 	},
 	{
+		"id": "U23",
+		"name": "Lotum Shard",
+		"bazaarProduct": "SHARD_LOTUM"
+	},
+	{
 		"id": "U24",
 		"name": "Zombie Soldier Shard",
 		"bazaarProduct": "SHARD_ZOMBIE_SOLDIER"
@@ -309,6 +319,16 @@
 		"id": "U40",
 		"name": "Termite Shard",
 		"bazaarProduct": "SHARD_TERMITE"
+	},
+	{
+		"id": "U41",
+		"name": "Flipflopper Shard",
+		"bazaarProduct": "SHARD_FLIP_FLOPPER"
+	},
+	{
+		"id": "U59",
+		"name": "Tewtil Shard",
+		"bazaarProduct": "SHARD_TEWTIL"
 	},
 
 	{
@@ -430,6 +450,11 @@
 		"id": "R31",
 		"name": "Thyst Shard",
 		"bazaarProduct": "SHARD_THYST"
+	},
+	{
+		"id": "R32",
+		"name": "Seashine Shard",
+		"bazaarProduct": "SHARD_SEA_SHINE"
 	},
 	{
 		"id": "R33",

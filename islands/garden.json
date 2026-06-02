@@ -1,4 +1,7 @@
 {
 	"displayName": "Garden",
-	"apiName": "garden"
+	"apiName": "garden",
+	"metadata": {
+		"modernEtherwarp": true
+	}
 }

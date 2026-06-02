@@ -104,6 +104,37 @@
 	},
 
 	{
+		"id": "ATOLL_CROAKER",
+		"spawnMessage": "An inquisitive Atoll Croaker takes the bait!",
+		"rarity": "COMMON"
+	},
+	{
+		"id": "LOTUS_GUARDIAN",
+		"spawnMessage": "A Lotus Guardian emerges, ready to protect the Atoll.",
+		"rarity": "UNCOMMON"
+	},
+	{
+		"id": "GORF",
+		"spawnMessage": "What even is that?! A... gorF?",
+		"rarity": "RARE"
+	},
+	{
+		"id": "DROWNED_CAPTAIN",
+		"spawnMessage": "A Drowned Captain takes hold of your bobber!",
+		"rarity": "EPIC"
+	},
+	{
+		"id": "PUDDLE_JUMPER",
+		"spawnMessage": "A Puddle Jumper is preparing for liftoff—cast your rod into it and hold on tight!",
+		"rarity": "LEGENDARY"
+	},
+	{
+		"id": "FROG_PRINCE",
+		"spawnMessage": "Bow down before the Frog Prince... or pay the hefty price!",
+		"rarity": "MYTHIC"
+	},
+
+	{
 		"id": "TRASH_GOBBLER",
 		"spawnMessage": "The Trash Gobbler is hungry for you!",
 		"rarity": "COMMON"

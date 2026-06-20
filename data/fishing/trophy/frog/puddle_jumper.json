@@ -1,0 +1,10 @@
+{
+  "type": "frog",
+  "name": "Puddle Jumper",
+  "rarity": "LEGENDARY",
+	"metadata": {
+		"pity_overrides": {
+			"DIAMOND": 300
+		}
+	}
+}

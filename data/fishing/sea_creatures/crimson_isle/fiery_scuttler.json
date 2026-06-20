@@ -1,0 +1,8 @@
+{
+  "name": "Fiery Scuttler",
+  "rarity": "LEGENDARY",
+  "spawnMessage": "A Fiery Scuttler inconspicuously waddles up to you, friends in tow.",
+	"metadata": {
+		"hotspot": true
+	}
+}

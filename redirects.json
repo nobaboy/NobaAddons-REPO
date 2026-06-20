@@ -2,5 +2,9 @@
 	"enchantments": {
 		"to": "items/enchantments",
 		"if": {"type": "true"}
+	},
+	"fishing": {
+		"to": "data/legacy/fishing",
+		"if": {"type": "true"}
 	}
 }

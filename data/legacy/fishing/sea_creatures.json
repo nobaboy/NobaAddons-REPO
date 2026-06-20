@@ -10,6 +10,11 @@
 		"rarity": "COMMON"
 	},
 	{
+		"id": "SEA_GUARDIAN",
+		"spawnMessage": "You stumbled upon a Sea Guardian.",
+		"rarity": "COMMON"
+	},
+	{
 		"id": "SEA_WITCH",
 		"spawnMessage": "It looks like you've disrupted the Sea Witch's brewing session. Watch out, she's furious!",
 		"rarity": "UNCOMMON"
@@ -51,6 +56,11 @@
 	},
 
 	{
+		"id": "NIGHT_SQUID",
+		"spawnMessage": "Pitch darkness reveals a Night Squid.",
+		"rarity": "UNCOMMON"
+	},
+	{
 		"id": "CARROT_KING",
 		"spawnMessage": "Is this even a fish? It's the Carrot King!",
 		"rarity": "RARE"
@@ -73,33 +83,23 @@
 	},
 
 	{
-		"id": "TRASH_GOBBLER",
-		"spawnMessage": "The Trash Gobbler is hungry for you!",
+		"id": "FROG_MAN",
+		"spawnMessage": "Is it a frog? Is it a man? Well, yes, sorta, IT'S FROG MAN!!!!!!",
 		"rarity": "COMMON"
 	},
 	{
-		"id": "DUMPSTER_DIVER",
-		"spawnMessage": "A Dumpster Diver has emerged from the swamp!",
-		"rarity": "UNCOMMON"
-	},
-	{
-		"id": "BANSHEE",
-		"spawnMessage": "The desolate wail of a Banshee breaks the silence.",
+		"id": "SNAPPING_TURTLE",
+		"spawnMessage": "A Snapping Turtle is coming your way, and it's ANGRY!",
 		"rarity": "RARE"
 	},
 	{
-		"id": "BAYOU_SLUDGE",
-		"spawnMessage": "A swampy mass of slime emerges, the Bayou Sludge!",
-		"rarity": "EPIC"
-	},
-	{
-		"id": "ALLIGATOR",
-		"spawnMessage": "A long snout breaks the surface of the water. It's an Alligator!",
+		"id": "BLUE_RINGED_OCTOPUS",
+		"spawnMessage": "A garish set of tentacles arise. It's a Blue Ringed Octopus!",
 		"rarity": "LEGENDARY"
 	},
 	{
-		"id": "TITANOBOA",
-		"spawnMessage": "A massive Titanoboa surfaces. Its body stretches as far as the eye can see.",
+		"id": "WIKI_TIKI",
+		"spawnMessage": "The water bubbles and froths. A massive form emerges- you have disturbed the Wiki Tiki! You shall pay the price.",
 		"rarity": "MYTHIC"
 	},
 
@@ -135,69 +135,33 @@
 	},
 
 	{
-		"id": "BOGGED",
-		"spawnMessage": "You've hooked a Bogged!",
+		"id": "TRASH_GOBBLER",
+		"spawnMessage": "The Trash Gobbler is hungry for you!",
 		"rarity": "COMMON"
 	},
 	{
-		"id": "WETWING",
-		"spawnMessage": "Look! A Wetwing emerges!",
+		"id": "DUMPSTER_DIVER",
+		"spawnMessage": "A Dumpster Diver has emerged from the swamp!",
 		"rarity": "UNCOMMON"
 	},
 	{
-		"id": "STRIDERSURFER",
-		"spawnMessage": "You caught a Stridersurfer.",
+		"id": "BANSHEE",
+		"spawnMessage": "The desolate wail of a Banshee breaks the silence.",
 		"rarity": "RARE"
 	},
 	{
-		"id": "TADGANG",
-		"spawnMessage": "A gang of Liltads!",
-		"rarity": "RARE"
-	},
-	{
-		"id": "ENT",
-		"spawnMessage": "You've hooked an Ent, as ancient as the forest itself.",
+		"id": "BAYOU_SLUDGE",
+		"spawnMessage": "A swampy mass of slime emerges, the Bayou Sludge!",
 		"rarity": "EPIC"
 	},
 	{
-		"id": "THE_LOCH_EMPEROR",
-		"spawnMessage": "The Loch Emperor arises from the depths.",
+		"id": "ALLIGATOR",
+		"spawnMessage": "A long snout breaks the surface of the water. It's an Alligator!",
 		"rarity": "LEGENDARY"
 	},
 	{
-		"id": "NESSIE",
-		"spawnMessage": "You've caused a disturbance in the loch. Could it be... Nessie?",
-		"rarity": "MYTHIC"
-	},
-
-	{
-		"id": "FROG_MAN",
-		"spawnMessage": "Is it a frog? Is it a man? Well, yes, sorta, IT'S FROG MAN!!!!!!",
-		"rarity": "COMMON"
-	},
-	{
-		"id": "INKLING",
-		"spawnMessage": "You get an inkling you've caught... an Inkling!.",
-		"rarity": "UNCOMMON"
-	},
-	{
-		"id": "SNAPPING_TURTLE",
-		"spawnMessage": "A Snapping Turtle is coming your way, and it's ANGRY!",
-		"rarity": "RARE"
-	},
-	{
-		"id": "MANTA_RAY",
-		"spawnMessage": "A majestic creature rises from the water. It's a Manta Ray.",
-		"rarity": "EPIC"
-	},
-	{
-		"id": "BLUE_RINGED_OCTOPUS",
-		"spawnMessage": "A garish set of tentacles arise. It's a Blue Ringed Octopus!",
-		"rarity": "LEGENDARY"
-	},
-	{
-		"id": "WIKI_TIKI",
-		"spawnMessage": "The water bubbles and froths. A massive form emerges- you have disturbed the Wiki Tiki! You shall pay the price.",
+		"id": "TITANOBOA",
+		"spawnMessage": "A massive Titanoboa surfaces. Its body stretches as far as the eye can see.",
 		"rarity": "MYTHIC"
 	},
 
@@ -233,14 +197,40 @@
 	},
 
 	{
-		"id": "SCARECROW",
-		"spawnMessage": "Phew! It's only a Scarecrow.",
+		"id": "STRIDERSURFER",
+		"spawnMessage": "You caught a Stridersurfer.",
+		"rarity": "RARE"
+	},
+	{
+		"id": "BOGGED",
+		"spawnMessage": "You've hooked a Bogged!",
 		"rarity": "COMMON"
 	},
 	{
-		"id": "JUMPIN'_JACK",
-		"spawnMessage": "Watch out! It's Jumpin' Jack.",
+		"id": "WETWING",
+		"spawnMessage": "Look! A Wetwing emerges!",
 		"rarity": "UNCOMMON"
+	},
+	{
+		"id": "TADGANG",
+		"spawnMessage": "A gang of Liltads!",
+		"rarity": "RARE"
+	},
+	{
+		"id": "ENT",
+		"spawnMessage": "You've hooked an Ent, as ancient as the forest itself.",
+		"rarity": "EPIC"
+	},
+	{
+		"id": "THE_LOCH_EMPEROR",
+		"spawnMessage": "The Loch Emperor arises from the depths.",
+		"rarity": "LEGENDARY"
+	},
+
+	{
+		"id": "SCARECROW",
+		"spawnMessage": "Phew! It's only a Scarecrow.",
+		"rarity": "COMMON"
 	},
 	{
 		"id": "NIGHTMARE",
@@ -260,7 +250,7 @@
 	{
 		"id": "GRIM_REAPER",
 		"spawnMessage": "This can't be! The manifestation of death himself!",
-		"rarity": "MYTHIC"
+		"rarity": "LEGENDARY"
 	},
 
 	{
@@ -380,19 +370,9 @@
 		"rarity": "COMMON"
 	},
 	{
-		"id": "VOLCANIC_SNAIL",
-		"spawnMessage": "You feel a burning sensation as you reel in a Volcanic Snail!",
-		"rarity": "UNCOMMON"
-	},
-	{
 		"id": "FIREPROOF_WITCH",
 		"spawnMessage": "Trouble's brewing, it's a Fireproof Witch!",
 		"rarity": "RARE"
-	},
-	{
-		"id": "MAGMA_PILLAR",
-		"spawnMessage": "A Magma Pillar rises from the lava.",
-		"rarity": "EPIC"
 	},
 	{
 		"id": "FIERY_SCUTTLER",

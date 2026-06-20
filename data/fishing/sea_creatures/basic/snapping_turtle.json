@@ -1,0 +1,8 @@
+{
+  "name": "Snapping Turtle",
+	"rarity": "RARE",
+	"spawnMessage": "A Snapping Turtle is coming your way, and it's ANGRY!",
+	"metadata": {
+		"hotspot": true
+	}
+}

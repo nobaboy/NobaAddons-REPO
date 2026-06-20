@@ -1,0 +1,8 @@
+{
+  "name": "Blue Ringed Octopus",
+  "rarity": "LEGENDARY",
+	"spawnMessage": "A garish set of tentacles arise. It's a Blue Ringed Octopus!",
+	"metadata": {
+		"hotspot": true
+	}
+}

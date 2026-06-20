@@ -1,0 +1,8 @@
+{
+  "name": "Magma Pillar",
+  "rarity": "EPIC",
+  "spawnMessage": "A Magma Pillar rises from the lava.",
+	"metadata": {
+		"hotspot": true
+	}
+}

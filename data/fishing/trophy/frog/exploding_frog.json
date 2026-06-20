@@ -1,0 +1,10 @@
+{
+  "type": "frog",
+  "name": "Exploding Frog",
+  "rarity": "UNCOMMON",
+	"metadata": {
+		"pity_overrides": {
+			"DIAMOND": 300
+		}
+	}
+}

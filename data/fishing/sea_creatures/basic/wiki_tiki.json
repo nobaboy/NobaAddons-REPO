@@ -1,0 +1,8 @@
+{
+  "name": "Wiki Tiki",
+  "rarity": "MYTHIC",
+	"spawnMessage": "The water bubbles and froths. A massive form emerges- you have disturbed the Wiki Tiki! You shall pay the price.",
+	"metadata": {
+		"hotspot": true
+	}
+}

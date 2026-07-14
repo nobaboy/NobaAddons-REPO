@@ -57,7 +57,7 @@
 
 	"pets.autopet": "^§cAutopet §eequipped your §7\\[Lvl (?<level>\\d+)] (?:§.\\[.*] )?§(?<rarity>.)(?<name>[A-z- ]+)(?:§. ✦)?§e! §a§lVIEW RULE$",
 	"pets.despawn": "^You despawned your (?<name>[A-z ]+)(?: ✦)?!$",
-	"pets.menu_title": "^Pets(?: \\(\\d+/\\d+\\) )?",
+	"pets.menu_title": "^(?:\\(\\d+/\\d+\\) )?Pets",
 	"pets.name": "^(?<favorite>⭐ )?\\[Lvl (?<level>\\d+)] (?:\\[\\d+✦] )?(?<name>[A-z- ]+)(?: ✦|$)",
 
 	"rift.free_infusions": "^Free infusions: (?<count>\\d)/\\d",

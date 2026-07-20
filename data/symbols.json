@@ -1,0 +1,103 @@
+{
+	"skills": {
+		"combat": "\uE050",
+		"farming": "\uE051",
+		"fishing": "\uE052",
+		"mining": "\uE053",
+		"foraging": "\uE054",
+		"enchanting": "\uE055",
+		"alchemy": "\uE056",
+		"carpentry": "\uE057",
+		"runecrafting": "\uE058",
+		"taming": "\uE059",
+		"social": "\uE05A",
+		"hunting": "\uE05B"
+	},
+
+	"stats": {
+		"damage": "skills.combat",
+		"rift_damage": "skills.combat",
+
+		"health": "\uE010",
+		"defense": "\uE008",
+		"true_defense": "\uE027",
+		"strength": "\uE00D",
+		"crit_chance": "\uE02C",
+		"crit_damage": "\uE007",
+		"attack_speed": "\uE001",
+		"ferocity": "\uE00B",
+		"swing_range": "\uE024",
+		"intelligence": "\uE003",
+		"ability_damage": "\uE002",
+		"health_regen": "\uE011",
+		"vitality": "\uE028",
+		"mending": "\uE014",
+
+		"breaking_power": "\uE005",
+		"mining_speed": "\uE015",
+		"mining_fortune": "skills.mining",
+		"pristine": "\uE01C",
+		"mining_spread": "\uE016",
+		"gemstone_spread": "\uE00F",
+
+		"farming_fortune": "skills.farming",
+		"bonus_pest_chance": "\uE019",
+		"overbloom": "\uE02B",
+
+		"fishing_speed": "\uE00C",
+		"sea_creature_chance": "\uE021",
+		"double_hook_chance": "\uE009",
+		"trophy_chance": "\uE02A",
+		"treasure_chance": "\uE025",
+
+		"sweep": "\uE023",
+		"foraging_fortune": "skills.foraging",
+
+		"pull": "\uE02D",
+		"hunting_fortune": "skills.hunting",
+
+		"speed": "\uE022",
+		"magic_find": "\uE01A",
+		"pet_luck": "\uE013",
+		"tracking": "\uE077",
+		"heat_resistance": "\uE012",
+		"cold_resistance": "\uE006",
+		"respiration": "\uE01D",
+		"pressure_resistance": "\uE01B",
+		"fear": "\uE00A",
+
+		"rift_time": "\uE020",
+		"mana_regen": "\uE004",
+		"hearts": "\uE01F"
+	},
+
+	"mobs": {
+		"airborne": "\uE070",
+		"animal": "\uE071",
+		"aquatic": "\uE072",
+		"arcane": "\uE073",
+		"arthropod": "\uE074",
+		"construct": "\uE075",
+		"cubic": "\uE076",
+		"elusive": "stats.tracking",
+		"ender": "\uE078",
+		"frozen": "\uE079",
+		"glacial": "\uE07A",
+		"humanoid": "\uE07B",
+		"infernal": "\uE07C",
+		"magmatic": "\uE07D",
+		"mythological": "\uE07E",
+		"pest": "\uE07F",
+		"shielded": "\uE080",
+		"skeletal": "\uE081",
+		"spooky": "\uE082",
+		"subterranean": "\uE083",
+		"undead": "\uE084",
+		"wither": "\uE085",
+		"woodland": "\uE086"
+	},
+
+	"icons": {
+		"pin": "\uE067"
+	}
+}

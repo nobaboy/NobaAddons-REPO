@@ -23,15 +23,16 @@
 
 	"fishing.catch_timer": "^(?:\\d+\\.\\d+|!{3})$",
 	"fishing.double_hook": "^It's a Double Hook!(?: Woot woot!)?$",
-	"fishing.treasure_catch": "^⛃ (?<rarity>GOOD|GREAT|OUTSTANDING)(?<treasureType> JUNK)? CATCH! You caught .+",
-	"fishing.trophy_fish_catch": "^♔ TROPHY FISH! You caught an? (?<fish>[A-z 0-9-]+) (?<rarity>BRONZE|SILVER|GOLD|DIAMOND)!.*",
-	"fishing.trophy_fish_rarity": "(?<rarity>Bronze|Silver|Gold|Diamond) [✔✖](?: \\((?<amount>[\\d,]+)\\))?",
+	"fishing.treasure_catch": "^. (?<rarity>GOOD|GREAT|OUTSTANDING)(?<treasureType> JUNK)? CATCH! You caught .+",
+	"fishing.trophy_catch": "^. TROPHY [A-Z]+! You caught an? (?<trophy>[A-z0-9 ]+) (?<rarity>BRONZE|SILVER|GOLD|DIAMOND)!.*",
+	"fishing.trophy_container_name": "^Trophy [A-z]+",
+	"fishing.trophy_rarity": "^(?<rarity>Bronze|Silver|Gold|Diamond) [✔✖](?: \\((?<amount>[\\d,]+)\\))?",
 
-	"filter.abilities.damage": "^Your (?<ability>[A-z' ]+) hit [0-9]+ (enemies|enemy) for [0-9,.]+ damage\\.",
+	"filter.abilities.damage": "^Your (?<ability>[A-z' ]+) hit [0-9]+ (enemies|enemy) for [0-9,.]+ damage\\.$",
 	"filter.blessings.found": "^DUNGEON BUFF! ([A-z0-9_]+ found a|A) Blessing of (?<blessing>[A-z]+) [IV]+( was found)?!( \\([A-z0-9 ]+\\))?",
-	"filter.blessings.stats": "(?<value>\\+[\\d.]+x?(?: & \\+[\\d.]+x?)?) (?<stat>❁ Strength|☠ Crit Damage|❈ Defense|❁ Damage|HP|❣ Health Regen|✦ Speed|✎ Intelligence)",
+	"filter.blessings.stats": "(?<value>\\+[\\d.]+x?(?: & \\+[\\d.]+x?)?) (?:. )?(?<stat>Strength|Crit Damage|Defense|Damage|HP|Health Regen|Speed|Intelligence)",
 	"filter.healer_orb.other_pickup": "^◕ [A-z0-9_]+ picked up your [A-z ]+!$",
-	"filter.healer_orb.pickup": "^◕ You picked up a (?<orb>[A-z ]+) from (?<player>[A-z0-9_]+) healing you for (?<health>[0-9.]+)❤ and granting you (?<buff>[0-9+%]+) (?<stat>[A-z ]+) for (?<duration>[0-9]+) seconds\\.$",
+	"filter.healer_orb.pickup": "^◕ You picked up a (?<orb>[A-z ]+) from (?<player>[A-z0-9_]+) healing you for (?<health>[0-9,.]+)❤ and granting you (?<buff>[0-9+%]+) (?<stat>[A-z ]+) for (?<duration>[0-9]+) seconds\\.$",
 	"filter.pickup.item": "^A (?<item>[A-z ]+) was picked up!$",
 	"filter.pickup.item_obtained": "^(?:\\[[A-Z+]+] )?[A-z0-9_]+ has obtained (?<item>[A-z ]+)!$",
 	"filter.profile.playing_on": "^You are playing on profile: [A-z-() ]+",
@@ -57,7 +58,7 @@
 
 	"pets.autopet": "^§cAutopet §eequipped your §7\\[Lvl (?<level>\\d+)] (?:§.\\[.*] )?§(?<rarity>.)(?<name>[A-z- ]+)(?:§. ✦)?§e! §a§lVIEW RULE$",
 	"pets.despawn": "^You despawned your (?<name>[A-z ]+)(?: ✦)?!$",
-	"pets.menu_title": "^Pets(?: \\(\\d+/\\d+\\) )?",
+	"pets.menu_title": "^(?:\\(\\d+/\\d+\\) )?Pets",
 	"pets.name": "^(?<favorite>⭐ )?\\[Lvl (?<level>\\d+)] (?:\\[\\d+✦] )?(?<name>[A-z- ]+)(?: ✦|$)",
 
 	"rift.free_infusions": "^Free infusions: (?<count>\\d)/\\d",
@@ -71,7 +72,7 @@
 	"skyblock.profile_id": "^Profile ID: (?<id>[0-9a-f]{8}-?(?:[0-9a-f]{4}-?){3}[0-9a-f]{12})",
 	"skyblock.profile_type": "^. (?<type>Ironman|Stranded|Bingo)$",
 	"skyblock.xp": "^\\s+(?<xp>\\d+)/100 XP$",
-	"skyblock.zone": "^[⏣ф] (?<zone>[A-z-'\" ]+)(?: .*)?$",
+	"skyblock.zone": "^. (?<zone>[A-z-'\" ]+)(?: .*)?$",
 
 	"slayer.boss_cocooned": "^[ ]+YOU COCOONED YOUR SLAYER BOSS$",
 	"slayer.boss_slain": "^[ ]+NICE! SLAYER BOSS SLAIN!$",
@@ -83,7 +84,7 @@
 	"slayer.rng_meter": "^[ ]+RNG Meter - (?<xp>[\\d,]+) Stored XP$",
 	"slayer.slay_to_spawn": "^[ ]+» Slay [\\d,]+ Combat XP worth of .+",
 
-	"slot_info.desk_pest_count": "ൠ This plot has (?<count>\\d+) ൠ Pests?!$",
+	"slot_info.desk_pest_count": ". This plot has (?<count>\\d+) . Pests?!$",
 	"slot_info.tuning_points": "^Stat has: (?<points>\\d+) points?$",
 	"slot_info.vacuum_pests": "^Vacuum Bag: (?<amount>[\\d,]+) Pests$",
 

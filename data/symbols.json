@@ -15,12 +15,10 @@
 	},
 
 	"stats": {
-		"damage": "skills.combat",
-		"rift_damage": "skills.combat",
-
 		"health": "\uE010",
 		"defense": "\uE008",
 		"true_defense": "\uE027",
+		"damage": "skills.combat",
 		"strength": "\uE00D",
 		"crit_chance": "\uE02C",
 		"crit_damage": "\uE007",
@@ -67,6 +65,7 @@
 		"fear": "\uE00A",
 
 		"rift_time": "\uE020",
+		"rift_damage": "\uE01E",
 		"mana_regen": "\uE004",
 		"hearts": "\uE01F"
 	},
@@ -79,7 +78,7 @@
 		"arthropod": "\uE074",
 		"construct": "\uE075",
 		"cubic": "\uE076",
-		"elusive": "stats.tracking",
+		"elusive": "stats.elusive",
 		"ender": "\uE078",
 		"frozen": "\uE079",
 		"glacial": "\uE07A",

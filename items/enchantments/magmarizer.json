@@ -1,7 +1,7 @@
 {
 	"type": "standard",
 	"id": "magmarizer",
-	"name": "Magmarizer",
+	"name": "Pyroclasm",
 	"max": 6,
 	"good": 5,
 	"items": [
@@ -11,5 +11,5 @@
 		"FISHING_ROD",
 		"GAUNTLET"
 	],
-	"applicableTo": ["weapon", "tools/fishing_rod"]
+	"applicableTo": ["weapons/melee", "tools/fishing_rod"]
 }

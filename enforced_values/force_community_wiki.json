@@ -1,0 +1,13 @@
+{
+	"override": {
+		"general": {
+			"commands": {
+				"swiki": {
+					"wikiSource": "COMMUNITY"
+				}
+			}
+		}
+	},
+	"if": {"type": "true"},
+	"message": null
+}

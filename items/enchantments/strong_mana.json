@@ -1,7 +1,7 @@
 {
 	"type": "standard",
 	"id": "strong_mana",
-	"name": "Strong Mana",
+	"name": "Strong Vitality",
 	"max": 10,
 	"good": -1,
 	"items": [

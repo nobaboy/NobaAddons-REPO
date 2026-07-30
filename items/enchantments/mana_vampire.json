@@ -1,7 +1,7 @@
 {
 	"type": "standard",
 	"id": "mana_vampire",
-	"name": "Mana Vampire",
+	"name": "Vampiric Vitality",
 	"max": 10,
 	"good": -1,
 	"items": [

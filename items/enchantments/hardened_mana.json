@@ -1,7 +1,7 @@
 {
 	"type": "standard",
 	"id": "hardened_mana",
-	"name": "Hardened Mana",
+	"name": "Hardened Vitality",
 	"max": 10,
 	"good": -1,
 	"items": [

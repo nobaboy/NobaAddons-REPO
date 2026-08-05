@@ -2,5 +2,13 @@
 	"enchantments": {
 		"to": "items/enchantments",
 		"if": {"type": "true"}
+	},
+	"fishing/sea_creatures.json": {
+		"to": "data/legacy/fishing/sea_creature.json",
+		"if": {"type": "true"}
+	},
+	"fishing/trophy_fish.json": {
+		"to": "data/legacy/fishing/trophy_fish.json",
+		"if": {"type": "true"}
 	}
 }

@@ -1,0 +1,8 @@
+{
+  "name": "Manta Ray",
+  "rarity": "EPIC",
+  "spawnMessage": "A majestic creature rises from the water. It's a Manta Ray.",
+	"metadata": {
+		"hotspot": true
+	}
+}

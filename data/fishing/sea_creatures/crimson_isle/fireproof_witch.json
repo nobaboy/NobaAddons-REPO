@@ -1,0 +1,8 @@
+{
+  "name": "Fireproof Witch",
+  "rarity": "RARE",
+  "spawnMessage": "Trouble's brewing, it's a Fireproof Witch!",
+	"metadata": {
+		"hotspot": true
+	}
+}

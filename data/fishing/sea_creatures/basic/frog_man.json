@@ -1,0 +1,8 @@
+{
+  "name": "Frog Man",
+  "rarity": "COMMON",
+	"spawnMessage": "Is it a frog? Is it a man? Well, yes, sorta, IT'S FROG MAN!!!!!!",
+	"metadata": {
+		"hotspot": true
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Fried Chicken",
+  "rarity": "COMMON",
+  "spawnMessage": "Smells of burning. Must be a Fried Chicken.",
+	"metadata": {
+		"hotspot": true
+	}
+}

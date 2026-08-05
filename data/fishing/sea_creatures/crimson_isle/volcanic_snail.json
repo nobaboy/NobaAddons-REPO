@@ -1,0 +1,8 @@
+{
+  "name": "Volcanic Snail",
+  "rarity": "UNCOMMON",
+  "spawnMessage": "You feel a burning sensation as you reel in a Volcanic Snail!",
+	"metadata": {
+		"hotspot": true
+	}
+}

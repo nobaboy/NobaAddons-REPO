@@ -1,0 +1,8 @@
+{
+  "name": "Ragnarok",
+  "rarity": "MYTHIC",
+  "spawnMessage": "The sky darkens and the air thickens. The end times are upon us: Ragnarok is here.",
+	"metadata": {
+		"hotspot": true
+	}
+}

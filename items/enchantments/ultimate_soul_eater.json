@@ -1,12 +1,11 @@
 {
-	"type": "ultimate",
-	"id": "ultimate_soul_eater",
-	"name": "Soul Eater",
-	"max": 5,
-	"items": [
-		"SWORD",
-		"LONGSWORD",
-		"BOW"
-	],
-	"applicableTo": ["weapons/sword", "weapons/longsword", "weapons/bow"]
+  "type": "ultimate",
+  "id": "ultimate_soul_eater",
+  "name": "Soul Eater",
+  "max": 5,
+  "applicableTo": [
+    "weapons/sword",
+    "weapons/longsword",
+    "weapons/bow"
+  ]
 }

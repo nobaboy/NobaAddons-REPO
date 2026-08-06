@@ -1,11 +1,10 @@
 {
-	"type": "standard",
-	"id": "sugar_rush",
-	"name": "Sugar Rush",
-	"max": 3,
-	"good": 1,
-	"items": [
-		"BOOTS"
-	],
-	"applicableTo": ["armor/boots"]
+  "type": "standard",
+  "id": "sugar_rush",
+  "name": "Sugar Rush",
+  "max": 3,
+  "good": 1,
+  "applicableTo": [
+    "armor/boots"
+  ]
 }

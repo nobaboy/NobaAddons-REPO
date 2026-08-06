@@ -1,19 +1,15 @@
 {
-	"type": "standard",
-	"id": "strong_mana",
-	"name": "Strong Vitality",
-	"max": 10,
-	"good": -1,
-	"items": [
-		"HELMET",
-		"CHESTPLATE",
-		"LEGGINGS",
-		"BOOTS"
-	],
-	"conflicts": [
-		"ferocious_mana",
-		"hardened_mana",
-		"mana_vampire"
-	],
-	"applicableTo": ["armor"]
+  "type": "standard",
+  "id": "strong_mana",
+  "name": "Strong Vitality",
+  "max": 10,
+  "good": -1,
+  "conflicts": [
+    "ferocious_mana",
+    "hardened_mana",
+    "mana_vampire"
+  ],
+  "applicableTo": [
+    "armor"
+  ]
 }

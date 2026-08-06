@@ -1,14 +1,10 @@
 {
-	"type": "standard",
-	"id": "forest_pledge",
-	"name": "Forest Pledge",
-	"max": 5,
-	"good": 3,
-	"items": [
-		"HELMET",
-		"CHESTPLATE",
-		"LEGGINGS",
-		"BOOTS"
-	],
-	"applicableTo": ["armor"]
+  "type": "standard",
+  "id": "forest_pledge",
+  "name": "Forest Pledge",
+  "max": 5,
+  "good": 3,
+  "applicableTo": [
+    "armor"
+  ]
 }

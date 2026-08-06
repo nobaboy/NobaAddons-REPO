@@ -1,14 +1,10 @@
 {
-	"type": "standard",
-	"id": "divine_gift",
-	"name": "Divine Gift",
-	"max": 3,
-	"good": 3,
-	"items": [
-		"SWORD",
-		"LONGSWORD",
-		"BOW",
-		"GAUNTLET"
-	],
-	"applicableTo": ["weapon"]
+  "type": "standard",
+  "id": "divine_gift",
+  "name": "Divine Gift",
+  "max": 3,
+  "good": 3,
+  "applicableTo": [
+    "weapon"
+  ]
 }

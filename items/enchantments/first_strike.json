@@ -1,16 +1,13 @@
 {
-	"type": "standard",
-	"id": "first_strike",
-	"name": "First Strike",
-	"max": 5,
-	"good": 4,
-	"items": [
-		"SWORD",
-		"LONGSWORD",
-		"GAUNTLET"
-	],
-	"conflicts": [
-		"triple_strike"
-	],
-	"applicableTo": ["weapons/melee"]
+  "type": "standard",
+  "id": "first_strike",
+  "name": "First Strike",
+  "max": 5,
+  "good": 4,
+  "conflicts": [
+    "triple_strike"
+  ],
+  "applicableTo": [
+    "weapons/melee"
+  ]
 }

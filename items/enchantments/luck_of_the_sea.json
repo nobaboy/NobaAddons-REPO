@@ -1,11 +1,10 @@
 {
-	"type": "standard",
-	"id": "luck_of_the_sea",
-	"name": "Luck of the Sea",
-	"max": 7,
-	"good": 5,
-	"items": [
-		"FISHING_ROD"
-	],
-	"applicableTo": ["tools/fishing_rod"]
+  "type": "standard",
+  "id": "luck_of_the_sea",
+  "name": "Luck of the Sea",
+  "max": 7,
+  "good": 5,
+  "applicableTo": [
+    "tools/fishing_rod"
+  ]
 }

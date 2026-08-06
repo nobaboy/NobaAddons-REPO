@@ -1,11 +1,10 @@
 {
-	"type": "standard",
-	"id": "chance",
-	"name": "Chance",
-	"max": 5,
-	"good": 3,
-	"items": [
-		"BOW"
-	],
-	"applicableTo": ["weapons/bow"]
+  "type": "standard",
+  "id": "chance",
+  "name": "Chance",
+  "max": 5,
+  "good": 3,
+  "applicableTo": [
+    "weapons/bow"
+  ]
 }

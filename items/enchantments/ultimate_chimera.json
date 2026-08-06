@@ -1,12 +1,9 @@
 {
-	"type": "ultimate",
-	"id": "ultimate_chimera",
-	"name": "Chimera",
-	"max": 5,
-	"items": [
-		"SWORD",
-		"LONGSWORD",
-		"GAUNTLET"
-	],
-	"applicableTo": ["weapons/melee"]
+  "type": "ultimate",
+  "id": "ultimate_chimera",
+  "name": "Chimera",
+  "max": 5,
+  "applicableTo": [
+    "weapons/melee"
+  ]
 }

@@ -1,13 +1,10 @@
 {
-	"type": "standard",
-	"id": "knockback",
-	"name": "Knockback",
-	"max": 2,
-	"good": 2,
-	"items": [
-		"SWORD",
-		"LONGSWORD",
-		"GAUNTLET"
-	],
-	"applicableTo": ["weapons/melee"]
+  "type": "standard",
+  "id": "knockback",
+  "name": "Knockback",
+  "max": 2,
+  "good": 2,
+  "applicableTo": [
+    "weapons/melee"
+  ]
 }

@@ -1,15 +1,11 @@
 {
-	"type": "standard",
-	"id": "impaling",
-	"name": "Impaling",
-	"max": 5,
-	"good": 5,
-	"items": [
-		"SWORD",
-		"LONGSWORD",
-		"BOW",
-		"FISHING_ROD",
-		"GAUNTLET"
-	],
-	"applicableTo": ["weapon", "tools/fishing_rod"]
+  "type": "standard",
+  "id": "impaling",
+  "name": "Impaling",
+  "max": 5,
+  "good": 5,
+  "applicableTo": [
+    "weapon",
+    "tools/fishing_rod"
+  ]
 }

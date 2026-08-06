@@ -1,12 +1,10 @@
 {
-	"type": "standard",
-	"id": "replenish",
-	"name": "Replenish",
-	"max": 1,
-	"good": 1,
-	"items": [
-		"HOE",
-		"AXE"
-	],
-	"applicableTo": ["tools/farming"]
+  "type": "standard",
+  "id": "replenish",
+  "name": "Replenish",
+  "max": 1,
+  "good": 1,
+  "applicableTo": [
+    "tools/farming"
+  ]
 }

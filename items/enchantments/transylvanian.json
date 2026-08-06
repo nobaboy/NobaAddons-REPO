@@ -1,11 +1,10 @@
 {
-	"type": "standard",
-	"id": "transylvanian",
-	"name": "Transylvanian",
-	"max": 5,
-	"good": 4,
-	"items": [
-		"HELMET"
-	],
-	"applicableTo": ["armor/helmet"]
+  "type": "standard",
+  "id": "transylvanian",
+  "name": "Transylvanian",
+  "max": 5,
+  "good": 4,
+  "applicableTo": [
+    "armor/helmet"
+  ]
 }

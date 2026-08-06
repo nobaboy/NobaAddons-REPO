@@ -1,17 +1,13 @@
 {
-	"type": "standard",
-	"id": "rejuvenate",
-	"name": "Rejuvenate",
-	"max": 5,
-	"good": 3,
-	"items": [
-		"HELMET",
-		"CHESTPLATE",
-		"LEGGINGS",
-		"BOOTS"
-	],
-	"conflicts": [
-		"respite"
-	],
-	"applicableTo": ["armor"]
+  "type": "standard",
+  "id": "rejuvenate",
+  "name": "Rejuvenate",
+  "max": 5,
+  "good": 3,
+  "conflicts": [
+    "respite"
+  ],
+  "applicableTo": [
+    "armor"
+  ]
 }

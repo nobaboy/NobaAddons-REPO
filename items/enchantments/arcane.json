@@ -1,11 +1,10 @@
 {
-	"type": "standard",
-	"id": "arcane",
-	"name": "Woodsplitter",
-	"max": 6,
-	"good": 5,
-	"items": [
-		"AXE"
-	],
-	"applicableTo": ["tools/axe"]
+  "type": "standard",
+  "id": "arcane",
+  "name": "Woodsplitter",
+  "max": 6,
+  "good": 5,
+  "applicableTo": [
+    "tools/axe"
+  ]
 }

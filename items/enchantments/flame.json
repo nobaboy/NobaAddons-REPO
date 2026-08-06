@@ -1,11 +1,10 @@
 {
-	"type": "standard",
-	"id": "flame",
-	"name": "Flame",
-	"max": 2,
-	"good": 2,
-	"items": [
-		"BOW"
-	],
-	"applicableTo": ["weapons/bow"]
+  "type": "standard",
+  "id": "flame",
+  "name": "Flame",
+  "max": 2,
+  "good": 2,
+  "applicableTo": [
+    "weapons/bow"
+  ]
 }

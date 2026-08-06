@@ -1,19 +1,15 @@
 {
-	"type": "standard",
-	"id": "projectile_protection",
-	"name": "Projectile Protection",
-	"max": 7,
-	"good": 5,
-	"items": [
-		"HELMET",
-		"CHESTPLATE",
-		"LEGGINGS",
-		"BOOTS"
-	],
-	"conflicts": [
-		"blast_protection",
-		"fire_protection",
-		"protection"
-	],
-	"applicableTo": ["armor"]
+  "type": "standard",
+  "id": "projectile_protection",
+  "name": "Projectile Protection",
+  "max": 7,
+  "good": 5,
+  "conflicts": [
+    "blast_protection",
+    "fire_protection",
+    "protection"
+  ],
+  "applicableTo": [
+    "armor"
+  ]
 }

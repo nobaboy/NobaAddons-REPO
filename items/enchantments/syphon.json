@@ -1,17 +1,14 @@
 {
-	"type": "standard",
-	"id": "syphon",
-	"name": "Drain",
-	"max": 5,
-	"good": 3,
-	"items": [
-		"SWORD",
-		"LONGSWORD",
-		"GAUNTLET"
-	],
-	"conflicts": [
-		"life_steal",
-		"mana_steal"
-	],
-	"applicableTo": ["weapons/melee"]
+  "type": "standard",
+  "id": "syphon",
+  "name": "Drain",
+  "max": 5,
+  "good": 3,
+  "conflicts": [
+    "life_steal",
+    "mana_steal"
+  ],
+  "applicableTo": [
+    "weapons/melee"
+  ]
 }

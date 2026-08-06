@@ -1,11 +1,10 @@
 {
-	"type": "standard",
-	"id": "quantum",
-	"name": "Quantum",
-	"max": 5,
-	"good": 3,
-	"items": [
-		"NECKLACE"
-	],
-	"applicableTo": ["equipment/necklace"]
+  "type": "standard",
+  "id": "quantum",
+  "name": "Quantum",
+  "max": 5,
+  "good": 3,
+  "applicableTo": [
+    "equipment/necklace"
+  ]
 }

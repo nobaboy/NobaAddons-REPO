@@ -1,20 +1,16 @@
 {
-	"type": "standard",
-	"id": "great_spook",
-	"name": "Great Spook",
-	"max": 1,
-	"good": 1,
-	"items": [
-		"HELMET",
-		"CHESTPLATE",
-		"LEGGINGS",
-		"BOOTS"
-	],
-	"exclusiveToItems": [
-		"GREAT_SPOOK_HELMET",
-		"GREAT_SPOOK_CHESTPLATE",
-		"GREAT_SPOOK_LEGGINGS",
-		"GREAT_SPOOK_BOOTS"
-	],
-	"applicableTo": ["armor"]
+  "type": "standard",
+  "id": "great_spook",
+  "name": "Great Spook",
+  "max": 1,
+  "good": 1,
+  "exclusiveToItems": [
+    "GREAT_SPOOK_HELMET",
+    "GREAT_SPOOK_CHESTPLATE",
+    "GREAT_SPOOK_LEGGINGS",
+    "GREAT_SPOOK_BOOTS"
+  ],
+  "applicableTo": [
+    "armor"
+  ]
 }

@@ -1,0 +1,7 @@
+{
+	"type": "ultimate",
+	"id": "ultimate_sunset",
+	"name": "Sunset",
+	"max": 5,
+	"applicableTo": ["armor"]
+}

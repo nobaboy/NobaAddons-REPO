@@ -1,14 +1,10 @@
 {
-	"type": "standard",
-	"id": "pesterminator",
-	"name": "Pesterminator",
-	"max": 6,
-	"good": 5,
-	"items": [
-		"HELMET",
-		"CHESTPLATE",
-		"LEGGINGS",
-		"BOOTS"
-	],
-	"applicableTo": ["armor"]
+  "type": "standard",
+  "id": "pesterminator",
+  "name": "Pesterminator",
+  "max": 6,
+  "good": 5,
+  "applicableTo": [
+    "armor"
+  ]
 }

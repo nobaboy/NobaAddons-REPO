@@ -1,11 +1,10 @@
 {
-	"type": "standard",
-	"id": "overload",
-	"name": "Overload",
-	"max": 5,
-	"good": 1,
-	"items": [
-		"BOW"
-	],
-	"applicableTo": ["weapons/bow"]
+  "type": "standard",
+  "id": "overload",
+  "name": "Overload",
+  "max": 5,
+  "good": 1,
+  "applicableTo": [
+    "weapons/bow"
+  ]
 }

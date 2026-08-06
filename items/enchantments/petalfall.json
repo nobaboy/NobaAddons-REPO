@@ -1,0 +1,8 @@
+{
+	"type": "standard",
+	"id": "petalfall",
+	"name": "Petalfall",
+	"max": 5,
+	"good": 5,
+	"applicableTo": ["tools/axe"]
+}

@@ -1,13 +1,10 @@
 {
-	"type": "standard",
-	"id": "sharpness",
-	"name": "Sharpness",
-	"max": 7,
-	"good": 5,
-	"items": [
-		"SWORD",
-		"LONGSWORD",
-		"GAUNTLET"
-	],
-	"applicableTo": ["weapons/melee"]
+  "type": "standard",
+  "id": "sharpness",
+  "name": "Sharpness",
+  "max": 7,
+  "good": 5,
+  "applicableTo": [
+    "weapons/melee"
+  ]
 }

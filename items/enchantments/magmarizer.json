@@ -1,15 +1,11 @@
 {
-	"type": "standard",
-	"id": "magmarizer",
-	"name": "Pyroclasm",
-	"max": 6,
-	"good": 5,
-	"items": [
-		"SWORD",
-		"LONGSWORD",
-		"BOW",
-		"FISHING_ROD",
-		"GAUNTLET"
-	],
-	"applicableTo": ["weapons/melee", "tools/fishing_rod"]
+  "type": "standard",
+  "id": "magmarizer",
+  "name": "Pyroclasm",
+  "max": 6,
+  "good": 5,
+  "applicableTo": [
+    "weapons/melee",
+    "tools/fishing_rod"
+  ]
 }

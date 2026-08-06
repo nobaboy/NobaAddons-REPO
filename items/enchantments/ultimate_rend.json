@@ -1,10 +1,9 @@
 {
-	"type": "ultimate",
-	"id": "ultimate_rend",
-	"name": "Rend",
-	"max": 5,
-	"items": [
-		"BOW"
-	],
-	"applicableTo": ["weapons/bow"]
+  "type": "ultimate",
+  "id": "ultimate_rend",
+  "name": "Rend",
+  "max": 5,
+  "applicableTo": [
+    "weapons/bow"
+  ]
 }

@@ -1,11 +1,10 @@
 {
-	"type": "standard",
-	"id": "true_protection",
-	"name": "True Protection",
-	"max": 1,
-	"good": 1,
-	"items": [
-		"CHESTPLATE"
-	],
-	"applicableTo": ["armor/chestplate"]
+  "type": "standard",
+  "id": "true_protection",
+  "name": "True Protection",
+  "max": 1,
+  "good": 1,
+  "applicableTo": [
+    "armor/chestplate"
+  ]
 }

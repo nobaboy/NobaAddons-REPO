@@ -1,16 +1,13 @@
 {
-	"type": "standard",
-	"id": "fortune",
-	"name": "Fortune",
-	"max": 4,
-	"good": 3,
-	"items": [
-		"DRILL",
-		"GAUNTLET",
-		"PICKAXE"
-	],
-	"conflicts": [
-		"silk_touch"
-	],
-	"applicableTo": ["tools/pickaxes"]
+  "type": "standard",
+  "id": "fortune",
+  "name": "Fortune",
+  "max": 4,
+  "good": 3,
+  "conflicts": [
+    "silk_touch"
+  ],
+  "applicableTo": [
+    "tools/pickaxes"
+  ]
 }

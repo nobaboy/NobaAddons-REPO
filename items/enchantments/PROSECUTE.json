@@ -1,16 +1,13 @@
 {
-	"type": "standard",
-	"id": "PROSECUTE",
-	"name": "Prosecute",
-	"max": 6,
-	"good": 5,
-	"items": [
-		"SWORD",
-		"LONGSWORD",
-		"GAUNTLET"
-	],
-	"conflicts": [
-		"execute"
-	],
-	"applicableTo": ["weapons/melee"]
+  "type": "standard",
+  "id": "PROSECUTE",
+  "name": "Prosecute",
+  "max": 6,
+  "good": 5,
+  "conflicts": [
+    "execute"
+  ],
+  "applicableTo": [
+    "weapons/melee"
+  ]
 }

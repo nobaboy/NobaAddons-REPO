@@ -1,13 +1,10 @@
 {
-	"type": "standard",
-	"id": "pristine",
-	"name": "Prismatic",
-	"max": 5,
-	"good": 1,
-	"items": [
-		"DRILL",
-		"GAUNTLET",
-		"PICKAXE"
-	],
-	"applicableTo": ["tools/pickaxes"]
+  "type": "standard",
+  "id": "pristine",
+  "name": "Prismatic",
+  "max": 5,
+  "good": 1,
+  "applicableTo": [
+    "tools/pickaxes"
+  ]
 }

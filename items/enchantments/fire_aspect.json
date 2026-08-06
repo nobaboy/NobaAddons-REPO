@@ -1,13 +1,10 @@
 {
-	"type": "standard",
-	"id": "fire_aspect",
-	"name": "Fire Aspect",
-	"max": 3,
-	"good": 2,
-	"items": [
-		"SWORD",
-		"LONGSWORD",
-		"GAUNTLET"
-	],
-	"applicableTo": ["weapons/melee"]
+  "type": "standard",
+  "id": "fire_aspect",
+  "name": "Fire Aspect",
+  "max": 3,
+  "good": 2,
+  "applicableTo": [
+    "weapons/melee"
+  ]
 }

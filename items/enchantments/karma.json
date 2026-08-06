@@ -1,0 +1,8 @@
+{
+	"type": "standard",
+	"id": "karma",
+	"name": "Karma",
+	"max": 6,
+	"good": 5,
+	"applicableTo": ["tools/axe"]
+}

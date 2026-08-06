@@ -1,11 +1,10 @@
 {
-	"type": "standard",
-	"id": "aiming",
-	"name": "Dragon Tracer",
-	"max": 5,
-	"good": 5,
-	"items": [
-		"BOW"
-	],
-	"applicableTo": ["weapons/bow"]
+  "type": "standard",
+  "id": "aiming",
+  "name": "Dragon Tracer",
+  "max": 5,
+  "good": 5,
+  "applicableTo": [
+    "weapons/bow"
+  ]
 }

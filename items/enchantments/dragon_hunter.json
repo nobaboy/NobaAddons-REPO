@@ -1,14 +1,10 @@
 {
-	"type": "standard",
-	"id": "dragon_hunter",
-	"name": "Gravity",
-	"max": 6,
-	"good": 5,
-	"items": [
-		"SWORD",
-		"LONGSWORD",
-		"BOW",
-		"GAUNTLET"
-	],
-	"applicableTo": ["weapon"]
+  "type": "standard",
+  "id": "dragon_hunter",
+  "name": "Gravity",
+  "max": 6,
+  "good": 5,
+  "applicableTo": [
+    "weapon"
+  ]
 }

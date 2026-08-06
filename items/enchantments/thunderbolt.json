@@ -1,16 +1,13 @@
 {
-	"type": "standard",
-	"id": "thunderbolt",
-	"name": "Thunderbolt",
-	"max": 7,
-	"good": 5,
-	"items": [
-		"SWORD",
-		"LONGSWORD",
-		"GAUNTLET"
-	],
-	"conflicts": [
-		"thunderlord"
-	],
-	"applicableTo": ["weapons/melee"]
+  "type": "standard",
+  "id": "thunderbolt",
+  "name": "Thunderbolt",
+  "max": 7,
+  "good": 5,
+  "conflicts": [
+    "thunderlord"
+  ],
+  "applicableTo": [
+    "weapons/melee"
+  ]
 }

@@ -1,16 +1,13 @@
 {
-	"type": "standard",
-	"id": "giant_killer",
-	"name": "Giant Killer",
-	"max": 7,
-	"good": 5,
-	"items": [
-		"SWORD",
-		"LONGSWORD",
-		"GAUNTLET"
-	],
-	"conflicts": [
-		"titan_killer"
-	],
-	"applicableTo": ["weapons/melee"]
+  "type": "standard",
+  "id": "giant_killer",
+  "name": "Giant Killer",
+  "max": 7,
+  "good": 5,
+  "conflicts": [
+    "titan_killer"
+  ],
+  "applicableTo": [
+    "weapons/melee"
+  ]
 }

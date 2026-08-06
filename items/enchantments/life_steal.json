@@ -1,17 +1,14 @@
 {
-	"type": "standard",
-	"id": "life_steal",
-	"name": "Life Steal",
-	"max": 5,
-	"good": 3,
-	"items": [
-		"SWORD",
-		"LONGSWORD",
-		"GAUNTLET"
-	],
-	"conflicts": [
-		"mana_steal",
-		"syphon"
-	],
-	"applicableTo": ["weapons/melee"]
+  "type": "standard",
+  "id": "life_steal",
+  "name": "Life Steal",
+  "max": 5,
+  "good": 3,
+  "conflicts": [
+    "mana_steal",
+    "syphon"
+  ],
+  "applicableTo": [
+    "weapons/melee"
+  ]
 }

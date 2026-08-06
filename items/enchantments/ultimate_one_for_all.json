@@ -1,11 +1,10 @@
 {
-	"type": "ultimate",
-	"id": "ultimate_one_for_all",
-	"name": "One For All",
-	"max": 1,
-	"items": [
-		"SWORD",
-		"LONGSWORD"
-	],
-	"applicableTo": ["weapons/sword", "weapons/longsword"]
+  "type": "ultimate",
+  "id": "ultimate_one_for_all",
+  "name": "One For All",
+  "max": 1,
+  "applicableTo": [
+    "weapons/sword",
+    "weapons/longsword"
+  ]
 }

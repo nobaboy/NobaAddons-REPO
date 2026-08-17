@@ -1,7 +1,7 @@
 {
   "name": "Inkling",
   "rarity": "UNCOMMON",
-  "spawnMessage": "You get an inkling you've caught... an Inkling!",
+  "spawnMessage": "You get an inkling that you've caught... an Inkling!",
 	"metadata": {
 		"hotspot": true
 	}

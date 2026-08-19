@@ -2,8 +2,8 @@
   "type": "standard",
   "id": "forest_pledge",
   "name": "Forest Pledge",
-  "max": 5,
-  "good": 3,
+  "max": 6,
+  "good": 5,
   "applicableTo": [
     "armor"
   ]

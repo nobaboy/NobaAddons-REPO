@@ -50,9 +50,11 @@
 
 		"sweep": "\uE023",
 		"foraging_fortune": "skills.foraging",
+		"timber": "\uE02E",
 
 		"pull": "\uE02D",
 		"hunter_fortune": "skills.hunting",
+		"charm_chance": "\u2763",
 
 		"speed": "\uE022",
 		"magic_find": "\uE01A",
@@ -77,6 +79,7 @@
 		"arcane": "\uE073",
 		"arthropod": "\uE074",
 		"construct": "\uE075",
+		"critter": "skills.hunting",
 		"cubic": "\uE076",
 		"elusive": "stats.tracking",
 		"ender": "\uE078",
@@ -91,6 +94,7 @@
 		"skeletal": "\uE081",
 		"spooky": "\uE082",
 		"subterranean": "\uE083",
+		"timid": "\uE088",
 		"undead": "\uE084",
 		"wither": "\uE085",
 		"woodland": "\uE086"

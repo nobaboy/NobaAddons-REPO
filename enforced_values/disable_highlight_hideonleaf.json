@@ -2,6 +2,7 @@
 	"override": {
 		"hunting": {
 			"mobHighlight": {
+				"invisibug": false,
 				"hideonleaf": false
 			}
 		}

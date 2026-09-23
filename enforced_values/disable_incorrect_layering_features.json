@@ -5,6 +5,11 @@
 				"invisibug": false,
 				"hideonleaf": false
 			}
+		},
+		"fishing": {
+			"highlightThunderSparks": {
+				"enabled": false
+			}
 		}
 	},
 	"if": {"type": "minecraft", "min": "26.2"},

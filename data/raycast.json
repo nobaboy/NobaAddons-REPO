@@ -53,8 +53,7 @@
 		"minecraft:weeping_vines"
 	],
 	"validBlocks": [
-		"minecraft:flowering_azalea",
-		"minecraft:flowering_azalea_leaves",
+		"#minecraft:leaves",
 		"minecraft:azalea",
 		"minecraft:tripwire_hook",
 		"minecraft:snow"

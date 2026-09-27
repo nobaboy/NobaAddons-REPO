@@ -50,7 +50,8 @@
 		"minecraft:dragon_wall_head",
 		"minecraft:crimson_fungus",
 		"minecraft:weeping_vines_plant",
-		"minecraft:weeping_vines"
+		"minecraft:weeping_vines",
+		"minecraft:candle"
 	],
 	"validBlocks": [
 		"#minecraft:leaves",

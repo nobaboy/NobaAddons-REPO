@@ -2,7 +2,7 @@
   "type": "standard",
   "id": "thorns",
   "name": "Thorns",
-  "max": 3,
+  "max": 4,
   "good": 3,
   "conflicts": [
     "reflection"

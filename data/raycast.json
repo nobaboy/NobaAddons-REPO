@@ -12,6 +12,7 @@
 		"#minecraft:rails",
 		"#minecraft:portals",
 		"minecraft:torch",
+		"minecraft:soul_torch",
 		"minecraft:wall_torch",
 		"minecraft:redstone_torch",
 		"minecraft:redstone_wall_torch",

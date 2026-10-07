@@ -1,0 +1,14 @@
+{
+	"name": "Grand Feast",
+	"description": [
+		"Finnegan upgrades the ",
+		{"text": "Harvest Feast", "color": "gold"},
+		" into the ",
+		{"text": "Grand Feast", "color": "light_purple"},
+		", making it last a full SkyBlock year. Also opens the ",
+		{"text": "Grand Bakery", "color": "red"},
+		", where ",
+		{"text": "Kernels", "color": "gold"},
+		" can be spent on more exclusive items."
+	]
+}

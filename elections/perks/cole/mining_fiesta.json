@@ -1,11 +1,10 @@
 {
 	"name": "Mining Fiesta",
 	"description": [
-		"Schedules 5 ",
-		{"text": "Mining Fiesta", "color": "gold"},
-		" throughout the year! During these events gain ",
-		{"text": "+75☯ Mining Wisdom", "color": "dark_aqua"},
-		", collect ",
+		"Gain ",
+		{"text": "+25☯ Mining Wisdom", "color": "dark_aqua"},
+		", ",
+		{"text": "+25% ", "color": "blue"},
 		{"text": "Refined Mineral", "color": "blue"},
 		" and ",
 		{"text": "Glossy Gemstone", "color": "dark_purple"},

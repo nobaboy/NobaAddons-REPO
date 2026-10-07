@@ -2,7 +2,7 @@
 	"name": "Luck of the Sea 2.0",
 	"description": [
 		"Gain ",
-		{"text": "+15α Sea Creature Chance", "color": "dark_aqua"},
+		{"text": "15\uE021 Sea Creature Chance", "color": "dark_aqua"},
 		"."
 	]
 }

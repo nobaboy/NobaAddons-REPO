@@ -24,7 +24,7 @@
 	"fishing.catch_timer": "^(?:\\d+\\.\\d+|!{3})$",
 	"fishing.double_hook": "^It's a Double Hook!(?: Woot woot!)?$",
 	"fishing.treasure_catch": "^. (?<rarity>GOOD|GREAT|OUTSTANDING)(?<treasureType> JUNK)? CATCH! You caught .+",
-	"fishing.trophy_catch": "^. TROPHY [A-Z]+! You caught an? (?<trophy>[A-z0-9 ]+) (?<rarity>BRONZE|SILVER|GOLD|DIAMOND)!.*",
+	"fishing.trophy_catch": "^. TROPHY [A-Z]+! You caught an? (?<trophy>[A-z0-9 ]+) (?<rarity>BRONZE|SILVER|GOLD|DIAMOND)(?: x(?<amount>\\d))?!.*",
 	"fishing.trophy_container_name": "^Trophy [A-z]+",
 	"fishing.trophy_rarity": "^(?<rarity>Bronze|Silver|Gold|Diamond) [✔✖](?: \\((?<amount>[\\d,]+)\\))?",
 
@@ -75,9 +75,11 @@
 	"skyblock.zone": "^. (?<zone>[A-z-'\" ]+)(?: .*)?$",
 
 	"slayer.boss_cocooned": "^[ ]+YOU COCOONED YOUR SLAYER BOSS$",
+	"slayer.boss_name": "^(?<name>[\\w ]+) (?<tier>[IVXLCDM]+)$",
+	"slayer.boss_progress": "^\\(?(?<progress>[\\d,.k]+)/(?<required>[\\d,.k]+)\\)? (?:Combat(?: XP)?|Kills)$",
+	"slayer.quest_clear": "^[ ]+SLAYER QUEST COMPLETE!$",
 	"slayer.boss_slain": "^[ ]+NICE! SLAYER BOSS SLAIN!$",
 	"slayer.level": "^[ ]+(?<slayer>[A-z]+) Slayer LVL (?<level>\\d) - (?:LVL MAXED OUT|Next LVL in (?<nextLevel>[\\d,]+) XP)!$",
-	"slayer.quest_clear": "^[ ]+SLAYER QUEST COMPLETE!$",
 	"slayer.quest_complete": "^[ ]+SLAYER QUEST COMPLETE!$",
 	"slayer.quest_failed": "^[ ]+SLAYER QUEST FAILED!$",
 	"slayer.quest_started": "^[ ]+SLAYER QUEST STARTED!$",

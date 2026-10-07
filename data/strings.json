@@ -2,6 +2,7 @@
 	"attribute_menu.left_click": "Left-Click to open!",
 
 	"chat.conversation_expired": "The conversation you were in expired and you have been moved back to the ALL channel.",
+	"chat.discord_warning": "\\nPlease be mindful of Discord links in chat as they may pose a security risk",
 	"chat.not_in_party": "You are not in a party and were moved to the ALL channel.",
 
 	"crimson_isle.vanquisher_spawn": "A Vanquisher is spawning nearby!",
@@ -20,7 +21,7 @@
 	"party.invite_other.not_found": "Couldn't find a player with that name!",
 	"party.invite_other.offline": "You cannot invite that player since they're not online.",
 
-	"slayer.quest_cancel": "Your Slayer Quest has been cancelled!",
+	"slayer.quest_cancelled": "Your Slayer Quest has been cancelled!",
 
 	"slot_info.desk_sprayed_with_prefix": "Sprayed with",
 

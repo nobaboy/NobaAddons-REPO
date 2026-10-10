@@ -95,6 +95,6 @@
 
 	"safari.sparkling": "§a§lCAPTURE! §7You caught a §6§lSPARKLING §.[A-z ]+§7 and received a §5Rainbow Feather§7 and (?<amount>\\d+)x (?<shard>§.[A-z ]+ Shard)§7!",
 	"safari.sparkling.lootshare": "§e§lLOOT SHARE! §7You received a §5Rainbow Feather§7 and (?<amount>\\d+)x (?<shard>§.[A-z ]+ Shard)§7 from (?<from>§.[A-z_0-9]+)§7 catching a §6§lSPARKLING §.[A-z ]+§7!",
-	"safari.catch": "§a§lCAPTURE! §7You (?:caught a|found the) §.[A-z ]+§7(?: and gained|, and as a reward it gave you) (?:a|(?<amount>\\d+)x) (?<shard>§.[A-z ]+ Shard)§7!",
-	"safari.catch.lootshare": "§e§lLOOT SHARE! §7You received (?:a|(?<amount>\\d+)x) (?<shard>§.[A-z ]+ Shard)§7 from (?<from>§.[A-z_0-9]+)§7 (?:catching a|finding the) §.[A-z ]+§7!"
+	"safari.catch": "§a§lCAPTURE! §7You (?:caught an?|found the) §.[A-z ]+§7(?: and gained|, and as a reward it gave you) (?:an?|(?<amount>\\d+)x) (?<shard>§.[A-z ]+ Shard)§7!",
+	"safari.catch.lootshare": "§e§lLOOT SHARE! §7You received (?:an?|(?<amount>\\d+)x) (?<shard>§.[A-z ]+ Shard)§7 from (?<from>§.[A-z_0-9]+)§7 (?:catching an?|finding the) §.[A-z ]+§7!"
 }

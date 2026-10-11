@@ -1,0 +1,36 @@
+{
+	"capsuleHit": "You threw a(?: Masterful)? Critter Capsule at the [A-z ]+!",
+	"condense": [
+		[
+			"You used the Soothing Incense to light the candle! You begin to feel uneasy.",
+			"You used the Soothing Incense to light the candle! Something is off about this place...",
+			"You used the Soothing Incense to light the candle! Are you sure you wish to continue?",
+			"You used the Soothing Incense to light the candle! The ground beneath your feet starts to shift...",
+			"Your ritual summoned a Doomspiral into this world. Stay still."
+		],
+		[
+			"You ran headfirst into the wall. Some more cracks appeared in it...",
+			"Keep running into the wall! More cracks are forming!",
+			"You destroyed the wall! Maybe something was hiding behind it..."
+		],
+		[
+			"Small cracks begin to form in the mound...",
+			"The cracks seem to be getting larger, keep hitting it!",
+			"Chunks of the mound begin falling away...",
+			"The mound is about to fall to pieces! Keep going!",
+			"The mound falls apart, but nothing is inside...",
+			"The mound fell apart, revealing a Rockmite hidden inside!"
+		],
+		[
+			"The Scrappy cautiously started eating the Flavor-packed Fish.",
+			"The Scrappy reaches out its paw for more Flavor-packed Fish.",
+			"The Scrappy ate the Flavor-packed Fish and came out of its shell!",
+			"The Scrappy cautiously started eating the Lush Lily Pad.",
+			"The Scrappy reaches out its paw for more Lush Lily Pad.",
+			"The Scrappy ate the Lush Lily Pad and came out of its shell!",
+			"The Scrappy cautiously started eating the Wholesale Wheat.",
+			"The Scrappy reaches out its paw for more Wholesale Wheat.",
+			"The Scrappy ate the Wholesale Wheat and came out of its shell!"
+		]
+	]
+}

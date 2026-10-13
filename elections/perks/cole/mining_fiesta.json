@@ -4,12 +4,11 @@
 		"Gain ",
 		{"text": "+25☯ Mining Wisdom", "color": "dark_aqua"},
 		", ",
-		{"text": "+25% ", "color": "blue"},
-		{"text": "Refined Mineral", "color": "blue"},
+		{"text": "+25% \uE053 Mining Fortune", "color": "gold"},
+		", and collect ",
+		{"text": "Refined Minerals", "color": "blue"},
 		" and ",
-		{"text": "Glossy Gemstone", "color": "dark_purple"},
-		", and earn ",
-		{"text": "2x drops", "color": "light_purple"},
+		{"text": "Glossy Gemstones", "color": "dark_purple"},
 		" from mining!"
 	]
 }

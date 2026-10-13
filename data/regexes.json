@@ -3,7 +3,7 @@
 	"attribute_menu.syphon_to_level": "^Syphon (?<remaining>\\d+) shards? to (?:level up|unlock)!$",
 	"attribute_menu.syphon_to_max": "^Syphon (?<remaining>\\d+) (?:more|shards) to max!$",
 
-	"contained_chat_coordinates": "^(?i)x: (?<x>[0-9.-]+),? y: (?<y>[0-9.-]+),? z: (?<z>[0-9.-]+)(?<info>.*)",
+	"contained_chat_coordinates": "^(?i)x: (?<x>[0-9.-]+),? y: (?<y>[0-9.-]+),? z: (?<z>[0-9.-]+)(?: \\| )?(?<info>.*)",
 
 	"chat.all": "^(?:\\[\\d+](?: [^\\[\\w])? )?(?:§[a-z0-9])?(?:\\[(?:[A-Z+]|§[a-z0-9])+] )?(?<username>[A-z0-9_]+)(?:§.)?: (?<message>.+)",
 	"chat.party": "^§9Party §8> §[a-z0-9](?:\\[(?:[A-Z+]|§[a-z0-9])+] )?(?<username>[A-z0-9_]+)§f: (?<message>.+)",

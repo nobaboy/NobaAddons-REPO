@@ -2,10 +2,11 @@
   "type": "standard",
   "id": "looting",
   "name": "Looting",
-  "max": 5,
-  "good": 3,
+  "max": 7,
+  "good": 5,
   "applicableTo": [
     "weapons/melee",
+    "weapons/bow",
     "tools/fishing_rod"
   ]
 }

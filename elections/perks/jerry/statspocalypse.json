@@ -1,4 +1,12 @@
 {
 	"name": "Statspocalypse",
-	"description": ["Increases most stats by ", {"text": "10%", "color": "green"}, "."]
+	"description": [
+		"Increases all ",
+		{"text": "Combat", "color": "red"},
+		" and ",
+		{"text": "Miscellaneous", "color": "light_purple"},
+		" stats by ",
+		{"text": "10%", "color": "green"},
+		"."
+	]
 }

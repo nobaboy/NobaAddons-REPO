@@ -56,8 +56,7 @@
 		"#minecraft:fence_gates"
 	],
 	"validAbove": [
-		"minecraft:oak_sign",
-		"minecraft:oak_wall_sign",
+		"#minecraft:all_signs",
 		"minecraft:torch",
 		"minecraft:soul_torch"
 	]

@@ -21,6 +21,8 @@
 	"crimson_isle.miniboss_spawn": "^BEWARE - (?:The )?(?<name>[A-Za-z ]+) [Ii]s [Ss]pawning\\.?$",
 	"crimson_isle.miniboss_down": "^[ ]+(?<name>[A-Z ]+) DOWN!$",
 
+	"dungeons.class_letter": "^\\[(?<letter>[ABHMT])] \\w+ .+",
+
 	"fishing.catch_timer": "^(?:\\d+\\.\\d+|!{3})$",
 	"fishing.double_hook": "^It's a Double Hook!(?: Woot woot!)?$",
 	"fishing.treasure_catch": "^. (?<rarity>GOOD|GREAT|OUTSTANDING)(?<treasureType> JUNK)? CATCH! You caught .+",

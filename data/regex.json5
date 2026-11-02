@@ -1,0 +1,17 @@
+{
+	party: {
+		disbanded: "^(?:\\[[A-Z+]+] )?(?<former>[A-z0-9_]+) has disbanded the party!$",
+		join: "^You have joined (?:\\[[A-Z+]+] )?(?<leader>[A-z0-9_]+)'s party!$",
+		kicked: "^You have been kicked from the party by (?:\\[[A-Z+]+] )?[A-z0-9_]+",
+		leave: "^(?:You left the party\\.|The party was disbanded because (?:all invites expired and the party was empty|the party leader disconnected)\\.|You are not in a party(?: right now)?[.!]|You are not currently in a party[.!])$",
+		offline_kicked: "^Kicked (?:\\[[A-Z+]+] )?(?<name>[A-z0-9_]+) because they were offline\\.$",
+		offline_removed: "^(?:\\[[A-Z+]+] )?(?<name>[A-z0-9_]+) was removed from your party because they disconnected\\.$",
+		other_join: "^(?:\\[[A-Z+]+] )?(?<name>[A-z0-9_]+) joined the party\\.$",
+		other_kicked: "^(?:\\[[A-Z+]+] )?(?<name>[A-z0-9_]+) has been removed from the party\\.$",
+		other_leave: "^(?:\\[[A-Z+]+] )?(?<name>[A-z0-9_]+) has left the party\\.$",
+		party_finder_join: "^Party Finder > (?<name>[A-z0-9_]+) joined the (?:dungeon )?group! \\([A-z0-9 ]+\\)$",
+		promote_demote: "^(?:\\[[A-Z+]+] )?[A-z0-9_]+ has (?:promoted|demoted) (?:\\[[A-Z+]+] )?[A-z0-9_]+ to Party (?:Member|Moderator|Leader)$",
+		transfer: "^The party was transferred to (?:\\[[A-Z+]+] )?(?<newLeader>[A-z0-9_]+) by (?:\\[[A-Z+]+] )?(?<formerLeader>[A-z0-9_]+)",
+		transfer_leave: "^The party was transferred to (?:\\[[A-Z+]+] )?(?<newLeader>[A-z0-9_]+) because (?:\\[[A-Z+]+] )?(?<formerLeader>[A-z0-9_]+) left$",
+	},
+}

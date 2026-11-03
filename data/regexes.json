@@ -1,18 +1,28 @@
 {
+	"ah.individual.started": "§e(?:BIN )?Auction started for (?<item>.+)§e!$",
+	"ah.individual.claimed": "§eYou collected §6(?<coins>[\\d,]+) coins §efrom selling §f(?<item>.+) §eto §[a-z0-9](?:\\[(?:§[a-z0-9]|[A-Z+])+] )?[A-z0-9_]+ §ein an auction!$",
+	"ah.individual.cancelled": "§eYou §ccanceled §eyour auction for §f(?<item>.+)§e!$",
+	"ah.individual.expired": "§eYou claimed §f(?<item>.+) §eback from your expired auction!$",
+	"ah.coop.started.auction": "(?<rankcolor>§[a-z0-9])(?:\\[(?:§[a-z0-9]|[A-Z+])+] )?(?<username>[A-z0-9_]+)§f §ecreated an auction for (?<item>.+)§e!$",
+	"ah.coop.started.bin": "(?<rankcolor>§[a-z0-9])(?:\\[(?:§[a-z0-9]|[A-Z+])+] )?(?<username>[A-z0-9_]+)§f §ecreated a BIN auction for (?<item>.+) §eat §6(?<coins>[\\d,]+) coins!$",
+	"ah.coop.claimed": "(?<rankcolor>§[a-z0-9])(?:\\[(?:§[a-z0-9]|[A-Z+])+] )?(?<username>[A-z0-9_]+)§f §ecollected an auction for §6(?<coins>[\\d,]+) coins§e!$",
+	"ah.coop.cancelled": "(?<rankcolor>§[a-z0-9])(?:\\[(?:§[a-z0-9]|[A-Z+])+] )?(?<username>[A-z0-9_]+)§f §ecancelled an auction for (?<item>.+)§e!$",
+	"ah.coop.expired": "(?<rankcolor>§[a-z0-9])(?:\\[(?:§[a-z0-9]|[A-Z+])+] )?(?<username>[A-z0-9_]+)§f §ecollected an expired auction!$",
+
 	"attribute_menu.shard_name": "^Source: (?<name>.+?) Shard \\((?<id>[CUREL]\\d+)\\)$",
 	"attribute_menu.syphon_to_level": "^Syphon (?<remaining>\\d+) shards? to (?:level up|unlock)!$",
 	"attribute_menu.syphon_to_max": "^Syphon (?<remaining>\\d+) (?:more|shards) to max!$",
 
 	"contained_chat_coordinates": "^(?i)x: (?<x>[0-9.-]+),? y: (?<y>[0-9.-]+),? z: (?<z>[0-9.-]+)(?: \\| )?(?<info>.*)",
 
-	"chat.all": "^(?:\\[\\d+](?: [^\\[\\w])? )?(?:§[a-z0-9])?(?:\\[(?:[A-Z+]|§[a-z0-9])+] )?(?<username>[A-z0-9_]+)(?:§.)?: (?<message>.+)",
-	"chat.party": "^§9Party §8> §[a-z0-9](?:\\[(?:[A-Z+]|§[a-z0-9])+] )?(?<username>[A-z0-9_]+)§f: (?<message>.+)",
-	"chat.guild": "^§2Guild > §[a-z0-9](?:\\[(?:[A-Z+]|§[a-z0-9])+] )?(?<username>[A-z0-9_]+)(?: §[a-z0-9]\\[\\w+])?§f: (?<message>.+)",
-	"chat.dm": "^From (?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+): (?<message>.+)",
-	"chat.coop": "§bCo-op > §[a-z0-9](?:\\[(?:[A-Z+]|§[a-z0-9])+] )?(?<username>[A-z0-9_]+)§f: (?<message>.+)",
+	"chat.all": "^(?:\\[\\d+](?: [^\\[\\w])? )?(?<displayName>(?:§[0-9a-fk-or])?(?:\\[(?:[A-Z+]|§[0-9a-fk-or])+] )?(?<username>[A-Za-z0-9_]+))(?:§.)?: (?<message>.+)",
+	"chat.party": "^§9Party §8> (?<displayName>(?:§[0-9a-fk-or])?(?:\\[(?:[A-Z+]|§[0-9a-fk-or])+] )?(?<username>[A-Za-z0-9_]+))§f: (?<message>.+)",
+	"chat.guild": "^§2Guild > (?<displayName>(?:§[0-9a-fk-or])?(?:\\[(?:[A-Z+]|§[0-9a-fk-or])+] )?(?<username>[A-Za-z0-9_]+))(?: §[a-z0-9]\\[\\w+])?§f: (?<message>.+)",
+	"chat.dm": "^From (?<displayName>(?:\\[[A-Z+]+] )?(?<username>[A-Za-z0-9_]+)): (?<message>.+)",
+	"chat.coop": "^§bCo-op > (?<displayName>(?:§[0-9a-fk-or])?(?:\\[(?:[A-Z+]|§[0-9a-fk-or])+] )?(?<username>[A-Za-z0-9_]+))§f: (?<message>.+)",
 
 	"chat.channel": "^You are now in the (?<channel>ALL|GUILD|OFFICER|PARTY|SKYBLOCK CO-OP) channel$",
-	"chat.conversation_opened": "^Opened a chat conversation with (?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+) for the next 5 minutes\\. Use /chat a to leave$",
+	"chat.conversation_opened": "^Opened a chat conversation with (?:\\[[A-Z+]+] )?(?<username>[A-Za-z0-9_]+) for the next 5 minutes\\. Use /chat a to leave$",
 
 	"chat_commands.dm": "^From (?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+): [!?.](?<command>[A-z0-9_]+) ?(?<argument>[A-z0-9_ ]+)?",
 	"chat_commands.guild": "^Guild > (?:\\[[A-Z+]+] )?(?<username>[A-z0-9_]+)(?: \\[[A-z0-9 ]+])?: [!?.](?<command>[A-z0-9_]+) ?(?<argument>[A-z0-9_ ]+)?",
@@ -21,6 +31,7 @@
 	"crimson_isle.miniboss_spawn": "^BEWARE - (?:The )?(?<name>[A-Za-z ]+) [Ii]s [Ss]pawning\\.?$",
 	"crimson_isle.miniboss_down": "^[ ]+(?<name>[A-Z ]+) DOWN!$",
 
+	"dungeons.starting": "^Starting in \\d seconds\\.$",
 	"dungeons.class_letter": "^\\[(?<letter>[ABHMT])] \\w+ .+",
 
 	"fishing.catch_timer": "^(?:\\d+\\.\\d+|!{3})$",
@@ -41,8 +52,13 @@
 	"filter.profile.uuid": "^Profile ID: [A-z0-9-]+",
 	"filter.profile.uuid_suggest": "^§e§lCLICK THIS TO SUGGEST IT IN CHAT §7§l\\[(?:NO )?DASHES]$",
 	"filter.tips.already_tipped": "^You've already tipped someone in the past hour in [A-z ]+! Wait a bit and try again!$",
+	"filter.tips.received": "You were tipped by \\d+ players? in the last minute!$",
+	"filter.tips.sent": "You tipped \\d+ players? in \\d+ (?:different )?games?!$",
 
-	"mayor.name": "Mayor (?<name>[A-z]+)",
+	"mayor.name": "^Mayor (?<name>[A-z]+)",
+
+	"moonglade_beacon.current_color": "^Current color: (?<color>[A-z ]+)$",
+	"moonglade_beacon.current_speed": "^Current speed: (?<speed>\\d)$",
 
 	"party.disbanded": "^(?:\\[[A-Z+]+] )?(?<former>[A-z0-9_]+) has disbanded the party!$",
 	"party.join": "^You have joined (?:\\[[A-Z+]+] )?(?<leader>[A-z0-9_]+)'s party!$",

@@ -1,0 +1,218 @@
+{
+	attribute_menu: {
+		// TODO possibly `syphon.shard`?
+		shard_name: "^Source: (?<name>.+?) Shard \\((?<id>[CUREL]\\d+)\\)$",
+
+		syphon: {
+			level: "^Syphon (?<remaining>\\d+) shards? to (?:level up|unlock)!$",
+			max: "^Syphon (?<remaining>\\d+) (?:more|shards?) to max!$",
+		},
+	},
+
+	auction_house: {
+		start: {
+			self: "§e(?:BIN )?Auction started for (?<item>.+)§e!$",
+			coop: {
+				auction: "(?<rankColor>§[0-9a-fk-or])(?:\\[(?:[A-Z+]|§[0-9a-fk-or])+] )?(?<username>\\w+)§f §ecreated an auction for (?<item>.+)§e!$",
+				bin: "(?<rankColor>§[0-9a-fk-or])(?:\\[(?:[A-Z+]|§[0-9a-fk-or])+] )?(?<username>\\w+)§f §ecreated a BIN auction for (?<item>.+) §eat §6(?<coins>[\\d,]+) coins!$",
+			}
+		},
+
+		claim: {
+			self: "§eYou collected §6(?<coins>[\\d,]+) coins §efrom selling §f(?<item>.+) §eto (?<rankColor>§[0-9a-fk-or])(?:\\[(?:[A-Z+]|§[0-9a-fk-or])+] )?(?<username>\\w+) §ein an auction!$",
+			coop: "(?<rankColor>§[0-9a-fk-or])(?:\\[(?:[A-Z+]|§[0-9a-fk-or])+] )?(?<username>\\w+)§f §ecollected an auction for §6(?<coins>[\\d,]+) coins§e!$",
+		},
+
+		cancel: {
+			self: "§eYou §ccanceled §eyour auction for §f(?<item>.+)§e!$",
+			coop: "(?<rankColor>§[0-9a-fk-or])(?:\\[(?:[A-Z+]|§[0-9a-fk-or])+] )?(?<username>\\w+)§f §ecancelled an auction for (?<item>.+)§e!$",
+		},
+
+		expire: {
+			self: "§eYou claimed §f(?<item>.+) §eback from your expired auction!$",
+			coop: "(?<rankColor>§[0-9a-fk-or])(?:\\[(?:[A-Z+]|§[0-9a-fk-or])+] )?(?<username>\\w+)§f §ecollected an expired auction!$",
+		},
+	},
+
+	chat: {
+		coordinates: "^(?i)x: (?<x>[0-9.-]+),? y: (?<y>[0-9.-]+),? z: (?<z>[0-9.-]+)(?: \\| )?(?<info>.*)",
+		conversation_open: "^Opened a chat conversation with (?:\\[[A-Z+]+] )?(?<username>\\w+) for the next 5 minutes\\. Use /chat a to leave$",
+
+		channel: {
+			switch: "^You are now in the (?<channel>ALL|GUILD|OFFICER|PARTY|SKYBLOCK CO-OP) channel$",
+
+			all: "^(?:\\[\\d+](?: [^\\[\\w])? )?(?<displayName>(?:§[0-9a-fk-or])?(?:\\[(?:[A-Z+]|§[0-9a-fk-or])+] )?(?<username>\\w+))(?:§.)?: (?<message>.+)",
+			party: "^§9Party §8> (?<displayName>(?:§[0-9a-fk-or])?(?:\\[(?:[A-Z+]|§[0-9a-fk-or])+] )?(?<username>\\w+))§f: (?<message>.+)",
+			guild: "^§2Guild > (?<displayName>(?:§[0-9a-fk-or])?(?:\\[(?:[A-Z+]|§[0-9a-fk-or])+] )?(?<username>\\w+))(?: §[a-z0-9]\\[\\w+])?§f: (?<message>.+)",
+			coop: "^§bCo-op > (?<displayName>(?:§[0-9a-fk-or])?(?:\\[(?:[A-Z+]|§[0-9a-fk-or])+] )?(?<username>\\w+))§f: (?<message>.+)",
+			dm: "^From (?<displayName>(?:\\[[A-Z+]+] )?(?<username>\\w+)): (?<message>.+)",
+		},
+
+		command: {
+			party: "^Party > (?:\\[[A-Z+]+] )?(?<username>\\w+): [!?.](?<command>\\w+) ?(?<argument>[\\w ]+)?",
+			// TODO can guild rank have an under score?
+			guild: "^Guild > (?:\\[[A-Z+]+] )?(?<username>\\w+)(?: \\[[A-Za-z0-9 ]+])?: [!?.](?<command>\\w+) ?(?<argument>[\\w ]+)?",
+			dm: "^From (?:\\[[A-Z+]+] )?(?<username>\\w+): [!?.](?<command>\\w+) ?(?<argument>[\\w ]+)?",
+		},
+	},
+
+	crimson_isle: {
+		miniboss: {
+			spawn: "^BEWARE - (?:The )?(?<name>[A-Za-z ]+) [Ii]s [Ss]pawning\\.?$",
+			down: "^[ ]+(?<name>[A-Z ]+) DOWN!$",
+		},
+	},
+
+	critter_safari: {
+		catch: {
+			normal: {
+				self: "^§a§lCAPTURE! §7You (?:caught an?|found the) §.[A-Za-z ]+§7(?: and gained|, and as a reward it gave you) (?:an?|(?<amount>\\d+)x) (?<shard>§.[A-Za-z ]+ Shard)§7!$",
+				other: "^§e§lLOOT SHARE! §7You received (?:an?|(?<amount>\\d+)x) (?<shard>§.[A-Za-z ]+ Shard)§7 from (?<username>§.\\w+)§7 (?:catching an?|finding the) §.[A-Za-z ]+§7!$",
+			},
+
+			sparkling: {
+				self: "^§a§lCAPTURE! §7You (?:caught a|found the) §6§lSPARKLING §.[A-Za-z ]+§7,? and (?:received|as a reward it gave you) a §5Rainbow Feather§7 and (?<amount>\\d+)x (?<shard>§.[A-Za-z ]+ Shard)§7!$",
+				other: "^§e§lLOOT SHARE! §7You received a §5Rainbow Feather§7 and (?<amount>\\d+)x (?<shard>§.[A-Za-z ]+ Shard)§7 from (?<username>§.\\w+)§7 (?:catching a|finding the) §6§lSPARKLING §.[A-Za-z ]+§7!$",
+			},
+		},
+	},
+
+	dungeon: {
+		start_countdown: "^Starting in \\d seconds?\\.$",
+		class_letter: "^\\[(?<letter>[ABHMT])] \\w+ .+",
+
+		blessing: {
+			find: "^DUNGEON BUFF! (\\w+ found a|A) Blessing of (?<blessing>[A-Za-z]+) [IV]+( was found)?!( \\([A-Za-z0-9 ]+\\))?",
+			// TODO stat? or other key name
+			stats: "(?<value>\\+[\\d.]+x?(?: & \\+[\\d.]+x?)?) (?:. )?(?<stat>Strength|Crit Damage|Defense|Damage|HP|Health Regen|Speed|Intelligence)"
+		},
+
+		healer_orb: {
+			pickup: {
+				self: "^◕ You picked up a (?<orb>[A-Za-z ]+) from (?<username>\\w+) healing you for (?<health>[0-9,.]+)❤ and granting you (?<buff>[0-9+%]+) (?<stat>[A-Za-z ]+) for (?<duration>[0-9]+) seconds\\.$",
+				other: "^◕ \\w+ picked up your [A-Za-z ]+!$",
+			},
+		},
+	},
+
+	galatea: {
+		beacon: {
+			color: "^Current color: (?<color>[A-Za-z ]+)$",
+			speed: "^Current speed: (?<speed>\\d)$",
+		},
+	},
+
+	garden: {
+		plot_pests: "^. This plot has (?<count>\\d+) . Pests?!$",
+		vacuum_pests: "^Vacuum Bag: (?<amount>[\\d,]+) Pests?$",
+	},
+
+	rift: {
+		split_steal_cooldown: "^SPLIT! You need to wait (?<time>(?:\\d+[hms] ?)+) before you can play again\\.$",
+
+		infusion: {
+			free: "^Free infusions: (?<count>\\d)/\\d$",
+			next: "^Next infusion in: (?<time>(?:\\d+[hms] ?)+)$",
+		},
+	},
+
+	party: {
+		role_change: "^(?:\\[[A-Z+]+] )?\\w+ has (?:promoted|demoted) (?:\\[[A-Z+]+] )?\\w+ to Party (?:Member|Moderator|Leader)$",
+		transfer: "^The party was transferred to (?:\\[[A-Z+]+] )?\\w+ (?:by|because) (?:\\[[A-Z+]+] )?\\w+(?: left)?$",
+		disband: "^(?:\\[[A-Z+]+] )?\\w+ has disbanded the party!$",
+
+		join: {
+			self: "^You have joined (?:\\[[A-Z+]+] )?\\w+'s party!$",
+			other: "^(?:\\[[A-Z+]+] )?\\w+ joined the party\\.$",
+			party_finder: "^Party Finder > (?<username>\\w+) joined the (?:dungeon )?group! \\([A-Za-z0-9 ]+\\)$"
+		},
+
+		kick: {
+			self: "^You have been kicked from the party by (?:\\[[A-Z+]+] )?\\w+",
+			other: "^(?:\\[[A-Z+]+] )?\\w+ has been removed from the party\\.$",
+			offline: "^Kicked (?:\\[[A-Z+]+] )?\\w+ because they were offline\\.$",
+			disconnect: "^(?:\\[[A-Z+]+] )?\\w+ was removed from your party because they disconnected\\.$"
+		},
+
+		leave: {
+			self: "^(?:You left the party\\.|The party was disbanded because (?:all invites expired and the party was empty|the party leader disconnected)\\.|You are not in a party(?: right now)?[.!]|You are not currently in a party[.!])$",
+			other: "^(?:\\[[A-Z+]+] )?\\w+ has left the party\\.$",
+		},
+	},
+
+	pet: {
+		name: "^(?:⭐ )?\\[Lvl (?<level>\\d+)] (?:\\[\\d+✦] )?(?<name>[A-Za-z- ]+)(?: ✦|$)",
+		autopet: "^§cAutopet §eequipped your §7\\[Lvl (?<level>\\d+)] (?:§.\\[.*] )?§(?<rarityColor>.)(?<name>[A-Za-z- ]+)(?:§. ✦)?§e! §a§lVIEW RULE$",
+		despawn: "^You despawned your (?<name>[A-Za-z ]+)(?: ✦)?!$",
+	},
+
+	slayer: {
+		level: "^[ ]+(?<slayer>[A-Za-z]+) Slayer LVL (?<level>\\d) - (?:LVL MAXED OUT|Next LVL in (?<nextLevel>[\\d,]+) XP)!$",
+		rng_meter: "^[ ]+RNG Meter - (?<xp>[\\d,]+) Stored XP$",
+
+		boss: {
+			name: "^(?<name>[\\w ]+) (?<tier>[IVXLCDM]+)$",
+			slay: "^[ ]+NICE! SLAYER BOSS SLAIN!$",
+			cocoon: "^[ ]+YOU COCOONED YOUR SLAYER BOSS$",
+		},
+
+		quest: {
+			start: "^[ ]+SLAYER QUEST STARTED!$",
+			complete: "^[ ]+SLAYER QUEST COMPLETE!$",
+			fail: "^[ ]+SLAYER QUEST FAILED!$",
+			progress: "^\\(?(?<progress>[\\d,.k]+)/(?<required>[\\d,.k]+)\\)? (?:Combat(?: XP)?|Kills)$",
+			slay: "^[ ]+» Slay [\\d,]+ Combat XP worth of .+",
+		},
+	},
+
+	hypixel: {
+		tip: {
+			send: "^You tipped \\d+ players? in \\d+ (?:different )?games?!$",
+			receive: "^You were tipped by \\d+ players? in the last minute!$",
+			cooldown: "^You've already tipped someone in the past hour in [A-Za-z ]+! Wait a bit and try again!$",
+		},
+	},
+
+	skyblock: {
+		currency: "^(?<currency>[A-Za-z]+): (?<amount>[\\d,]+).*",
+		zone: "^. (?<zone>[A-Za-z-'\" ]+)(?: .*)?$",
+
+		level: {
+			current: "^Your SkyBlock Level: \\[(?<level>\\d+)]$",
+			xp: "^\\s+(?<xp>\\d+)/100 XP$",
+		},
+
+		profile: {
+			id: "^Profile ID: (?<id>[0-9a-f]{8}-?(?:[0-9a-f]{4}-?){3}[0-9a-f]{12})",
+			id_suggest: "^§e§lCLICK THIS TO SUGGEST IT IN CHAT §7§l\\[(?:NO )?DASHES]$",
+			//			type: "^. (?<type>Ironman|Stranded|Bingo)$",
+			playing_on: "^You are playing on profile: [A-Za-z]+(?: \\(Co-op\\))?$",
+		},
+
+		item: {
+			cooldown: "^Cooldown: (?<cooldown>(?:\\d+[hms] ?)+)$",
+			tag: "^(?:a )?(?:SHINY )?(?<rarity>(?:UN)?COMMON|RARE|EPIC|LEGENDARY|MYTHIC|DIVINE|ULTIMATE|(?:VERY )?SPECIAL)(?: DUNGEON)? ?(?<type>[A-Z ]+)?(?: a)?$",
+		},
+
+		paged_container: "^(?:\\(\\d+/\\d+\\) )?(?<title>[A-Za-z0-9 ]+)$",
+	},
+
+	mayor: {
+		name: "^Mayor (?<name>[A-Za-z]+)$",
+	},
+
+	fishing: {
+		timer: "^(?:\\d+\\.\\d+|!{3})$",
+
+		catch: {
+			double_hook: "^It's a Double Hook!(?: Woot woot!)?$",
+			treasure: "^. (?<rarity>GOOD|GREAT|OUTSTANDING)(?<treasureType> JUNK)? CATCH! You caught .+",
+			trophy: "^. TROPHY [A-Z]+! You caught (?<trophy>[A-Za-z0-9- ]+) (?<rarity>BRONZE|SILVER|GOLD|DIAMOND)(?: x(?<amount>\\d))?!.*",
+		},
+
+		trophy_menu: {
+			title: "^Trophy [A-Za-z]+",
+			rarity: "^(?<rarity>Bronze|Silver|Gold|Diamond) [✔✖](?: \\((?<amount>[\\d,]+)\\))?",
+		},
+	},
+}

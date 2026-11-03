@@ -1,7 +1,12 @@
 {
-	attribute_menu: {
-		title: "Attribute Menu",
-		left_click: "Left-Click to open!",
+	hypixel: {
+		// TODO possibly move under `chat`?
+		tip: {
+			offline: "That player is not online, try another user!",
+			no_booster: "No one has a network booster active right now! Try again later.",
+			cooldown: "Slow down! You can only use /tip every few seconds.",
+			none: "You already tipped everyone that has boosters active, so there isn't anybody to be tipped right now!"
+		},
 	},
 
 	chat: {
@@ -11,17 +16,35 @@
 		not_in_skyblock: "You are no longer in SkyBlock and have been moved back to the ALL channel."
 	},
 
+	attribute_menu: {
+		title: "Attribute Menu",
+		left_click: "Left-Click to open!"
+	},
+
+	mayor: {
+		election_end: "The election room is now closed. Clerk Seraphine is doing a final count of the votes..."
+	},
+
+	pet: {
+		menu_title: "Pets"
+	},
+
+	storage_menu: {
+		title: "Storage",
+	},
+
 	crimson_isle: {
 		vanquisher_spawn: "A Vanquisher is spawning nearby!",
+
+		blazetekk: {
+			weak: "Your radio is weak. Find another enjoyer to boost it.",
+			strong: "Your radio signal is strong!",
+			crowd: "Your radio lost signal. There's too many enjoyers on this channel.",
+		}
 	},
 
 	dungeon: {
 		ready_up: "Ready Up",
-	},
-
-	pet: {
-		// TODO rename to title? but the main group isn't `..._menu` like root `attribute_menu` or the `trophy_menu` under fishing
-		// menu_name: "Pets"
 	},
 
 	slayer: {
@@ -29,8 +52,4 @@
 			cancel: "Your Slayer Quest has been cancelled!"
 		}
 	},
-
-	mayor: {
-		election_end: "The election room is now closed. Clerk Seraphine is doing a final count of the votes..."
-	}
 }

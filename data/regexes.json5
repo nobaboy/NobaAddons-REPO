@@ -210,7 +210,7 @@
 
 		catch: {
 			double_hook: "^It's a Double Hook!(?: Woot woot!)?$",
-			treasure: "^. (?<rarity>GOOD|GREAT|OUTSTANDING)(?<treasureType> JUNK)? CATCH! You caught .+",
+			treasure: "^. (?<rarity>GOOD|GREAT|OUTSTANDING)(?<junk> JUNK)? CATCH! You caught .+",
 			trophy: "^. TROPHY [A-Z]+! You caught (?<trophy>[A-Za-z0-9- ]+) (?<rarity>BRONZE|SILVER|GOLD|DIAMOND)(?: x(?<amount>\\d))?!.*",
 		},
 

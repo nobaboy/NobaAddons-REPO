@@ -97,27 +97,31 @@
 	},
 
 	auction_house: {
+		// these coop messages lacking a `$` anchor is intentional!
+		// these messages are designed to be matched partially to account for other mods (e.g. compacting),
+		// as these are matched *after* the messages are already added to the chat hud
+
 		start: {
 			self: "§e(?:BIN )?Auction started for (?<item>.+)§e!$",
 			coop: {
-				auction: "(?<rankColor>§[0-9a-fk-or])(?:\\[(?:[A-Z+]|§[0-9a-fk-or])+] )?(?<username>\\w+)§f §ecreated an auction for (?<item>.+)§e!$",
-				bin: "(?<rankColor>§[0-9a-fk-or])(?:\\[(?:[A-Z+]|§[0-9a-fk-or])+] )?(?<username>\\w+)§f §ecreated a BIN auction for (?<item>.+) §eat §6(?<coins>[\\d,]+) coins!$",
+				auction: "(?<rankColor>§[0-9a-fk-or])(?:\\[(?:[A-Z+]|§[0-9a-fk-or])+] )?(?<username>\\w+)§f §ecreated an auction for (?<item>.+)§e!",
+				bin: "(?<rankColor>§[0-9a-fk-or])(?:\\[(?:[A-Z+]|§[0-9a-fk-or])+] )?(?<username>\\w+)§f §ecreated a BIN auction for (?<item>.+) §eat §6(?<coins>[\\d,]+) coins!",
 			}
 		},
 
 		claim: {
 			self: "§eYou collected §6(?<coins>[\\d,]+) coins §efrom selling §f(?<item>.+) §eto (?<rankColor>§[0-9a-fk-or])(?:\\[(?:[A-Z+]|§[0-9a-fk-or])+] )?(?<username>\\w+) §ein an auction!$",
-			coop: "(?<rankColor>§[0-9a-fk-or])(?:\\[(?:[A-Z+]|§[0-9a-fk-or])+] )?(?<username>\\w+)§f §ecollected an auction for §6(?<coins>[\\d,]+) coins§e!$",
+			coop: "(?<rankColor>§[0-9a-fk-or])(?:\\[(?:[A-Z+]|§[0-9a-fk-or])+] )?(?<username>\\w+)§f §ecollected an auction for §6(?<coins>[\\d,]+) coins§e!",
 		},
 
 		cancel: {
 			self: "§eYou §ccanceled §eyour auction for §f(?<item>.+)§e!$",
-			coop: "(?<rankColor>§[0-9a-fk-or])(?:\\[(?:[A-Z+]|§[0-9a-fk-or])+] )?(?<username>\\w+)§f §ecancelled an auction for (?<item>.+)§e!$",
+			coop: "(?<rankColor>§[0-9a-fk-or])(?:\\[(?:[A-Z+]|§[0-9a-fk-or])+] )?(?<username>\\w+)§f §ecancelled an auction for (?<item>.+)§e!",
 		},
 
 		expire: {
 			self: "§eYou claimed §f(?<item>.+) §eback from your expired auction!$",
-			coop: "(?<rankColor>§[0-9a-fk-or])(?:\\[(?:[A-Z+]|§[0-9a-fk-or])+] )?(?<username>\\w+)§f §ecollected an expired auction!$",
+			coop: "(?<rankColor>§[0-9a-fk-or])(?:\\[(?:[A-Z+]|§[0-9a-fk-or])+] )?(?<username>\\w+)§f §ecollected an expired auction!",
 		},
 	},
 

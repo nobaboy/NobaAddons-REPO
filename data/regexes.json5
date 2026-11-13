@@ -227,6 +227,7 @@
 	slayer: {
 		level: "^[ ]+(?<slayer>[A-Za-z]+) Slayer LVL (?<level>\\d) - (?:LVL MAXED OUT|Next LVL in (?<nextLevel>[\\d,]+) XP)!$",
 		rng_meter: "^[ ]+RNG Meter - (?<xp>[\\d,]+) Stored XP$",
+		owner: "(?<name>[A-Za-z_0-9]+)'s? SLAYER BOSS",
 
 		boss: {
 			name: "^(?<name>[\\w ]+) (?<tier>[IVXLCDM]+)$",

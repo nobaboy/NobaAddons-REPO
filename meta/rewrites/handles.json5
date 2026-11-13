@@ -1,0 +1,23 @@
+{
+	/*
+	This file allows for moving handles in files to new (or old) paths for compatibility with older/newer versions.
+	This only works with files that make use of the HandleFile mechanism.
+
+	Example usage:
+
+	{
+		"data/regexes.json5": {
+			// note the order here is important! in this case, `feature.new` (present in the given file) is being moved to
+			// `feature.old` (which is assumed to *not* be present in the file) to maintain compatibility on older versions.
+			// additionally note that keys are represented with `.` separators (e.g. {feature: {new: "..."}} -> {"feature.new": "..."})
+			"feature.new": {
+				to: "feature.old",
+				if: {type: "self", max: "1.5.2"},
+			},
+		},
+	}
+
+	Note that these rewrites are applied *after* all values have been deserialized, meaning that these can be used to
+	overwrite other keys (but cannot mask values that fail to deserialize, or other such issues).
+	*/
+}

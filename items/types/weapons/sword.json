@@ -1,3 +1,4 @@
 {
-	"tags": ["SWORD"]
+	"tags": ["SWORD"],
+	"combines": ["weapons/slayer_sword"]
 }

@@ -1,0 +1,3 @@
+# instruct Forgejo to parse JSON5 files as JavaScript files to ensure it renders comments correctly,
+# even though these aren't actually JS files
+*.json5     linguist-language=js

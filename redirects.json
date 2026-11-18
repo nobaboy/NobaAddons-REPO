@@ -10,5 +10,17 @@
 	"fishing/trophy_fish.json": {
 		"to": "data/legacy/fishing/trophy_fish.json",
 		"if": {"type": "true"}
+	},
+	"data/strings.json": {
+		"to": "data/legacy/strings.json",
+		"if": {"type": "true"}
+	},
+	"data/regexes.json": {
+		"to": "data/legacy/regexes.json",
+		"if": {"type": "true"}
+	},
+	"data/skull_textures.json": {
+		"to": "data/legacy/skull_textures.json",
+		"if": {"type": "true"}
 	}
 }

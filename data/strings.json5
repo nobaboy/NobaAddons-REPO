@@ -1,0 +1,55 @@
+{
+	hypixel: {
+		// TODO possibly move under `chat`?
+		tip: {
+			offline: "That player is not online, try another user!",
+			no_booster: "No one has a network booster active right now! Try again later.",
+			cooldown: "Slow down! You can only use /tip every few seconds.",
+			none: "You already tipped everyone that has boosters active, so there isn't anybody to be tipped right now!"
+		},
+	},
+
+	chat: {
+		discord_warning: "\nPlease be mindful of Discord links in chat as they may pose a security risk",
+		conversation_expire: "The conversation you were in expired and you have been moved back to the ALL channel.",
+		not_in_party: "You are not in a party and were moved to the ALL channel.",
+		not_in_skyblock: "You are no longer in SkyBlock and have been moved back to the ALL channel."
+	},
+
+	attribute_menu: {
+		title: "Attribute Menu",
+		left_click: "Left-Click to open!"
+	},
+
+	mayor: {
+		election_end: "The election room is now closed. Clerk Seraphine is doing a final count of the votes..."
+	},
+
+	pet: {
+		menu_title: "Pets"
+	},
+
+	storage_menu: {
+		title: "Storage",
+	},
+
+	crimson_isle: {
+		vanquisher_spawn: "A Vanquisher is spawning nearby!",
+
+		blazetekk: {
+			weak: "Your radio is weak. Find another enjoyer to boost it.",
+			strong: "Your radio signal is strong!",
+			crowd: "Your radio lost signal. There's too many enjoyers on this channel.",
+		}
+	},
+
+	dungeon: {
+		ready_up: "Ready Up",
+	},
+
+	slayer: {
+		quest: {
+			cancel: "Your Slayer Quest has been cancelled!"
+		}
+	},
+}

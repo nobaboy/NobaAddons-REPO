@@ -3,6 +3,13 @@
 	"apiName": "foraging_2",
 	"metadata": {
 		"modernEtherwarp": true,
+		"showOxygenBar": true,
+		"floatingForagingBlocks": [
+			"minecraft:stripped_spruce_wood",
+			"minecraft:azalea_leaves",
+			"minecraft:mangrove_wood",
+			"minecraft:mangrove_leaves"
+		],
 		"eggs": [
 			[-627, 117, 48],
 			[-698, 126, 80],

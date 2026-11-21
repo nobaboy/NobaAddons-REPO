@@ -8,7 +8,7 @@ File names **MUST** be their enchantment ID (visible in the item's `custom_data`
 
 There are three enchantment level values; `max`, `good`, and `average`.
 
-The maximum level (`max`) is self-explanatory; it's the maximum level an enchantment can be applied at.
+The `max` enchantment level is self-explanatory; it's the maximum level an enchantment can be applied at.
 
 The `good` enchantment level is the maximum level an enchantment can obtained at through normal (non-anvil) means, such as
 being dropped as an enchanted book or through the enchantment table/hex. Note that in terms of how they are displayed in game,
@@ -16,6 +16,11 @@ only levels **above** this level are shown as special!
 
 The `average` level is usually the same value as `good`, but can be overridden for some special cases (but should be limited);
 some current special cases include Turbo and Vitality enchantments.
+
+All of these values can be set to `-1`, with different effects based on which value is set (only the first listed case):
+- If `max` is set to -1, the enchantment is always considered to be max level
+- If `good` is set to -1, the enchantment is always considered average until max level
+- If `average` is set to -1, the enchantment is considered average until `good + 1` 
 
 ## Enchantment Data Type Schemas
 

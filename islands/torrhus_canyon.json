@@ -5,6 +5,9 @@
 		"modernEtherwarp": true,
 		"showOxygenBar": true,
 		"floatingForagingBlocks": [
+			"minecraft:stripped_birch_wood",
+			"minecraft:stripped_mangrove_wood",
+			"minecraft:oak_leaves"
 		],
 		"eggs": [
 			[-702, 137, 149],

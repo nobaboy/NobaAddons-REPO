@@ -3,7 +3,7 @@
   "id": "corruption",
   "name": "Corruption",
   "max": 5,
-  "good": 5,
+  "good": 1,
   "applicableTo": [
     "tools/fishing_rod"
   ]

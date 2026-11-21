@@ -3,7 +3,7 @@
   "id": "feast",
   "name": "Feast",
   "max": 5,
-  "good": 5,
+  "good": 1,
   "applicableTo": [
     "tools/farming"
   ]

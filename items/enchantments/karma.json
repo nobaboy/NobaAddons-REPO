@@ -3,6 +3,6 @@
 	"id": "karma",
 	"name": "Karma",
 	"max": 6,
-	"good": 5,
+	"good": 1,
 	"applicableTo": ["tools/axe"]
 }

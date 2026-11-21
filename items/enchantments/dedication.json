@@ -3,8 +3,7 @@
   "id": "dedication",
   "name": "Dedication",
   "max": 4,
-  "good": 3,
-  "average": -1,
+  "good": 1,
   "applicableTo": [
     "tools/farming"
   ]

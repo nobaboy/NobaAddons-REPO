@@ -15,9 +15,9 @@ being dropped as an enchanted book or through the enchantment table/hex. Note th
 only levels **above** this level are shown as special!
 
 The `average` level is usually the same value as `good`, but can be overridden for some special cases (but should be limited);
-some current special cases include Turbo and Vitality enchantments.
+current special cases include Turbo and Vitality enchantments.
 
-All of these values can be set to `-1`, with different effects based on which value is set (only the first listed case):
+All of these values can be set to -1, with different effects based on which value is set (only the first listed case):
 - If `max` is set to -1, the enchantment is always considered to be max level
 - If `good` is set to -1, the enchantment is always considered average until max level
 - If `average` is set to -1, the enchantment is considered average until `good + 1` 

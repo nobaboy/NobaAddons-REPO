@@ -1,4 +1,10 @@
 {
 	"name": "Pathfinder",
-	"description": ["Gain rare drops ", {"text": "20%", "color": "light_purple"}, " more often."]
+	"description": [
+		"Gain ",
+		{"text": "+20\uE01A Magic Find", "color": "aqua"},
+		", doubled on ",
+		{"text": "Slayer Bosses", "color": "dark_red"},
+		"."
+	]
 }

@@ -3,6 +3,28 @@
 	"apiName": "foraging_2",
 	"metadata": {
 		"modernEtherwarp": true,
+		"showOxygenBar": true,
+		"floatingForagingBlocks": [
+			"minecraft:stripped_spruce_wood",
+			"minecraft:azalea_leaves",
+			"minecraft:mangrove_wood",
+			"minecraft:mangrove_leaves"
+		],
+		"treeBreakingSounds": {
+			"type": "any",
+			"conditions": [
+				{"type": "sound", "id": "minecraft:entity.creaking.spawn"},
+				{"type": "sound", "id": "minecraft:entity.creaking.death"},
+				{"type": "sound", "id": "minecraft:block.creaking_heart.fall"},
+				{
+					"type": "all",
+					"conditions": [
+						{"type": "sound", "id": "minecraft:entity.item.pickup"},
+						{"type": "volume", "volume": 0.5}
+					]
+				}
+			]
+		},
 		"eggs": [
 			[-627, 117, 48],
 			[-698, 126, 80],

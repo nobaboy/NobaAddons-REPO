@@ -3,6 +3,13 @@
 	"apiName": "foraging_1",
 	"metadata": {
 		"modernEtherwarp": true,
+		"treeBreakingSounds": {
+			"type": "any",
+			"conditions": [
+				{"type": "sound", "id": "minecraft:entity.creaking.spawn"},
+				{"type": "sound", "id": "minecraft:entity.creaking.death"}
+			]
+		},
 		"eggs": [
 			[-366, 102, -94],
 			[-435, 107, 43],

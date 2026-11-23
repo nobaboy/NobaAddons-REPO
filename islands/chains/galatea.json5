@@ -1,0 +1,7 @@
+{
+	islands: [
+		"galatea", // moonglade marsh
+		"torrhus_canyon",
+		//"lunarise",
+	],
+}

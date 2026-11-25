@@ -3,7 +3,7 @@
   "id": "tabasco",
   "name": "Tabasco",
   "max": 3,
-  "good": 3,
+  "good": 2,
   "applicableTo": [
     "weapon",
     "tools/fishing_rod",

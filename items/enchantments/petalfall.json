@@ -3,6 +3,6 @@
 	"id": "petalfall",
 	"name": "Petalfall",
 	"max": 5,
-	"good": 5,
+	"good": 1,
 	"applicableTo": ["tools/axe"]
 }

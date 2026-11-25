@@ -3,7 +3,7 @@
   "id": "scuba",
   "name": "Scuba",
   "max": 6,
-  "good": 5,
+  "good": 1,
   "applicableTo": [
     "armor"
   ]

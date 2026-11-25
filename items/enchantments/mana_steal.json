@@ -3,8 +3,7 @@
   "id": "mana_steal",
   "name": "Mana Steal",
   "max": 3,
-  "good": 3,
-  "average": -1,
+  "good": 1,
   "conflicts": [
     "life_steal",
     "syphon"

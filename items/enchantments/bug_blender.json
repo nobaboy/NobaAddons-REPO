@@ -3,6 +3,6 @@
 	"id": "bug_blender",
 	"name": "Bug Blender",
 	"max": 5,
-	"good": 5,
+	"good": 1,
 	"applicableTo": ["tools/vacuum"]
 }

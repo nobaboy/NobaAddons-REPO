@@ -8,6 +8,7 @@
     "weapons/melee",
     "weapons/bow",
     "tools/fishing_rod",
-    "tools/pickaxes"
+    "tools/pickaxes",
+    "tools/axe"
   ]
 }

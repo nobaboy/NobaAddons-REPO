@@ -9,19 +9,6 @@
 			"minecraft:stripped_mangrove_wood",
 			"minecraft:oak_leaves"
 		],
-		"treeBreakingSounds": {
-			"type": "any",
-			"conditions": [
-				{"type": "sound", "id": "minecraft:block.creaking_heart.fall"},
-				{
-					"type": "all",
-					"conditions": [
-						{"type": "sound", "id": "minecraft:entity.item.pickup"},
-						{"type": "volume", "volume": 0.5}
-					]
-				}
-			]
-		},
 		"eggs": [
 			[-702, 137, 149],
 			[-564, 103, 200],

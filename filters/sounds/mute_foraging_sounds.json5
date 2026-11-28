@@ -1,0 +1,53 @@
+{
+	name: "Mute Trees",
+	description: "Mutes the sounds played while chopping down a tree on The Park and Galatea",
+	when: {
+		type: "any",
+		conditions: [
+			{
+				type: "all",
+				conditions: [
+					{
+						type: "any",
+						conditions: [
+							{type: "island", island: "galatea"},
+							{type: "island", island: "torrhus_canyon"},
+						]
+					},
+					{
+						type: "any",
+						conditions: [
+							{type: "sound", id: "minecraft:block.creaking_heart.fall"},
+							{
+								type: "all",
+								conditions: [
+									{type: "sound", id: "minecraft:entity.item.pickup"},
+									{type: "volume", volume: 0.5}
+								]
+							},
+						],
+					},
+				],
+			},
+			{
+				type: "all",
+				conditions: [
+					{
+						type: "any",
+						conditions: [
+							{type: "island", island: "the_park"},
+							{type: "island", island: "galatea"}
+						]
+					},
+					{
+						type: "any",
+						conditions: [
+							{"type": "sound", "id": "minecraft:entity.creaking.spawn"},
+							{"type": "sound", "id": "minecraft:entity.creaking.death"},
+						]
+					},
+				],
+			},
+		],
+	},
+}

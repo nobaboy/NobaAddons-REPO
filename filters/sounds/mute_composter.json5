@@ -1,0 +1,24 @@
+{
+	name: "Mute Composter",
+	description: "Mutes the Composter on the Garden",
+	when: {
+		type: "all",
+		conditions: [
+			{type: "island", island: "garden"},
+			{type: "pitch", pitch: 0.5873016},
+			{
+				type: "any",
+				conditions: [
+					{
+						type: "sound",
+						id: "minecraft:entity.wolf.growl",
+					},
+					{
+						type: "sound",
+						id: "minecraft:block.water.ambient",
+					},
+				],
+			},
+		],
+	},
+}

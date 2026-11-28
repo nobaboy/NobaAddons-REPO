@@ -1,0 +1,12 @@
+{
+	name: "Mute Killer Spring",
+	description: "Mutes the Composter on the Garden",
+	when: {
+		type: "all",
+		conditions: [
+			{type: "island", island: "rift"},
+			{type: "sound", id: "entity.wither.spawn"},
+			{type: "volume", volume: 0.085},
+		],
+	},
+}

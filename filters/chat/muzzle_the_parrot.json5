@@ -1,0 +1,9 @@
+{
+	name: "Mute Parrot Pet",
+	description: "Mutes the Parrot pet's repeated messages, which bypass /block for whatever reason",
+	when: {
+		type: "regex",
+		regex: "^(?:\\[[A-Z+]+] )?\\w+'s Parrot:",
+		partialMatch: true,
+	},
+}

@@ -1,0 +1,31 @@
+{
+	name: "Mute Wither Skull Abilities",
+	description: "Mutes the wither skull from the Dreadlord Sword and Soulstealer Bow abilities, including the Dungeon mobs that use them",
+	when: {
+		type: "any",
+		conditions: [
+			{
+				type: "all",
+				conditions: [
+					{type: "sound", id: "minecraft:entity.wither.shoot"},
+					{type: "pitch", pitch: 1.4920635},
+					{
+						type: "any",
+						conditions: [
+							{type: "volume", volume: 0.2},
+							{type: "volume", volume: 0.5},
+						],
+					},
+				],
+			},
+			{
+				type: "all",
+				conditions: [
+					{type: "sound", id: "minecraft:entity.wither.shoot"},
+					{type: "volume", volume: 4},
+					{type: "pitch_range", min: 0.55, max: 0.85},
+				],
+			},
+		],
+	},
+}

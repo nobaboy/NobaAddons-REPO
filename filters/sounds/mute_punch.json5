@@ -1,0 +1,10 @@
+{
+	// TODO does hypixel even still play this?
+	name: "Mute Punch",
+	description: "Mutes the punch sound played on every hit",
+	in: "HYPIXEL",
+	when: {
+		type: "sound",
+		id: "minecraft:entity.player.attack.weak",
+	},
+}

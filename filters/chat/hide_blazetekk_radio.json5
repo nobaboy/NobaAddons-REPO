@@ -1,0 +1,12 @@
+{
+	name: "Hide Blazetekk Radio",
+	description: "Hides messages from the Blazetekk Radio about nearby players",
+	when: {
+		type: "any",
+		conditions: [
+			{type: "equals", expected: "Your radio is weak. Find another enjoyer to boost it."},
+			{type: "equals", expected: "Your radio signal is strong!"},
+			{type: "equals", expected: "Your radio lost signal. There's too many enjoyers on this channel."},
+		],
+	},
+}

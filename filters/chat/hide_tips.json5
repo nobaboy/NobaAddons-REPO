@@ -1,0 +1,17 @@
+{
+	name: "Hide Tip Messages",
+	description: "Hides messages from /tip",
+	in: "HYPIXEL",
+	when: {
+		type: "any",
+		conditions: [
+			{type: "regex", regex: "^You tipped \\d+ players? in \\d+ (?:different )?games?!$"},
+			{type: "regex", regex: "^You were tipped by \\d+ players? in the last minute!$"},
+			{type: "regex", regex: "^You've already tipped someone in the past hour in [A-Za-z ]+! Wait a bit and try again!$"},
+			{type: "equals", expected: "That player is not online, try another user!"},
+			{type: "equals", expected: "No one has a network booster active right now! Try again later."},
+			{type: "equals", expected: "Slow down! You can only use /tip every few seconds."},
+			{type: "equals", expected: "You already tipped everyone that has boosters active, so there isn't anybody to be tipped right now!"},
+		],
+	},
+}

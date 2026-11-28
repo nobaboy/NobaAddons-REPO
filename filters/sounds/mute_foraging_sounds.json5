@@ -1,5 +1,5 @@
 {
-	name: "Mute Trees",
+	name: "Mute Tree Chopping",
 	description: "Mutes the sounds played while chopping down a tree on The Park and Galatea",
 	when: {
 		type: "any",
@@ -12,7 +12,7 @@
 						conditions: [
 							{type: "island", island: "galatea"},
 							{type: "island", island: "torrhus_canyon"},
-						]
+						],
 					},
 					{
 						type: "any",
@@ -22,8 +22,9 @@
 								type: "all",
 								conditions: [
 									{type: "sound", id: "minecraft:entity.item.pickup"},
-									{type: "volume", volume: 0.5}
-								]
+									{type: "volume", volume: 0.5},
+									// matching pitch is mostly pointless as it has a massive range (0.4~2.25 or so)
+								],
 							},
 						],
 					},
@@ -36,15 +37,15 @@
 						type: "any",
 						conditions: [
 							{type: "island", island: "the_park"},
-							{type: "island", island: "galatea"}
-						]
+							{type: "island", island: "galatea"},
+						],
 					},
 					{
 						type: "any",
 						conditions: [
 							{"type": "sound", "id": "minecraft:entity.creaking.spawn"},
 							{"type": "sound", "id": "minecraft:entity.creaking.death"},
-						]
+						],
 					},
 				],
 			},

@@ -9,14 +9,8 @@
 			{
 				type: "any",
 				conditions: [
-					{
-						type: "sound",
-						id: "minecraft:entity.wolf.growl",
-					},
-					{
-						type: "sound",
-						id: "minecraft:block.water.ambient",
-					},
+					{type: "sound", id: "minecraft:entity.wolf.growl"},
+					{type: "sound", id: "minecraft:block.water.ambient"},
 				],
 			},
 		],
